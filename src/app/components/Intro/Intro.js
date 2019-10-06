@@ -30,6 +30,11 @@ class Intro extends Component {
                       style={{color: Colors.shortDescriptionColor}}
                       className={classes.shortDescription}
                     >I'm a final year cs undergrad student,<br/> seeking internship opportunities.</div>
+
+                    <div className={classes.mailMe}>
+                      <a className={classes.mailLink}
+                      href="mailto:waqar.hassan866@gmail.com">send me owls!!</a>
+                    </div>
                 </div>
             </div>
         );

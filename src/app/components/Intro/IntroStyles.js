@@ -42,12 +42,12 @@ const styles = theme => ({
 
     [theme.breakpoints.down('md')]:{
       fontSize: '50px',
-      marginBottom: '15%',
+      marginBottom: '10%',
     },
 
     [theme.breakpoints.up('md')]:{
       fontSize: '70px',
-      marginBottom: '5%',
+      marginBottom: '2%',
     },
   },
 
@@ -57,14 +57,41 @@ const styles = theme => ({
     [theme.breakpoints.down('md')]:{
       fontSize: '20px',
       wordSpacing: '5px',
-      lineHeight: '25px',
+      marginBottom: '5%',
     },
 
     [theme.breakpoints.up('md')]:{
-      fontSize: '30px',
+      fontSize: '25px',
       wordSpacing: '6px',
-      lineHeight: '35px',
+      marginBottom: '5%',
     },
+  },
+
+  mailMe: {
+    width: '150px',
+    height: '60px',
+
+    border: 'solid 1px #64FFDA',
+    color: '#64FFDA',
+    fontSize: '18px',
+    
+    '&:hover':{
+      backgroundColor: '#293d5a',
+    }
+  },
+
+  mailLink: {
+    width: '100%',
+    height: '100%',
+    textDecoration: 'none',
+    userSeclect: 'none',
+    color: '#64FFDA',
+
+    display: 'flex',
+    flexWrap: 'no-wrap',
+    justifyContent: 'center',
+    alignItems: 'center',
+    alignContent: 'center',
   }
 });
 

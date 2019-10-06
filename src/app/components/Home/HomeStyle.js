@@ -7,6 +7,21 @@ const styles = theme => ({
         left: '10%',
         top: '10vh',
     },
+
+    socialWeb: {
+        position: 'fixed',
+        height: '90vh',
+        width: '10%',
+
+        top: '10vh',
+        [theme.breakpoints.down('md')]:{
+            display: 'none',
+        },
+  
+        [theme.breakpoints.up('md')]:{
+            display: 'block',
+        },
+    }
 });
 
 export default styles;

@@ -5,6 +5,7 @@ export const Colors = {
   nameColor: '#e6f1ff',
   motoColor: '#8892b0',
   shortDescriptionColor: '#8892b0',
+  iconColor: '#a8b2d1',
 };
 
 export default Colors;
