@@ -111,12 +111,25 @@ const styles = theme => ({
 
     backgroundColor: '#64FFDA',
     opacity: '0.3',
-    zIndex: '2',
+    //zIndex: '2',
     cursor: 'pointer',
 
     '&:hover':{
       opacity: 0,
-    }
+    },
+  },
+
+  dpFrame:{
+    position: 'absolute',
+
+    marginLeft: '3vh',
+    marginTop: '3vh',
+    
+    transition: '0.1s ease-in', 
+    cursor: 'pointer',
+
+    
+    border: 'solid 3px #64FFDA',
   }
 });
 

@@ -7,8 +7,24 @@ import Colors from '../../styles/Colors';
 import styles from './AboutMeStyles';
 
 class AboutMe extends Component {
+		constructor(props)
+		{
+			super(props);
+			this.state = {
+				height: 45,
+			}
+		}
+
+		dpFrameHandler = wh => {
+			if(wh === 1)
+				this.setState({ height : 43 });
+			else
+				this.setState({ height: 45 });
+		}
+
     render() {
-        const { classes } = this.props;
+				const { classes } = this.props;
+				const { height } = this.state;
         
         return (
             <div className={classes.mainBody}>
@@ -31,8 +47,15 @@ class AboutMe extends Component {
                   Hello! I'm Brittany, a software engineer based in Boston, MA who enjoys building things that live on the internet. I develop exceptional websites and web apps that provide intuitive, pixel-perfect user interfaces with efficient and modern backends. Shortly after graduating from Northeastern University, I joined the engineering team at Upstatement where I work on a wide variety of interesting and meaningful projects on a daily basis
                   </div>
                   <div className={classes.webImage}>
+										<div 
+											className={classes.dpFrame}
+											style={{height: `${height}vh`, width: `${height}vh`}}
+										></div>
                     <img className={classes.dp} src={DP} alt=""/>
-                    <div className={classes.dpCover}></div>
+										<div className={classes.dpCover} 
+												onMouseEnter={() => this.dpFrameHandler(1)}
+												onMouseLeave={() => this.dpFrameHandler(2)}
+										></div>
                   </div>
                 </div>
               </div>
