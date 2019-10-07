@@ -11,7 +11,7 @@ const styles = theme => ({
 
       [theme.breakpoints.down('md')]:{
           fontSize: '15px',
-          marginTop: '30%',
+          marginTop: '25%',
           marginBottom: '3%',
       },
 

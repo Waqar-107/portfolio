@@ -4,8 +4,8 @@ import PropTypes from 'prop-types';
 
 import Intro from '../Intro/Intro';
 import SocialWeb from '../SocialLinks/socialWeb';
+import Footer from '../Footer/Footer';
 
-import Colors from '../../styles/Colors';
 import styles from './HomeStyle';
 
 class Home extends Component {
@@ -15,6 +15,7 @@ class Home extends Component {
             <div>
               <div className={classes.intro}><Intro /></div>
               <div className={classes.socialWeb}><SocialWeb /></div>
+              <div className={classes.footer}><Footer /></div>
             </div>
         );
     }

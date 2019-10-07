@@ -1,7 +1,7 @@
 const styles = theme => ({
     intro: {
         position: 'absolute',
-        height: '90vh',
+        height: '100vh',
         width: '90%',
 
         left: '10%',
@@ -14,6 +14,7 @@ const styles = theme => ({
         width: '10%',
 
         top: '10vh',
+        zIndex: '2',
         [theme.breakpoints.down('md')]:{
             display: 'none',
         },
@@ -21,6 +22,15 @@ const styles = theme => ({
         [theme.breakpoints.up('md')]:{
             display: 'block',
         },
+    },
+
+    footer:{
+        position: 'absolute',
+        height: '15vh',
+        width: '100%',
+
+        marginTop: '110vh', // ****to be changed later
+        backgroundColor: '#020c1b',
     }
 });
 
