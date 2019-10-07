@@ -47,13 +47,14 @@ const styles = theme => ({
         width: '90%',
         marginLeft: '10%',
 
-        [theme.breakpoints.down('md')]:{
-            height: '150vh',
-        },
+        // [theme.breakpoints.down('md')]:{
+        //     height: '120vh',
+        // },
   
-        [theme.breakpoints.up('md')]:{
-            height: '110vh',
-        },
+        // [theme.breakpoints.up('md')]:{
+        //     height: '110vh',
+        // },
+        marginBottom: '10vh',
     },
 
     footer:{

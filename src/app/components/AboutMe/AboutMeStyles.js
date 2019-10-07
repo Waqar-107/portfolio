@@ -9,13 +9,13 @@ const styles = theme => ({
     alignItems: 'center',
     alignContent: 'center',
 
-    [theme.breakpoints.down('md')]:{
-      height: '150vh',
-    },
+    // [theme.breakpoints.down('md')]:{
+    //   height: '120vh',
+    // },
   
-    [theme.breakpoints.up('md')]:{
-      height: '110vh',
-    },
+    // [theme.breakpoints.up('md')]:{
+    //   height: '110vh',
+    // },
   },
 
   heading:{
@@ -38,20 +38,20 @@ const styles = theme => ({
   },
 
   content: {
-    height: '100vh',
+    //height: '100%',
     width: '100%',
 
-    [theme.breakpoints.down('md')]:{
-      height: '140vh',
-    },
+    // [theme.breakpoints.down('md')]:{
+    //   height: '110vh',
+    // },
   
-    [theme.breakpoints.up('md')]:{
-      height: '100vh',
-    },
+    // [theme.breakpoints.up('md')]:{
+    //   height: '100vh',
+    // },
   },
 
   mobile:{
-    height: '140vh',
+    height: '110vh',
     width: '100%',
 
     display: 'flex',
@@ -71,14 +71,14 @@ const styles = theme => ({
   },
 
   web:{
-    height: '100vh',
+    // height: '100vh',
     width: '100%',
 
     display: 'flex',
     flexWrap: 'no-wrap',
     justifyContent: 'flex-start',
-    alignItems: 'center',
-    alignContent: 'center',
+    alignItems: 'flex-start',
+    alignContent: 'flex-start',
 
     [theme.breakpoints.down('md')]:{
       display: 'none',
@@ -90,7 +90,7 @@ const styles = theme => ({
   },
 
   webPara: {
-    height: '100vh',
+    // height: '100%',
     width: '45%',
 
     fontSize: '22px',
@@ -104,7 +104,7 @@ const styles = theme => ({
   },
 
   mobilePara: {
-    height: '90vh',
+    height: '60vh',
     width: '90%',
 
     fontSize: '22px',
@@ -118,8 +118,8 @@ const styles = theme => ({
   },
 
   webImage: {
-    height: '100vh',
     width: '45%',
+    marginTop: '2%',
 
     display: 'flex',
     flexDirection: 'row',
@@ -195,7 +195,6 @@ const styles = theme => ({
     transition: '0.1s ease-in', 
     cursor: 'pointer',
 
-    
     border: 'solid 3px #64FFDA',
   },
   
@@ -208,6 +207,11 @@ const styles = theme => ({
     marginTop: '1.5vh',
 
     border: 'solid 3px #64FFDA',
+  },
+
+  link:{
+    textDecoration: 'none',
+    color: '#64FFDA',
   }
 });
 
