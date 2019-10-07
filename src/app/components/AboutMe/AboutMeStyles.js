@@ -8,14 +8,6 @@ const styles = theme => ({
     justifyContent: 'flex-start',
     alignItems: 'center',
     alignContent: 'center',
-
-    // [theme.breakpoints.down('md')]:{
-    //   height: '120vh',
-    // },
-  
-    // [theme.breakpoints.up('md')]:{
-    //   height: '110vh',
-    // },
   },
 
   heading:{
@@ -38,7 +30,6 @@ const styles = theme => ({
   },
 
   content: {
-    //height: '100%',
     width: '100%',
 
     // [theme.breakpoints.down('md')]:{
@@ -51,7 +42,7 @@ const styles = theme => ({
   },
 
   mobile:{
-    height: '110vh',
+    // height: '110vh',
     width: '100%',
 
     display: 'flex',
@@ -71,7 +62,6 @@ const styles = theme => ({
   },
 
   web:{
-    // height: '100vh',
     width: '100%',
 
     display: 'flex',
@@ -90,7 +80,6 @@ const styles = theme => ({
   },
 
   webPara: {
-    // height: '100%',
     width: '45%',
 
     fontSize: '22px',
@@ -104,7 +93,6 @@ const styles = theme => ({
   },
 
   mobilePara: {
-    height: '60vh',
     width: '90%',
 
     fontSize: '22px',
@@ -115,6 +103,8 @@ const styles = theme => ({
     justifyContent: 'flex-start',
     alignItems: 'flex-start',
     alignContent: 'flex-start',
+
+    marginBottom: '20vh',
   },
 
   webImage: {
@@ -130,7 +120,6 @@ const styles = theme => ({
   },
 
   mobileImage:{
-    height: '50vh',
     width: '90%',
 
     display: 'flex',
