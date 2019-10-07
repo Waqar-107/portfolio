@@ -41,7 +41,17 @@ class AboutMe extends Component {
               </div>
 
               <div className={classes.content}>
-                <div className={classes.mobile}></div>
+                <div className={classes.mobile}>
+									<div className={classes.mobilePara} style={{color: Colors.motoColor}}>
+										Hello! I'm Brittany, a software engineer based in Boston, MA who enjoys building things that live on the internet. I develop exceptional websites and web apps that provide intuitive, pixel-perfect user interfaces with efficient and modern backends. Shortly after graduating from Northeastern University, I joined the engineering team at Upstatement where I work on a wide variety of interesting and meaningful projects on a daily basis
+										</div>
+										<div className={classes.mobileImage}>
+											<div className={classes.mobileDpFrame}></div>
+											<img className={classes.mobileDp} src={DP} alt=""/>
+											<div className={classes.mobileDpCover}></div>
+										</div>
+								</div>
+
                 <div className={classes.web}>
                   <div className={classes.webPara} style={{color: Colors.motoColor}}>
                   Hello! I'm Brittany, a software engineer based in Boston, MA who enjoys building things that live on the internet. I develop exceptional websites and web apps that provide intuitive, pixel-perfect user interfaces with efficient and modern backends. Shortly after graduating from Northeastern University, I joined the engineering team at Upstatement where I work on a wide variety of interesting and meaningful projects on a daily basis

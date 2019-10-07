@@ -44,9 +44,16 @@ const styles = theme => ({
     },
 
     aboutMe: {
-        height: '100vh',
         width: '90%',
         marginLeft: '10%',
+
+        [theme.breakpoints.down('md')]:{
+            height: '150vh',
+        },
+  
+        [theme.breakpoints.up('md')]:{
+            height: '110vh',
+        },
     },
 
     footer:{
