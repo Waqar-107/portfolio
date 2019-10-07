@@ -17,13 +17,15 @@ const styles = theme => ({
         width: '90%',
 
         marginLeft: '10%',
-        [theme.breakpoints.down('sm')]:{
-            height: '95vh',
+        [theme.breakpoints.down('md')]:{
+            height: '80vh',
         },
   
-        [theme.breakpoints.up('sm')]:{
-            height: '110vh',
+        [theme.breakpoints.up('md')]:{
+            height: '90vh',
         },
+
+        marginBottom: '10vh',
     },
 
     socialWeb: {
