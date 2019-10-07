@@ -1,11 +1,29 @@
 const styles = theme => ({
+    mainBody: {
+        display: 'flex',
+        flexDirection: 'column',
+        flexWrap: 'no-wrap',
+        justifyContent: 'flex-start',
+        alignItems: 'center',
+		alignContent: 'center',
+    },
+
+    nav: {
+        height: '10vh',
+        width: '100%',
+    },
+
     intro: {
-        position: 'absolute',
-        height: '100vh',
         width: '90%',
 
-        left: '10%',
-        top: '10vh',
+        marginLeft: '10%',
+        [theme.breakpoints.down('sm')]:{
+            height: '95vh',
+        },
+  
+        [theme.breakpoints.up('sm')]:{
+            height: '110vh',
+        },
     },
 
     socialWeb: {
@@ -14,6 +32,7 @@ const styles = theme => ({
         width: '10%',
 
         top: '10vh',
+        left: '0',
         zIndex: '2',
         [theme.breakpoints.down('md')]:{
             display: 'none',
@@ -24,12 +43,16 @@ const styles = theme => ({
         },
     },
 
+    aboutMe: {
+        height: '100vh',
+        width: '90%',
+        marginLeft: '10%',
+    },
+
     footer:{
-        position: 'absolute',
         height: '15vh',
         width: '100%',
 
-        marginTop: '110vh', // ****to be changed later
         backgroundColor: '#020c1b',
     }
 });
