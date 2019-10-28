@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 
 import Colors from '../../styles/Colors';
 
-const styles = theme => ({
+const styles = () => ({
   outerSurface: {
     width: '100%',
 		height: '90vh',
@@ -102,8 +102,8 @@ class SocialWeb extends Component {
 									</div>
 								
 									<div className={classes.icon}>
-									<a href="https://bd.linkedin.com/in/waqar-hassan-khan-918a04150" target="blank">
-										<svg className={classes.SVG} xmlns="http://www.w3.org/2000/svg"  aria-hidden="true" focusable="false" width="1.05em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 1046.16 1000"><path d="M237.485 1000V325.301H13.229V1000h224.256zM125.386 233.127c78.202 0 126.879-51.809 126.879-116.553C250.808 50.37 203.591-.001 126.87-.001C50.161-.001-.002 50.371-.002 116.574c0 64.747 48.665 116.553 123.924 116.553h1.457zM361.61 1000h224.256V623.215c0-20.165 1.457-40.309 7.379-54.724c16.212-40.289 53.111-82.017 115.06-82.017c81.149 0 113.613 61.872 113.613 152.572v360.949h224.242V613.129c0-207.241-110.636-303.668-258.183-303.668c-120.977 0-174.094 67.622-203.603 113.679h1.497v-97.853H361.615c2.943 63.31 0 674.699 0 674.699z"/></svg>
+										<a href="https://bd.linkedin.com/in/waqar-hassan-khan-918a04150" target="blank">
+											<svg className={classes.SVG} xmlns="http://www.w3.org/2000/svg"  aria-hidden="true" focusable="false" width="1.05em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 1046.16 1000"><path d="M237.485 1000V325.301H13.229V1000h224.256zM125.386 233.127c78.202 0 126.879-51.809 126.879-116.553C250.808 50.37 203.591-.001 126.87-.001C50.161-.001-.002 50.371-.002 116.574c0 64.747 48.665 116.553 123.924 116.553h1.457zM361.61 1000h224.256V623.215c0-20.165 1.457-40.309 7.379-54.724c16.212-40.289 53.111-82.017 115.06-82.017c81.149 0 113.613 61.872 113.613 152.572v360.949h224.242V613.129c0-207.241-110.636-303.668-258.183-303.668c-120.977 0-174.094 67.622-203.603 113.679h1.497v-97.853H361.615c2.943 63.31 0 674.699 0 674.699z"/></svg>
 									</a>
 									</div>
 
@@ -120,8 +120,8 @@ class SocialWeb extends Component {
 									</div>
 
 									<div className={classes.icon}>
-										<a href="" target="blank">
-											<svg className={classes.SVG} xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" width="0.88em" height="1em"  preserveAspectRatio="xMidYMid meet" viewBox="0 0 448 512"><path d="M0 32v448h448V32H0zm262.2 334.4c-6.6 3-33.2 6-50-14.2c-9.2-10.6-25.3-33.3-42.2-63.6c-8.9 0-14.7 0-21.4-.6v46.4c0 23.5 6 21.2 25.8 23.9v8.1c-6.9-.3-23.1-.8-35.6-.8c-13.1 0-26.1.6-33.6.8v-8.1c15.5-2.9 22-1.3 22-23.9V225c0-22.6-6.4-21-22-23.9V193c25.8 1 53.1-.6 70.9-.6c31.7 0 55.9 14.4 55.9 45.6c0 21.1-16.7 42.2-39.2 47.5c13.6 24.2 30 45.6 42.2 58.9c7.2 7.8 17.2 14.7 27.2 14.7v7.3zm22.9-135c-23.3 0-32.2-15.7-32.2-32.2V167c0-12.2 8.8-30.4 34-30.4s30.4 17.9 30.4 17.9l-10.7 7.2s-5.5-12.5-19.7-12.5c-7.9 0-19.7 7.3-19.7 19.7v26.8c0 13.4 6.6 23.3 17.9 23.3c14.1 0 21.5-10.9 21.5-26.8h-17.9v-10.7h30.4c0 20.5 4.7 49.9-34 49.9zm-116.5 44.7c-9.4 0-13.6-.3-20-.8v-69.7c6.4-.6 15-.6 22.5-.6c23.3 0 37.2 12.2 37.2 34.5c0 21.9-15 36.6-39.7 36.6z"/></svg>
+										<a href="https://gitlab.com/Waqar-107" target="blank">
+											<svg className={classes.SVG} xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path d="M23.955 13.587l-1.342-4.135l-2.664-8.189a.455.455 0 0 0-.867 0L16.418 9.45H7.582L4.919 1.263C4.783.84 4.185.84 4.05 1.26L1.386 9.449L.044 13.587a.924.924 0 0 0 .331 1.023L12 23.054l11.625-8.443a.92.92 0 0 0 .33-1.024"/></svg>
 										</a>
 									</div>
 								</div>
