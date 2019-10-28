@@ -43,6 +43,14 @@ const styles = theme => ({
 
     height: '7vh',
     fontSize: '15px',
+
+    [theme.breakpoints.down('sm')]:{
+      display: 'flex',
+    },
+
+    [theme.breakpoints.up('sm')]:{
+      display: 'none',
+    },
   },
 
   ackDivide: {
@@ -56,13 +64,45 @@ const styles = theme => ({
     fontSize: '15px',
   },
 
+  ackLarger: {
+    width: '100%',
+    color: Colors.motoColor,
+   
+    display: 'flex',
+    flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems: 'center',
+		alignContent: 'center',
+
+    height: '7vh',
+    fontSize: '15px',
+
+    [theme.breakpoints.down('sm')]:{
+      display: 'none',
+    },
+
+    [theme.breakpoints.up('sm')]:{
+      display: 'flex',
+    },
+  },
+
   link:{
     textDecoration: 'none',
     color: Colors.motoColor,
 
     '&:hover':{
       color: Colors.themeFontColor,
-    }
+    },
+
+    [theme.breakpoints.down('sm')]:{
+      marginLeft: 0,
+      marginRight: 0,
+    },
+
+    [theme.breakpoints.up('sm')]:{
+      marginLeft: '3px',
+      marginRight: '3px',
+    },
   },
 });
 
@@ -80,6 +120,11 @@ class Footer extends Component {
                 <div className={classes.ackDivide}>
                   <a className={classes.link} href="https://github.com/Waqar-107" target="blank">Re-implemented by Waqar-107</a>
                 </div>
+              </div>
+              <div className={classes.ackLarger}>
+                <a className={classes.link} href="https://github.com/bchiang7/v4" target="blank">Originally designed by Brittany Chiang.</a>
+                
+                <a className={classes.link} href="https://github.com/Waqar-107" target="blank">Re-implemented by Waqar-107</a>
               </div>
             </div>
         );
