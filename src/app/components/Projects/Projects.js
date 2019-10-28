@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 
 import Colors from '../../styles/Colors';
 import styles from './ProjectsStyles';
+import FeatProject from './FeatProjects';
 
 class Projects extends Component {
 		constructor(props)
@@ -30,7 +31,9 @@ class Projects extends Component {
                   style={{backgroundColor: Colors.lineColor}} className={classes.line}
                 ></div>
               </div>
-              <div className={classes.content}></div>
+              <div className={classes.content}>
+                <FeatProject mirror={false} imageName="VashaShikkha"/>
+              </div>
             </div>
         );
     }

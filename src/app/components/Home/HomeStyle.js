@@ -16,13 +16,14 @@ const styles = theme => ({
     intro: {
       width: '90%',
 
-      marginLeft: '10%',
       [theme.breakpoints.down('md')]:{
         height: '80vh',
+        marginLeft: '7%',
       },
   
       [theme.breakpoints.up('md')]:{
         height: '90vh',
+        marginLeft: '10%',
       },
 
       marginBottom: '10vh',
@@ -47,20 +48,41 @@ const styles = theme => ({
 
     aboutMe: {
       width: '90%',
-      marginLeft: '10%',
       marginBottom: '30vh',
+
+      [theme.breakpoints.down('md')]:{
+        marginLeft: '7%',
+      },
+  
+      [theme.breakpoints.up('md')]:{
+        marginLeft: '10%',
+      },
     },
 
     work: {
       width: '90%',
-      marginLeft: '10%',
       marginBottom: '30vh',
+
+      [theme.breakpoints.down('md')]:{
+        marginLeft: '7%',
+      },
+  
+      [theme.breakpoints.up('md')]:{
+        marginLeft: '10%',
+      },
     },
 
     projects: {
       width: '90%',
-      marginLeft: '10%',
       marginBottom: '30vh',
+
+      [theme.breakpoints.down('md')]:{
+        marginLeft: '7%',
+      },
+  
+      [theme.breakpoints.up('md')]:{
+        marginLeft: '10%',
+      },
     },
 
     footer:{
