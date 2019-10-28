@@ -3,9 +3,9 @@ import { withStyles } from '@material-ui/core';
 import PropTypes from 'prop-types';
 
 import Colors from '../../styles/Colors';
-import styles from './ProjectsStyles';
+import styles from './WorkStyles';
 
-class Projects extends Component {
+class Work extends Component {
 		constructor(props)
 		{
 			super(props);
@@ -22,10 +22,10 @@ class Projects extends Component {
               <div className={classes.heading}>
                 <div 
                   style={{color: Colors.themeFontColor, marginRight: '15px'}}
-                >03.</div>
+                >02.</div>
                 <div 
                   style={{color: Colors.nameColor, marginRight: '15px'}}
-                >Things I've Developed</div>
+                >Where I've Worked</div>
                 <div 
                   style={{backgroundColor: Colors.lineColor}} className={classes.line}
                 ></div>
@@ -36,9 +36,9 @@ class Projects extends Component {
     }
 }
 
-Projects.propTypes = {
+Work.propTypes = {
     classes: PropTypes.object.isRequired
 }
 
 
-export default withStyles(styles)(Projects);
+export default withStyles(styles)(Work);

@@ -63,7 +63,7 @@ const styles = theme => ({
     [theme.breakpoints.up('md')]:{
       fontSize: '25px',
       wordSpacing: '6px',
-      marginBottom: '10%',
+      marginBottom: '9%',
     },
   },
 
