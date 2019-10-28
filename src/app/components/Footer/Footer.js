@@ -21,6 +21,14 @@ const styles = theme => ({
   social: {
     width: '100%',
     height: '8vh',
+
+    [theme.breakpoints.down('md')]:{
+      display: 'flex',
+    },
+
+    [theme.breakpoints.up('md')]:{
+      display: 'none',
+    },
   },
 
   ack: {
