@@ -51,6 +51,12 @@ const styles = theme => ({
         marginBottom: '30vh',
     },
 
+    projects: {
+        width: '90%',
+        marginLeft: '10%',
+        marginBottom: '30vh',
+    },
+
     footer:{
         height: '15vh',
         width: '100%',

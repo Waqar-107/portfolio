@@ -6,6 +6,7 @@ import Intro from '../Intro/Intro';
 import SocialWeb from '../SocialLinks/socialWeb';
 import Footer from '../Footer/Footer';
 import About from '../AboutMe/AboutMe';
+import Projects from '../Projects/Projects';
 
 import styles from './HomeStyle';
 
@@ -18,6 +19,7 @@ class Home extends Component {
               <div className={classes.intro}><Intro /></div>
               <div className={classes.socialWeb}><SocialWeb /></div>
               <div className={classes.aboutMe}><About /></div>
+              <div className={classes.projects}><Projects /></div>
               <div className={classes.footer}><Footer /></div>
             </div>
         );

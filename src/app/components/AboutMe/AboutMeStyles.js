@@ -31,14 +31,6 @@ const styles = theme => ({
 
   content: {
     width: '100%',
-
-    // [theme.breakpoints.down('md')]:{
-    //   height: '110vh',
-    // },
-  
-    // [theme.breakpoints.up('md')]:{
-    //   height: '100vh',
-    // },
   },
 
   mobile:{

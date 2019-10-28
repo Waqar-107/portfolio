@@ -24,7 +24,7 @@ class Intro extends Component {
                     <div 
                       style={{color: Colors.motoColor}}
                       className={classes.moto}
-                    >I code to stay alive :)</div>
+                    >I write codes to stay alive :)</div>
 
                     <div 
                       style={{color: Colors.shortDescriptionColor}}
