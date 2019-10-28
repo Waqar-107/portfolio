@@ -8,6 +8,7 @@ export const Colors = {
   shortDescriptionColor: '#8892b0',
   iconColor: '#a8b2d1',
   lineColor: '#2d3952',
+  projectBox: '#172a45',
 };
 
 export default Colors;
