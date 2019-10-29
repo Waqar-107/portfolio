@@ -39,6 +39,36 @@ const styles = theme => ({
   content: {
     width: '100%',
   },
+
+  myCourses: {
+    width: '90%',
+    
+    textAlign: 'center',
+    fontSize: '35px',
+    color: '#e6f1ff',
+
+    [theme.breakpoints.down('md')]:{
+      marginTop: '10vh',
+    },
+
+    [theme.breakpoints.up('md')]:{
+      marginTop: '15vh',
+    },
+  },
+
+  underGradCode: {
+    marginTop: '5vh',
+    width: '90%',
+
+    display: 'flex',
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    justifyContent: 'center',
+    alignContent: 'center',
+    alignItems: 'center',
+
+    backgroundColor: 'yellow',
+  }
 });
 
 export default styles;
