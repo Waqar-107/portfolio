@@ -30,11 +30,19 @@ export function fetchProjects()
     },
   
     {
+      name: 'Design Pattern',
+      description: 'Various design patterns implemented in java.',
+      gitURL: 'https://github.com/Waqar-107/Design-Pattern',
+      tech: ['Java'],
+    },
+
+    {
       name: 'Tic-Tac-Toe',
       description: 'The classic tic-tac-toe game implemented in native android. Min-max algorithm have been used that drives the opponent',
       gitURL: 'https://github.com/Waqar-107/Tic-Tac-Toe',
       tech: ['Java', 'Android'],
     },
+  
   
     {
       name: 'Lost and Survive',
