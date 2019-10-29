@@ -33,22 +33,23 @@ class Projects extends Component {
               </div>
               <div className={classes.content}>
                 <FeatProject mirror={false} 
-                imageName="VashaShikkha" 
-                projectName="vashaShikkha"
-                projectDescription="An application that helps us learn English in a very interactive way. In this app, we can practice speaking, reading, listening and writing. Different user will be assigned different tasks based on their chosen topic. In this app, the user can practice speaking, reading, listening and writing."
-                technologiesUsed={["React"]}
-                deployedLink=""
-                gitURL=""
+									imageName="VashaShikkha" 
+									projectName="vashaShikkha"
+									projectDescription="An application that helps us learn English in a very interactive way. In this app, we can practice speaking, reading, listening and writing. Different user will be assigned different tasks based on their chosen topic. In this app, the user can practice speaking, reading, listening and writing.
+									This is a group project where i have worked in the web-app team."
+									technologiesUsed={["React"]}
+									deployedLink="t"
+									gitURL="t"
                 />
                 
                 <FeatProject mirror={true} 
-                imageName="Chess"
-                projectName="ChessMaestro"
-                projectDescription="A multiplayer chess game that i built as a project in my
-                level 1, term 2 using java. For the GUI  javafx has been used"
-                technologiesUsed={["java", "javaFX"]}
-                deployedLink=""
-                gitURL=""
+									imageName="Chess"
+									projectName="ChessMaestro"
+									projectDescription="A multiplayer chess game that i built as a project in my
+									level 1, term 2 using java. For the GUI  javafx has been used"
+									technologiesUsed={["java", "javaFX"]}
+									deployedLink="t"
+									gitURL="https://github.com/Waqar-107/ChessMaestro"
                 />
               </div>
             </div>

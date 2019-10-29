@@ -17,12 +17,22 @@ const styles = theme => ({
     alignItems: 'center',
 		alignContent: 'center',
 
-		marginBottom: '15vh',
+		[theme.breakpoints.down('md')]:{
+      marginBottom: '10vh'
+    },
+
+    [theme.breakpoints.up('md')]:{
+      marginBottom: '15vh',
+    },
   },
   
   mobileSurface: {
-    width: '100%',
+		width: '100%',
+		height: '50vh',
+		position: 'relative',
 
+		//backgroundColor: 'cyan',
+		
     [theme.breakpoints.down('md')]:{
       display: 'flex',
     },
@@ -64,10 +74,7 @@ const styles = theme => ({
   webRightT1: {
     width: '45%',
 		height: '100%',
-		
-		//backgroundColor: 'yellow',
-		paddingRight: '5%',
-		
+	
 		display: 'flex',
 		flexDirection: 'column',
     justifyContent: 'space-evenly',
@@ -103,8 +110,7 @@ const styles = theme => ({
 		height: '90%',
 		width: '100%',
 
-    objectFit: 'cover',
-		//objectPosition: 'center',
+		objectFit: 'cover',
 	},
 
 	dpCover: {
@@ -150,6 +156,13 @@ const styles = theme => ({
 		color: Colors.iconColor,
 	},
 
+	box2:{
+		width: '100%',
+		fontWeight: '500',
+		fontSize: '17px',
+		color: Colors.iconColor,
+	},
+
 	tech: {
 		width: '100%',
 		fontWeight: '400',
@@ -165,8 +178,8 @@ const styles = theme => ({
 
 	externalLinks:{
 		width: '100%',
+		
 		display: 'flex',
-
 		flexDirection: 'row',
     alignItems: 'center',
 		alignContent: 'center',
@@ -176,7 +189,7 @@ const styles = theme => ({
     height: '40px',
 		width: '20px',
 		
-    backgroundColor: Colors.mediumDarkNavy,
+    //backgroundColor: Colors.mediumDarkNavy,
 		cursor: 'pointer',
 
     transition: 'all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s',
@@ -190,21 +203,68 @@ const styles = theme => ({
 		fill: Colors.iconColor,
 
 		'&:hover':{
-			marginTop: '10%',
 			fill: Colors.themeFontColor,
     }
-	}
+	},
+
+	mobileSurfaceMid:{
+		height: '100%',
+		width: '100%',
+
+		position: 'absolute',
+		opacity: '0.8',
+		backgroundColor: Colors.mediumDarkNavy,
+	},
+
+	mobileSurfaceTopUpper:{
+		height: '100%',
+		width: '97%',
+		position: 'absolute',
+
+		marginLeft: '1.5%',
+
+		display: 'flex',
+		flexDirection: 'column',
+		justifyContent: 'space-evenly',
+    // alignItems: 'center',
+		alignContent: 'center',
+
+		backgroundColor: 'transparent',
+
+		//paddingLeft: '5%',
+		//paddingRight: '5%',
+	},
+
+	mobileSurfaceTop:{
+		height: '100%',
+		width: '100%',
+
+		position: 'absolute',
+		opacity: '0.17',
+		backgroundColor: Colors.themeFontColor,
+	},
+
+	mobileDP:{
+		position: 'absolute',
+		height: '100%',
+		width: '100%',
+
+		objectFit: 'cover',
+		filter: 'grayscale(100%) contrast(0.6) brightness(50%)'
+	},
 
 });
 
 class FeatProjects extends Component {
-		getImage = () => {
+		getImage = (sz) => {
 			const { classes, imageName } = this.props;
 			if(imageName === 'VashaShikkha')
-				return <img className={classes.dp} src={VashaShikkha} alt="" />;
+				return <img 
+				className={sz === 'web' ? classes.dp : classes.mobileDP} 
+				src={VashaShikkha} alt="" />;
 			
 			else if(imageName === 'Chess')
-				return <img className={classes.dp} src={Chess} alt="" />;
+				return <img className={sz === 'web' ? classes.dp : classes.mobileDP} src={Chess} alt="" />;
 		};
 
 		getGit = () => {
@@ -228,13 +288,12 @@ class FeatProjects extends Component {
 					deployedLink,
 				} = this.props;
         return (
-            <div className={classes.outerSurface}>
-              
+            <div className={classes.outerSurface}> 
 							{
 								mirror === false ?
 								<div className={classes.webSurface}>
 									<div className={classes.webLeftT1}>
-										{this.getImage()}
+										{this.getImage('web')}
 										<div className={classes.dpCover}></div>
 									</div>
 									<div className={classes.webRightT1}>
@@ -251,13 +310,20 @@ class FeatProjects extends Component {
 										<div className={classes.externalLinks} 
 										style={{justifyContent: 'flex-end'}}
 										>
-											<div className={classes.icon}>
-												<a href={gitURL} target="blank">{this.getGit()}</a>
-												{
-													deployedLink === '' ? null :
+											{
+												gitURL === '' ? null :
+												<div className={classes.icon}>
+													<a href={gitURL} target="blank">{this.getGit()}</a>
+												</div>
+											}
+
+											{
+												deployedLink === '' ? null :
+												<div className={classes.icon} style={{marginLeft : '15px'}}>
 													<a href={deployedLink} target="blank">{this.getDeploy()}</a>
-												}
-											</div>
+												</div>
+											}
+											
 										</div>
 									</div>
 								</div>
@@ -277,17 +343,22 @@ class FeatProjects extends Component {
 										<div className={classes.externalLinks} 
 										style={{justifyContent: 'flex-start'}}
 										>
-											<div className={classes.icon}>
-												<a href={gitURL} target="blank">{this.getGit()}</a>
-												{
-													deployedLink === '' ? null :
+											{
+												gitURL === '' ? null :
+												<div className={classes.icon} style={{marginRight : '15px'}}>
+													<a href={gitURL} target="blank">{this.getGit()}</a>
+												</div>
+											}
+											{
+												deployedLink === '' ? null :
+												<div className={classes.icon}>
 													<a href={deployedLink} target="blank">{this.getDeploy()}</a>
-												}
-											</div>
+												</div>
+											}
 										</div>
 									</div>
 									<div className={classes.webRightT2}>
-										{this.getImage()}
+										{this.getImage('web')}
 										<div className={classes.dpCover}></div>
 									</div>
 								</div>
@@ -295,6 +366,48 @@ class FeatProjects extends Component {
 
               
 							<div className={classes.mobileSurface}>
+								{this.getImage('mobile')}
+								<div className={classes.mobileSurfaceMid}></div>
+								<div className={classes.mobileSurfaceTop}></div>
+								<div className={classes.mobileSurfaceTopUpper} 
+											style={{ alignItems: mirror ? 'flex-start' : 'flex-end'}}
+									>
+										<div className={classes.one}>Featured Project</div>
+										<div className={classes.two}>{projectName}</div>
+										<div className={classes.box2}
+												style={{ textAlign: mirror ? 'left' : 'right'}}
+										>{projectDescription}</div>
+										<div className={classes.tech} style={{justifyContent: mirror ? 'flex-start' : 'flex-end'}}>
+											{
+												technologiesUsed.map((data, idx) => (
+													<div 
+													style={{marginLeft: mirror ? '0px' : '15px', marginRight : mirror ? '15px' : '0px'}} 
+													key={idx}>{data}</div>
+												))
+											}
+										</div>
+										
+										<div className={classes.externalLinks} 
+										style={{justifyContent: mirror ? 'flex-start' : 'flex-end'}}
+										>
+											{
+												gitURL === '' ? null :
+												<div className={classes.icon}
+												style={{marginLeft: mirror ? '0px' : '15px', marginRight : mirror ? '15px' : '0px'}}>
+													<a href={gitURL} target="blank">{this.getGit()}</a>
+												</div>
+											}
+
+											{
+												deployedLink === '' ? null :
+												<div className={classes.icon} 
+												style={{marginLeft: mirror ? '0px' : '15px', marginRight : mirror ? '15px' : '0px'}}>
+													<a href={deployedLink} target="blank">{this.getDeploy()}</a>
+												</div>
+											}
+											
+										</div>
+								</div>
               </div>
             </div>
         );

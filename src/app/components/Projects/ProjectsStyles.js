@@ -27,11 +27,11 @@ const styles = theme => ({
   line:{
     height: '1px',
     
-    [theme.breakpoints.down('sm')]:{
-      width: '110px',
+    [theme.breakpoints.down('md')]:{
+      width: '100px',
     },
 
-    [theme.breakpoints.up('sm')]:{
+    [theme.breakpoints.up('md')]:{
       width: '200px',
     },
   },

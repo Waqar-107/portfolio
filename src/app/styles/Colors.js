@@ -9,6 +9,7 @@ export const Colors = {
   iconColor: '#a8b2d1',
   lineColor: '#2d3952',
   projectBox: '#172a45',
+  featProject: '#1d4752',
 };
 
 export default Colors;
