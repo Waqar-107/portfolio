@@ -6,37 +6,20 @@ import Colors from '../../styles/Colors';
 import styles from './ProjectsStyles';
 import FeatProject from './FeatProjects';
 import OtherProject from './OtherProject';
+import { fetchProjects } from './myProjects';
 
 class Projects extends Component {
+		constructor(props)
+		{
+			super(props);
+			this.state = {
+				projects: fetchProjects(),
+			}
+		}
 
     render() {
 				const { classes } = this.props;
-
-				// undergrad courses
-				const undergradName = [
-					'Object Oriented Programming Language',
-					'Data Structure and Algorithm part-1',
-					'Numerical Methods',
-					'Data Structure and Algorithm part-2',
-				];
-				const undergradDescription = [
-					'c++ and java were tought as Object oriented programming languages',
-					'Basic data structures like Arraylist, linked-list, binary search tree, heap, graph were taught. Some greedy techniques were also introduced',
-					'Numerical Methods like Bisection Method, Runge-Kutta methods were taught using Matlab',
-					'Data structures like Hashing, Red-Black Tree and graph algortihms like Floyed-Warshall, Bellman-Ford, Ford-Fulkerson, Prim\'s, Kruskals algorithm were taught'
-				];
-				const undergradGitURL = [
-					'https://github.com/Waqar-107/CSE-108-Object-Oriented-Programming-Language',
-					'https://github.com/Waqar-107/CSE-204-Data-Structure-and-Algorithm-1',
-					'https://github.com/Waqar-107/CSE-218-Numerical-Methods',
-					'https://github.com/Waqar-107/CSE-208-Data-Structure-and-Algorithm-2'
-				];
-				const undergradTech = [
-					['c++', 'java'],
-					['c++'],
-					['Matlab'],
-					['c++'],
-				];
+				const { projects } = this.state;
         
         return (
             <div className={classes.mainBody}>
@@ -72,16 +55,16 @@ class Projects extends Component {
 									gitURL="https://github.com/Waqar-107/ChessMaestro"
                 />
 
-								<div className={classes.myCourses}>Codes I Wrote For Undergrad</div>
-								<div className={classes.underGradCode}>
+								<div className={classes.myCourses}>My Projects</div>
+								<div className={classes.others}>
 									{
-										undergradName.map((data, idx) => (
+										projects.map((data, idx) => (
 											<OtherProject
 												key={idx}
-												projectName={data}
-												projectDescription={undergradDescription[idx]}
-												gitURL={undergradGitURL[idx]}
-												technologiesUsed={undergradTech[idx]}
+												projectName={data.name}
+												projectDescription={data.description}
+												gitURL={data.gitURL}
+												technologiesUsed={data.tech}
 											/>
 										))
 									}

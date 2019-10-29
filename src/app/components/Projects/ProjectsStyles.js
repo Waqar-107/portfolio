@@ -56,7 +56,7 @@ const styles = theme => ({
     },
   },
 
-  underGradCode: {
+  others: {
     marginTop: '5vh',
     width: '90%',
 
