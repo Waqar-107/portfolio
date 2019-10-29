@@ -66,8 +66,6 @@ const styles = theme => ({
     justifyContent: 'center',
     alignContent: 'center',
     alignItems: 'center',
-
-    backgroundColor: 'yellow',
   }
 });
 

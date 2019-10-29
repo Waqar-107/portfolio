@@ -188,8 +188,6 @@ const styles = theme => ({
 	icon: {
     height: '40px',
 		width: '20px',
-		
-    //backgroundColor: Colors.mediumDarkNavy,
 		cursor: 'pointer',
 
     transition: 'all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s',
