@@ -74,6 +74,7 @@ const styles = theme => ({
     border: 'solid 1px #64FFDA',
     color: '#64FFDA',
     fontSize: '18px',
+    cursor: 'pointer',
     
     '&:hover':{
       backgroundColor: '#293d5a',

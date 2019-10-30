@@ -24,10 +24,6 @@ const styles = theme => ({
     fontWeight: '600',
   },
 
-  line:{
-    height: '1px',
-    width: '200px',
-  },
 
   content: {
     width: '100%',

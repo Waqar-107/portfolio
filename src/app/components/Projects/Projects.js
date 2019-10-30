@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { withStyles } from '@material-ui/core';
 import PropTypes from 'prop-types';
 
-import Colors from '../../styles/Colors';
 import styles from './ProjectsStyles';
 
 import TitleHead from '../Header//titleHead'; 
@@ -16,27 +15,27 @@ class Projects extends Component {
 			super(props);
 			this.state = {
 				projects: fetchProjects(),
+				seeMore: true,
 			}
+		}
+
+		handleSeeMore = () => {
+			let { seeMore } = this.state;
+			seeMore = !seeMore;
+
+			this.setState({ seeMore });
 		}
 
     render() {
 				const { classes } = this.props;
-				const { projects } = this.state;
+				const { projects, seeMore } = this.state;
         
         return (
             <div className={classes.mainBody}>
               <div className={classes.heading}>
-                {/* <div 
-                  style={{color: Colors.themeFontColor, marginRight: '15px'}}
-                >04.</div>
-                <div 
-                  style={{color: Colors.nameColor, marginRight: '15px'}}
-                >Things I've Developed</div>
-                <div 
-                  style={{backgroundColor: Colors.lineColor}} className={classes.line}
-								></div> */}
 								<TitleHead number="04." caption="Things I've Developed" />
               </div>
+
               <div className={classes.content}>
                 <FeatProject mirror={false} 
 									imageName="VashaShikkha" 
@@ -62,6 +61,7 @@ class Projects extends Component {
 								<div className={classes.others}>
 									{
 										projects.map((data, idx) => (
+											seeMore === true && idx > 2 ? null :
 											<OtherProject
 												key={idx}
 												projectName={data.name}
@@ -71,6 +71,13 @@ class Projects extends Component {
 											/>
 										))
 									}
+								</div>
+								
+								<div className={classes.btnContainer}>
+									<div 
+										className={classes.seeMore}
+										onClick={() => this.handleSeeMore()}
+									>{seeMore ? 'More Projects' : 'Fewer Projects'}</div>
 								</div>
               </div>
             </div>
