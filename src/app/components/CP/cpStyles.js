@@ -27,6 +27,23 @@ const styles = theme => ({
   content: {
     width: '100%',
   },
+
+  para: {
+    width: '90%',
+    height: '10vh',
+
+    fontSize: '22px',
+    fontWeight: '500',
+  },
+
+  link:{
+    textDecoration: 'none',
+    color: '#64FFDA',
+  },
+
+  highlight: {
+    color: '#e6f1ff',
+  }
 });
 
 export default styles;
