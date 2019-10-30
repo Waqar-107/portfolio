@@ -2,8 +2,10 @@ import React, { Component } from 'react';
 import { withStyles } from '@material-ui/core';
 import PropTypes from 'prop-types';
 
-import TitleHead from '../Header//titleHead'; 
+import TitleHead from '../Header/titleHead'; 
+import CPRepo from './cpRepo';
 import { fetchUserDetail, fetchRating } from './cpAxios';
+
 import styles from './cpStyles';
 import Colors from '../../styles/Colors';
 
@@ -72,6 +74,40 @@ class CP extends Component {
                   I have solved about <b className={classes.highlight}>1500</b> problems and in the top <b className={classes.highlight}>250</b> in the standings made in terms of the number of solved problems. 
                   <br/>
                   </p>
+                </div>
+
+                <div className={classes.solved}>My Codes</div>
+                <div className={classes.repo}>
+                  <CPRepo
+                    projectName="Codeforces"
+                    profileURL="https://codeforces.com/profile/_lucifer_"
+                    gitURL=""
+                    projectDescription=""
+                  />
+                  <CPRepo
+                    projectName="LightOj"
+                    profileURL="http://lightoj.com/volume_userstat.php?user_id=35486"
+                    gitURL=""
+                    projectDescription=""
+                  />
+                  <CPRepo
+                    projectName="HackerRank"
+                    profileURL="https://www.hackerrank.com/waqar_107"
+                    gitURL=""
+                    projectDescription=""
+                  />
+                  <CPRepo
+                    projectName="UVA"
+                    profileURL=""
+                    gitURL=""
+                    projectDescription=""
+                  />
+                  <CPRepo
+                    projectName="Codebase"
+                    profileURL=""
+                    gitURL=""
+                    projectDescription=""
+                  />
                 </div>
               </div>
             </div>

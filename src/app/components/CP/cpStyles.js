@@ -43,7 +43,35 @@ const styles = theme => ({
 
   highlight: {
     color: '#e6f1ff',
-  }
+  },
+
+  solved: {
+    width: '90%',
+    
+    textAlign: 'center',
+    fontSize: '25px',
+    color: '#e6f1ff',
+
+    [theme.breakpoints.down('md')]:{
+      marginTop: '10vh',
+    },
+
+    [theme.breakpoints.up('md')]:{
+      marginTop: '15vh',
+    },
+  },
+
+  repo: {
+    marginTop: '5vh',
+    width: '90%',
+
+    display: 'flex',
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    justifyContent: 'center',
+    alignContent: 'center',
+    alignItems: 'center',
+  },
 });
 
 export default styles;
