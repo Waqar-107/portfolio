@@ -72,6 +72,19 @@ const styles = theme => ({
       },
     },
 
+    cp: {
+      width: '90%',
+      marginBottom: '30vh',
+
+      [theme.breakpoints.down('md')]:{
+        marginLeft: '7%',
+      },
+  
+      [theme.breakpoints.up('md')]:{
+        marginLeft: '10%',
+      },
+    },
+
     projects: {
       width: '90%',
       marginBottom: '30vh',

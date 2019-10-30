@@ -7,6 +7,7 @@ import SocialWeb from '../SocialLinks/socialWeb';
 import Footer from '../Footer/Footer';
 import About from '../AboutMe/AboutMe';
 import Work from '../WorkExp/Work';
+import CP from '../CP/cp';
 import Projects from '../Projects/Projects';
 
 import styles from './HomeStyle';
@@ -21,6 +22,7 @@ class Home extends Component {
               <div className={classes.socialWeb}><SocialWeb /></div>
               <div className={classes.aboutMe}><About /></div>
               <div className={classes.work}><Work /></div>
+              <div className={classes.cp}><CP /></div>
               <div className={classes.projects}><Projects /></div>
               <div className={classes.footer}><Footer /></div>
             </div>

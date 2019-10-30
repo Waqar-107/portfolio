@@ -24,18 +24,6 @@ const styles = theme => ({
     fontWeight: '600',
   },
 
-  line:{
-    height: '1px',
-    
-    [theme.breakpoints.down('md')]:{
-      width: '100px',
-    },
-
-    [theme.breakpoints.up('md')]:{
-      width: '200px',
-    },
-  },
-
   content: {
     width: '100%',
   },
