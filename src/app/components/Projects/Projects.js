@@ -4,6 +4,8 @@ import PropTypes from 'prop-types';
 
 import Colors from '../../styles/Colors';
 import styles from './ProjectsStyles';
+
+import TitleHead from '../Header//titleHead'; 
 import FeatProject from './FeatProjects';
 import OtherProject from './OtherProject';
 import { fetchProjects } from './myProjects';
@@ -24,15 +26,16 @@ class Projects extends Component {
         return (
             <div className={classes.mainBody}>
               <div className={classes.heading}>
-                <div 
+                {/* <div 
                   style={{color: Colors.themeFontColor, marginRight: '15px'}}
-                >03.</div>
+                >04.</div>
                 <div 
                   style={{color: Colors.nameColor, marginRight: '15px'}}
                 >Things I've Developed</div>
                 <div 
                   style={{backgroundColor: Colors.lineColor}} className={classes.line}
-                ></div>
+								></div> */}
+								<TitleHead number="04." caption="Things I've Developed" />
               </div>
               <div className={classes.content}>
                 <FeatProject mirror={false} 
