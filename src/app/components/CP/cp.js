@@ -64,7 +64,7 @@ class CP extends Component {
             <div className={classes.mainBody}>
               <div className={classes.heading}>
                 <TitleHead number="03." 
-                caption="My Competitive Programming Career" />
+                caption="Problem Solving" />
               </div>
 
               <div className={classes.content}>

@@ -23,8 +23,8 @@ const styles = theme => ({
     },
 
     [theme.breakpoints.up('md')]:{
-			width: '23vw',
-			height: '55vh',
+			width: '25vw',
+			height: '60vh',
 		},
 		
 		backgroundColor: Colors.projectBox,
