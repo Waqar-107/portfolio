@@ -46,46 +46,7 @@ const styles = theme => ({
       },
     },
 
-    aboutMe: {
-      width: '90%',
-      marginBottom: '30vh',
-
-      [theme.breakpoints.down('md')]:{
-        marginLeft: '7%',
-      },
-  
-      [theme.breakpoints.up('md')]:{
-        marginLeft: '10%',
-      },
-    },
-
-    work: {
-      width: '90%',
-      marginBottom: '30vh',
-
-      [theme.breakpoints.down('md')]:{
-        marginLeft: '7%',
-      },
-  
-      [theme.breakpoints.up('md')]:{
-        marginLeft: '10%',
-      },
-    },
-
-    cp: {
-      width: '90%',
-      marginBottom: '30vh',
-
-      [theme.breakpoints.down('md')]:{
-        marginLeft: '7%',
-      },
-  
-      [theme.breakpoints.up('md')]:{
-        marginLeft: '10%',
-      },
-    },
-
-    projects: {
+    commonSegment: {
       width: '90%',
       marginBottom: '30vh',
 

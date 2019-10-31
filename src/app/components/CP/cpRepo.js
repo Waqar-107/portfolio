@@ -30,9 +30,9 @@ const styles = theme => ({
 		backgroundColor: Colors.projectBox,
 		cursor: 'pointer',
 		transition: 'all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s',
-		'&:hover': {
-			marginTop: '20px',
-		}
+		// '&:hover': {
+		// 	marginTop: '20px',
+		// }
   },
 
   uno:{
@@ -126,7 +126,25 @@ const styles = theme => ({
     '&:hover':{
 			fill: Colors.themeFontColor,
     }
-	},
+  },
+  
+  loj: {
+    width: '100%',
+		height: '80%',
+    marginTop: '35%',
+    fontSize: '20px',
+    
+    userSelect: 'none',
+    
+    color: Colors.iconColor,
+    '&:hover':{
+			color: Colors.themeFontColor,
+    }
+  },
+
+  linkCP: {
+    textDecoration: 'none',
+  }
 
 });
 
@@ -159,11 +177,8 @@ class cpRepo extends Component {
 
     getLoj = () => {
       const { classes } = this.props;
-      return <svg className={classes.SVGCP}>
-              <text>
-                <tspan>Light Oj</tspan>
-              </text>
-            </svg>
+      console.log("loj called");
+      return <p className={classes.loj}>LOj</p>
     }
 
     render() {
@@ -182,14 +197,14 @@ class cpRepo extends Component {
                 </div>
                 <div className={classes.uno2}>
                   <div className={classes.icon} style={{marginRight : '10px'}}>
-                      <a href={gitURL} target="blank">
+                      <a href={gitURL} target="blank" className={classes.linkCP}>
                         {this.getGit()}
                       </a>
                   </div>
                   {
                     projectName === 'Codebase' || projectName === 'UVA' ? null :
                     <div className={classes.icon} style={{marginRight : '10px'}}>
-                      <a href={profileURL} target="blank">
+                      <a href={profileURL} target="blank" className={classes.linkCP}>
                         {this.getOJ()}
                       </a>
                     </div>

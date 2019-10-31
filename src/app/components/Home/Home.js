@@ -20,10 +20,10 @@ class Home extends Component {
               <div className={classes.nav}></div>
               <div className={classes.intro}><Intro /></div>
               <div className={classes.socialWeb}><SocialWeb /></div>
-              <div className={classes.aboutMe}><About /></div>
-              <div className={classes.work}><Work /></div>
-              <div className={classes.cp}><CP /></div>
-              <div className={classes.projects}><Projects /></div>
+              <div className={classes.commonSegment}><About /></div>
+              <div className={classes.commonSegment}><Work /></div>
+              <div className={classes.commonSegment}><CP /></div>
+              <div className={classes.commonSegment}><Projects /></div>
               <div className={classes.footer}><Footer /></div>
             </div>
         );

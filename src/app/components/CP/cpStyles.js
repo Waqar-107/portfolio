@@ -26,6 +26,13 @@ const styles = theme => ({
 
   content: {
     width: '100%',
+
+    // display: 'flex',
+    // flexDirection: 'column',
+    // flexWrap: 'no-wrap',
+    // justifyContent: 'center',
+    // alignItems: 'center',
+    // alignContent: 'center',
   },
 
   para: {
@@ -53,17 +60,18 @@ const styles = theme => ({
     color: '#e6f1ff',
 
     [theme.breakpoints.down('md')]:{
-      marginTop: '10vh',
+      marginTop: '25vh',
     },
 
     [theme.breakpoints.up('md')]:{
-      marginTop: '15vh',
+      marginTop: '30vh',
     },
   },
 
   repo: {
-    marginTop: '5vh',
+    marginTop: '15vh',
     width: '90%',
+
 
     display: 'flex',
     flexDirection: 'row',

@@ -69,10 +69,12 @@ class CP extends Component {
 
               <div className={classes.content}>
                 <div className={classes.para} style={{color: Colors.motoColor}}>
-                  <p>I have participated in a few inter university programming contests and also participated in preliminary of acm-icpc Dhaka Regional thrice.<br/>
+                  <p>I have participated in a few inter university programming contests and also participated in preliminary of acm-icpc Dhaka Regional thrice.<br/><br/>
                   Mainly i participate in contests held in <a className={classes.link} href="https://codeforces.com/" target="blank">Codeforces</a>. I have participated in <b className={classes.highlight}>{totalContest}</b> contests. My current rating is <b className={classes.highlight}>{currentRating}</b> and i have a maximum  rating of <b className={classes.highlight}>{mxRating}</b>.
                   I have solved about <b className={classes.highlight}>1500</b> problems and in the top <b className={classes.highlight}>250</b> in the standings made in terms of the number of solved problems. 
-                  <br/>
+                  <br/><br/>
+                  Also i practice in <a className={classes.link} href="http://lightoj.com/login_main.php" target="blank">Light Oj</a> and <a className={classes.link} href="https://www.hackerrank.com/" target="blank">HackerRank</a>.<br/>
+                  
                   </p>
                 </div>
 
@@ -81,32 +83,26 @@ class CP extends Component {
                   <CPRepo
                     projectName="Codeforces"
                     profileURL="https://codeforces.com/profile/_lucifer_"
-                    gitURL=""
-                    projectDescription=""
+                    gitURL="https://github.com/Waqar-107/Codeforces"
+                    projectDescription="accepted problems in Codeforces"
                   />
                   <CPRepo
                     projectName="LightOj"
                     profileURL="http://lightoj.com/volume_userstat.php?user_id=35486"
-                    gitURL=""
-                    projectDescription=""
+                    gitURL="https://github.com/Waqar-107/LightOJ"
+                    projectDescription="accepted problems in Light Oj"
                   />
                   <CPRepo
                     projectName="HackerRank"
                     profileURL="https://www.hackerrank.com/waqar_107"
-                    gitURL=""
-                    projectDescription=""
+                    gitURL="https://github.com/Waqar-107/Hackerrank"
+                    projectDescription="programming language practices and problems solved in HackerRank"
                   />
                   <CPRepo
                     projectName="UVA"
                     profileURL=""
-                    gitURL=""
-                    projectDescription=""
-                  />
-                  <CPRepo
-                    projectName="Codebase"
-                    profileURL=""
-                    gitURL=""
-                    projectDescription=""
+                    gitURL="https://github.com/Waqar-107/UVa"
+                    projectDescription="problems solved in UVA"
                   />
                 </div>
               </div>
