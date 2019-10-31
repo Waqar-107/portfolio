@@ -1,7 +1,9 @@
 import React from "react";
-import styles from "./HamburgerMenuStyle";
 import { withStyles } from "@material-ui/core/styles";
-import { BrowserRouter as Router, Link } from "react-router-dom";
+import { Link } from "react-scroll";
+
+import styles from "./HamburgerMenuStyle";
+import Colors from '../../styles/Colors';
 
 class HamburgerMenu extends React.Component {
   constructor(props){
@@ -57,27 +59,90 @@ class HamburgerMenu extends React.Component {
           <div className={this.state.checked ? classes.menu_wrap_hamburger_div_ifChecked : classes.menu_wrap_hamburger_div}></div>
         </div>
         
-        {/* <div style={this.getMenu()} className={classes.menu}>
-          <div style={this.getMenu1()} className={classes.menu_in1}>
-            <div style={this.getMenu2()} className={classes.menu_in2}>
-              <ul className={classes.LI}>
-                <Link to="/Home" style={{ textDecoration: 'none'}}>
-                  <li className={classes.LI_A}>Home</li>
-                </Link>
-
-                <Link to="/Profile" style={{ textDecoration: 'none'}}>
-                  <li className={classes.LI_A}>Profile</li>
-                </Link>
-
-                <Link to="/Home" onClick={this.props.handleLogout} style={{ textDecoration: 'none'}}>
-                  <li className={classes.LI_A}>Logout</li>
-                </Link>
-              </ul>
-            </div>
-          </div>
-        </div> */}
         <div className={classes.menu} style={{right: checked ? '0' : '-75vw'}}>
-
+          <div className={classes.hamItem}>
+            <Link
+              activeClass="active"
+              to="aboutMe"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration= {500}
+              onClick={this.handleCheckBox}
+              className={classes.LINK}
+            >
+              <div className={classes.p1}>01.</div>
+              <div className={classes.p2H}>About</div>
+            </Link>
+          </div>
+          <div className={classes.hamItem}>
+            <Link
+              activeClass="active"
+              to="work"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration= {500}
+              onClick={this.handleCheckBox}
+              className={classes.LINK}
+            >
+              <div className={classes.p1}>02.</div>
+              <div className={classes.p2H}>Experience</div>
+            </Link>
+          </div>
+          <div className={classes.hamItem}>
+            <Link
+              activeClass="active"
+              to="problemSolving"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration= {500}
+              onClick={this.handleCheckBox}
+              className={classes.LINK}
+            >
+              <div className={classes.p1}>03.</div>
+              <div className={classes.p2H}>Problem Solving</div>
+            </Link>
+          </div>
+          <div className={classes.hamItem}>
+            <Link
+              activeClass="active"
+              to="projects"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration= {500}
+              onClick={this.handleCheckBox}
+              className={classes.LINK}
+            >
+              <div className={classes.p1}>04.</div>
+              <div className={classes.p2H}>Work</div>
+            </Link>
+          </div>
+          <div className={classes.hamItem}>
+            <Link
+              activeClass="active"
+              to="contactMe"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration= {500}
+              onClick={this.handleCheckBox}
+              className={classes.LINK}
+            >
+              <div className={classes.p1}>05.</div>
+              <div className={classes.p2H}>Contact</div>
+            </Link>
+          </div>
+          
+            <div className={classes.resume}>
+              <a href="/khan_cv.pdf" target="blank" 
+                className={classes.linkNav}
+                style={{color: Colors.themeFontColor}}
+              >Resume</a>
+            </div>
+          
         </div>
       </div>
     );

@@ -118,59 +118,76 @@ const styles = theme => ({
 
 			height: '100%',
 			width: '75vw',
-			transition: 'all 0.5s ease-out',
+			transition: 'all 0.4s ease-in',
+
+			backgroundColor: '#172A45',
 
 			display: 'flex',
+			flexDirection: 'column',
+			flexWrap: 'no-wrap',
+			justifyContent: 'center',
+			alignItems: 'center',
+			alignContent: 'center',
+		},
 
-			backgroundColor: '#0a192f',
-		}
+		p1:{
+			//display: 'inline-flex',
+			color: '#64FFDA',
+			marginBottom: '2px'
+		},
+	
+		p2H: {
+			//display: 'inline-flex',
+			color: '#8892b0',
+	
+			'&:hover':{
+				color: '#64FFDA',
+			}
+		},
+	
+		hamItem:{
+			cursor: 'pointer',
+			marginBottom: '20px',
+		},
 
-    // menu: {
-    //     position : "fixed",
-    //     top : "0",
-    //     left : "0",
-    //     width : "100%",
-    //     height : "100%",
-    //     overflow : "hidden",
-    //     display : "flex",
-    //     alignItems : "center",
-    //     justifyContent : "center",
-    // },
+		LINK:{
+			display: 'flex',
+			flexDirection: 'column',
+			flexWrap: 'no-wrap',
+			justifyContent: 'center',
+			alignItems: 'center',
+			alignContent: 'center',
+		},
 
-    // menu_in1 : {
-    //     backgroundColor : "rgb(252, 253, 255, 0.8)",
-        
-    //     borderRadius : "50%",
-    //     width : "200vw",
-    //     height : "200vw",
-    //     display : "flex",
-    //     flex : "none",
-    //     alignItems : "center",
-    //     justifyContent : "center",
-    //     transition : "all 0.4s ease"
-    // },
+		linkNav:{
+			textDecoration: 'none',
+			color: '#a8b2d1',
+	
+			fontSize: '16px',
+		},
 
-    // menu_in2 : {
-    //     textAlign : "center",
-    //     maxWidth : "90vw",
-    //     maxHeight : "100vh",
-
-    //     transition:  "opacity 0.4s ease 0.4s"
-    // },
-
-    // LI : {
-    //     listStyle : "none",
-    //     color : "#64FFDA",
-    //     fontSize : "1.5rem",
-    //     padding : "1rem"
-    // },
-
-    // LI_A : {
-    //     color : "#64FFDA",
-    //     textDecoration : "none",
-    //     transition : "color 0.4s ease",
-    //     marginBottom : "50%"
-    // },
+		resume: {
+			height: '40px',
+			width: '100px',
+	
+			marginTop: '10px',
+			borderRadius: '5px',
+			border: '0.5px solid #64FFDA',
+			color: '#64FFDA',
+	
+			//backgroundColor: 'white',
+			display: 'flex',
+			flexDirection: 'row',
+			flexWrap: 'no-wrap',
+			justifyContent: 'center',
+			alignItems: 'center',
+			alignContent: 'center',
+	
+			'&:hover':{
+				backgroundColor: '#293d5a',
+			}
+		},
+	
 
 });
 
