@@ -46,14 +46,18 @@ class HamburgerMenu extends React.Component {
 
   render() {
     const { classes } = this.props;
+    const { checked } = this.state;
     return (
       <div className={classes.menu_wrap}>
-        <input onChange={this.handleCheckBox} type="checkbox" className={classes.menu_wrap_toggler} />
+        <input 
+          onChange={() => this.handleCheckBox()} 
+          type="checkbox" 
+          className={classes.menu_wrap_toggler} />
         <div className={classes.menu_wrap_hamburger}>
           <div className={this.state.checked ? classes.menu_wrap_hamburger_div_ifChecked : classes.menu_wrap_hamburger_div}></div>
         </div>
         
-        <div style={this.getMenu()} className={classes.menu}>
+        {/* <div style={this.getMenu()} className={classes.menu}>
           <div style={this.getMenu1()} className={classes.menu_in1}>
             <div style={this.getMenu2()} className={classes.menu_in2}>
               <ul className={classes.LI}>
@@ -71,8 +75,10 @@ class HamburgerMenu extends React.Component {
               </ul>
             </div>
           </div>
-        </div>
+        </div> */}
+        <div className={classes.menu} style={{right: checked ? '0' : '-75vw'}}>
 
+        </div>
       </div>
     );
   }

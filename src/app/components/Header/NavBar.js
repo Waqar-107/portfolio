@@ -3,6 +3,8 @@ import { withStyles } from '@material-ui/core';
 import PropTypes from 'prop-types';
 import { Link } from "react-scroll";
 
+import HamburgerMenu from '../HamburgerMenu/HamburgerMenu';
+
 import styles from './NavBarStyles';
 import Colors from '../../styles/Colors';
 
@@ -118,7 +120,9 @@ class NavBar extends Component {
 										>Resume</a>
 									</div>
 								</div>
-								<div className={classes.mobileNav}></div>
+								<div className={classes.mobileNav}>
+									<HamburgerMenu/>
+								</div>
 							</div>
             </div>
         );
