@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { withStyles } from '@material-ui/core';
 import PropTypes from 'prop-types';
 
+import Nav from '../Header/NavBar';
 import Intro from '../Intro/Intro';
 import SocialWeb from '../SocialLinks/socialWeb';
 import Footer from '../Footer/Footer';
@@ -17,7 +18,7 @@ class Home extends Component {
         const { classes } = this.props;
         return (
             <div className={classes.mainBody}>
-              <div className={classes.nav}></div>
+              <div className={classes.nav}><Nav /></div>
               <div className={classes.intro}><Intro /></div>
               <div className={classes.socialWeb}><SocialWeb /></div>
               <div className={classes.commonSegment}><About /></div>
