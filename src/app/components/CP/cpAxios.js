@@ -18,3 +18,11 @@ export function fetchRating(cb){
     console.log('error: ', err);
   })
 }
+
+export function fetchGitStatus(url, cb){
+  axios.get(url).then(res => {
+    cb(res);
+  }).catch(err => {
+    console.log('error from git', err)
+  })
+}

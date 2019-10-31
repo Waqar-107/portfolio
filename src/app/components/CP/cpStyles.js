@@ -26,18 +26,10 @@ const styles = theme => ({
 
   content: {
     width: '100%',
-
-    // display: 'flex',
-    // flexDirection: 'column',
-    // flexWrap: 'no-wrap',
-    // justifyContent: 'center',
-    // alignItems: 'center',
-    // alignContent: 'center',
   },
 
   para: {
     width: '90%',
-    height: '10vh',
 
     fontSize: '22px',
     fontWeight: '500',
@@ -60,18 +52,16 @@ const styles = theme => ({
     color: '#e6f1ff',
 
     [theme.breakpoints.down('md')]:{
-      marginTop: '25vh',
+      marginTop: '5vh',
     },
 
     [theme.breakpoints.up('md')]:{
-      marginTop: '30vh',
+      marginTop: '7vh',
     },
   },
 
   repo: {
-    marginTop: '15vh',
     width: '90%',
-
 
     display: 'flex',
     flexDirection: 'row',

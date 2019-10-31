@@ -28,7 +28,7 @@ const styles = theme => ({
     width: '100%',
   },
 
-  myCourses: {
+  myProjects: {
     width: '90%',
     
     textAlign: 'center',

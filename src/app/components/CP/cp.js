@@ -85,24 +85,28 @@ class CP extends Component {
                     profileURL="https://codeforces.com/profile/_lucifer_"
                     gitURL="https://github.com/Waqar-107/Codeforces"
                     projectDescription="accepted problems in Codeforces"
+                    gitAPI="https://api.github.com/search/repositories?q=user%3AWaqar-107+repo%3Acodeforces+codeforces"
                   />
                   <CPRepo
                     projectName="LightOj"
                     profileURL="http://lightoj.com/volume_userstat.php?user_id=35486"
                     gitURL="https://github.com/Waqar-107/LightOJ"
                     projectDescription="accepted problems in Light Oj"
+                    gitAPI="https://api.github.com/search/repositories?q=user%3AWaqar-107+repo%3ALightOj+LightOj"
                   />
                   <CPRepo
                     projectName="HackerRank"
                     profileURL="https://www.hackerrank.com/waqar_107"
                     gitURL="https://github.com/Waqar-107/Hackerrank"
                     projectDescription="programming language practices and problems solved in HackerRank"
+                    gitAPI="https://api.github.com/search/repositories?q=user%3AWaqar-107+repo%3AHackerrank+Hackerrank"
                   />
                   <CPRepo
                     projectName="UVA"
                     profileURL=""
                     gitURL="https://github.com/Waqar-107/UVa"
                     projectDescription="problems solved in UVA"
+                    gitAPI="https://api.github.com/search/repositories?q=user%3AWaqar-107+repo%3AUVa+UVa"
                   />
                 </div>
               </div>

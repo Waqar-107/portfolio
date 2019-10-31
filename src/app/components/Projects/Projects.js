@@ -57,7 +57,7 @@ class Projects extends Component {
 									gitURL="https://github.com/Waqar-107/ChessMaestro"
                 />
 
-								<div className={classes.myCourses}>My Projects</div>
+								<div className={classes.myProjects}>My Projects</div>
 								<div className={classes.others}>
 									{
 										projects.map((data, idx) => (
