@@ -21,7 +21,7 @@ class Home extends Component {
               <div className={classes.nav}><Nav /></div>
               <div className={classes.intro}><Intro /></div>
               <div className={classes.socialWeb}><SocialWeb /></div>
-              <div className={classes.commonSegment}><About /></div>
+              <div id="aboutMe" className={classes.commonSegment}><About /></div>
               <div className={classes.commonSegment}><Work /></div>
               <div className={classes.commonSegment}><CP /></div>
               <div className={classes.commonSegment}><Projects /></div>
