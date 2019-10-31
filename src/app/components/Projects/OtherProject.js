@@ -40,7 +40,32 @@ const styles = theme => ({
 		height: '25%',
 		
 		display: 'inline-flex',
-  },
+	},
+	
+	uno1: {
+		height: '100%',
+		width: '50%',
+
+		//backgroundColor: 'cyan',
+		display: 'flex',
+    flexDirection: 'row',
+    justifyContent: 'flex-start',
+    alignContent: 'center',
+    alignItems: 'center',
+	},
+
+	uno2: {
+		height: '100%',
+		width: '50%',
+
+		//backgroundColor: 'yellow',
+		
+		display: 'flex',
+    flexDirection: 'row',
+    justifyContent: 'flex-end',
+    alignContent: 'center',
+    alignItems: 'center',
+	},
 
   dos: {
     width: '100%',
@@ -92,7 +117,7 @@ const styles = theme => ({
 		
 		cursor: 'pointer',
 		marginLeft: '15px',
-		marginTop: '20px',
+		//marginTop: '20px',
 	},
 
 	icon: {
@@ -100,8 +125,8 @@ const styles = theme => ({
 		width: '20px',
 		
 		cursor: 'pointer',
-		marginTop: '15px',
-		marginLeft: '70%',
+		//marginTop: '15px',
+		marginRight: '15px',
 
     transition: 'all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s',
 	},
@@ -149,13 +174,17 @@ class OtherProject extends Component {
         return (
             <div className={classes.outerSurface}> 
               <div className={classes.uno}>
-								<div className={classes.doc}>
-									{this.getDoc()}
+								<div className={classes.uno1}>
+									<div className={classes.doc}>
+										{this.getDoc()}
+									</div>
 								</div>
-								<div className={classes.icon}>
-										<a href={gitURL} target="blank">
-											{this.getGit()}
-										</a>
+								<div className={classes.uno2}>
+									<div className={classes.icon}>
+											<a href={gitURL} target="blank">
+												{this.getGit()}
+											</a>
+									</div>
 								</div>
 							</div>
 							<div className={classes.dos}>
