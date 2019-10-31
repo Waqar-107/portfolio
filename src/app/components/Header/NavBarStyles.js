@@ -56,10 +56,25 @@ const styles = theme => ({
   },
 
   resume: {
-    height: '80%',
-    width: '10vw',
+    height: '40px',
+    width: '80px',
 
-    backgroundColor: 'white',
+    marginRight: '60px',
+    borderRadius: '5px',
+    border: '0.5px solid #64FFDA',
+    color: '#64FFDA',
+
+    //backgroundColor: 'white',
+    display: 'flex',
+    flexDirection: 'row',
+    flexWrap: 'no-wrap',
+    justifyContent: 'center',
+    alignItems: 'center',
+    alignContent: 'center',
+
+    '&:hover':{
+      backgroundColor: '#293d5a',
+    }
   },
 
   linkNav:{
@@ -76,6 +91,16 @@ const styles = theme => ({
 
   p2: {
     display: 'inline-flex',
+    color: '#a8b2d1',
+
+    '&:hover':{
+      color: '#64FFDA',
+    }
+  },
+
+  navItem:{
+    cursor: 'pointer',
+    marginRight: '15px',
   }
 
  

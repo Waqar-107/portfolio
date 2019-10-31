@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { withStyles } from '@material-ui/core';
 import PropTypes from 'prop-types';
+import { Link } from "react-scroll";
 
 import styles from './NavBarStyles';
 import Colors from '../../styles/Colors';
@@ -29,7 +30,7 @@ class NavBar extends Component {
 			// if scrolled down y increases
 			visible = prevScrollPos > currScrollPos;
 			prevScrollPos = currScrollPos;
-			
+
 			this.setState({ prevScrollPos});
 			this.setState({ visible });
 		}
@@ -45,17 +46,76 @@ class NavBar extends Component {
               <div className={classes.logo}></div>
 							<div className={classes.navBody}>
 								<div className={classes.webNav}>
-									<div>
-										<a href="#aboutMe" className={classes.linkNav}>
+									<div className={classes.navItem}>
+										<Link
+												activeClass="active"
+												to="aboutMe"
+												spy={true}
+												smooth={true}
+												offset={-70}
+												duration= {500}
+										>
 											<p className={classes.p1}>01.</p><p className={classes.p2}>&nbsp;&nbsp;About</p>
-										</a>
+										</Link>
+									</div>
+									
+									<div className={classes.navItem}>
+										<Link
+												activeClass="active"
+												to="work"
+												spy={true}
+												smooth={true}
+												offset={-70}
+												duration= {500}
+										>
+											<p className={classes.p1}>02.</p><p className={classes.p2}>&nbsp;&nbsp;Experience</p>
+										</Link>
 									</div>
 
-									<div><a href="#" target="blank">01. About</a></div>
-									<div><a href="#" target="blank">01. About</a></div>
-									<div><a href="#" target="blank">01. About</a></div>
+									<div className={classes.navItem}>
+										<Link
+												activeClass="active"
+												to="problemSolving"
+												spy={true}
+												smooth={true}
+												offset={-70}
+												duration= {500}
+										>
+											<p className={classes.p1}>03.</p><p className={classes.p2}>&nbsp;&nbsp;Problem Solving</p>
+										</Link>
+									</div>
+
+									<div className={classes.navItem}>
+										<Link
+												activeClass="active"
+												to="projects"
+												spy={true}
+												smooth={true}
+												offset={-70}
+												duration= {500}
+										>
+											<p className={classes.p1}>04.</p><p className={classes.p2}>&nbsp;&nbsp;Work</p>
+										</Link>
+									</div>
+
+									<div className={classes.navItem}>
+										<Link
+												activeClass="active"
+												to="contactMe"
+												spy={true}
+												smooth={true}
+												offset={-70}
+												duration= {500}
+										>
+											<p className={classes.p1}>05.</p><p className={classes.p2}>&nbsp;&nbsp;Contact</p>
+										</Link>
+									</div>
+									
 									<div className={classes.resume}>
-										<a href="#" target="">resume</a>
+										<a href="/khan_cv.pdf" target="blank" 
+										className={classes.linkNav}
+										style={{color: Colors.themeFontColor}}
+										>Resume</a>
 									</div>
 								</div>
 								<div className={classes.mobileNav}></div>
