@@ -12,38 +12,39 @@ class NavBar extends Component {
 		constructor(props){
 			super(props);
 			this.state = {
-				prevScrollPos: window.pageYOffset,
-				visible: true,
+				// prevScrollPos: window.pageYOffset,
+				// visible: true,
 			}
 		}
 
-		componentDidMount() {
-			window.addEventListener("scroll", this.handleScroll);
-		}
+		// componentDidMount() {
+		// 	window.addEventListener("scroll", this.handleScroll);
+		// }
 
-		componentWillUnmount() {
-			window.removeEventListener("scroll", this.handleScroll);
-		}
+		// componentWillUnmount() {
+		// 	window.removeEventListener("scroll", this.handleScroll);
+		// }
 
-		handleScroll = () => {
-			let { prevScrollPos, visible } = this.state;
-			const currScrollPos = window.pageYOffset;
+		// handleScroll = () => {
+		// 	let { prevScrollPos, visible } = this.state;
+		// 	const currScrollPos = window.pageYOffset;
 			
-			// if scrolled down y increases
-			visible = prevScrollPos > currScrollPos;
-			prevScrollPos = currScrollPos;
+		// 	// if scrolled down y increases
+		// 	visible = prevScrollPos > currScrollPos;
+		// 	prevScrollPos = currScrollPos;
 
-			this.setState({ prevScrollPos});
-			this.setState({ visible });
-		}
+		// 	this.setState({ prevScrollPos});
+		// 	this.setState({ visible });
+		// }
 
     render() {
 				const { classes } = this.props;
-				const { visible } = this.state;
+				// const { visible } = this.state;
 
         return (
 						<div className={classes.mainBody} 
-						style={{top: visible ? '0' : '-10vh', backgroundColor: Colors.mediumDarkNavy}}
+						// style={{top: visible ? '0' : '-10vh', backgroundColor: Colors.mediumDarkNavy}}
+						style={{backgroundColor: Colors.mediumDarkNavy}}
 						>
               <div className={classes.logo}></div>
 							<div className={classes.navBody}>
