@@ -10,6 +10,7 @@ import About from '../AboutMe/AboutMe';
 import Work from '../WorkExp/Work';
 import CP from '../CP/cp';
 import Projects from '../Projects/Projects';
+import Contact from '../Contact/Contact';
 
 import styles from './HomeStyle';
 
@@ -25,7 +26,7 @@ class Home extends Component {
               <div id="work" className={classes.commonSegment}><Work /></div>
               <div id="problemSolving" className={classes.commonSegment}><CP /></div>
               <div id="projects" className={classes.commonSegment}><Projects /></div>
-              <div id="contactMe" className={classes.commonSegment}></div>
+              <div id="contactMe" className={classes.commonSegment}><Contact /></div>
               <div className={classes.footer}><Footer /></div>
             </div>
         );

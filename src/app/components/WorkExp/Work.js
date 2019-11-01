@@ -24,7 +24,10 @@ class Work extends Component {
               <div className={classes.heading}>
                 <TitleHead number="02." caption="Where I've Worked" />
               </div>
-              <div className={classes.content}></div>
+              <div className={classes.content} 
+              style={{color: Colors.motoColor, fontSize: '22px'}}>
+                I havent't worked officially anywhere but did a project with a group of 12 peoples in a cross-platform application
+              </div>
             </div>
         );
     }

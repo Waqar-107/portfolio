@@ -39,7 +39,7 @@ class AboutMe extends Component {
 										<div className={classes.mobilePara} style={{color: Colors.motoColor}}>
 											<p>Hi! I'm Waqar. I am in the final year of my undergrad course at 
 												<a className={classes.link} href="https://www.buet.ac.bd/web/" target="blank"> Buet </a>
-												and expecting to complete graduation by May, 2020. My major is in 
+												and expecting to complete graduation by July, 2020. My major is in 
 												<a className={classes.link} href="https://cse.buet.ac.bd/" target="blank"> Computer Science and Engineering. </a>
 												<br/><br/>I am currently working on a group project called <i>vashaShikkha</i> that will help to teach English at primary school level. The ui will also be in Bangla so that native Bengali kids finds it easier to learn.
 												<br/><br/>I am doing my thesis work on <i>Semantic specification of program for development</i>. The target is to develop ontology from requirement analysis, create ontology from source code using a parser and then check if we have made the software we wanted.</p>

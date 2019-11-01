@@ -102,7 +102,7 @@ const styles = theme => ({
 
   navItem:{
     cursor: 'pointer',
-    marginRight: '15px',
+    marginRight: '20px',
   }
 
  
