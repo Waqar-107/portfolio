@@ -17,8 +17,9 @@ const styles = theme => ({
   },
 
   heading:{
-    height: '10vh',
+    //height: '10vh',
     width: '100%',
+    //marginBottom: '1vh',
 
     display: 'flex',
     flexWrap: 'no-wrap',
@@ -34,6 +35,7 @@ const styles = theme => ({
 	
 	head2: {
     width: '100%',
+    marginBottom: '2vh',
 
     display: 'flex',
     flexWrap: 'no-wrap',
@@ -48,7 +50,7 @@ const styles = theme => ({
 	},
 
 	kotha: {
-		height: '15vh',
+    marginBottom: '10vh',
 
     display: 'flex',
     flexWrap: 'no-wrap',
@@ -58,7 +60,6 @@ const styles = theme => ({
 
 		fontSize: '20px',
 		textAlign: 'center',
-		marginTop: '5vh',
 		fontWeight: '400',
 		
 		color: Colors.motoColor,
@@ -76,8 +77,6 @@ const styles = theme => ({
     width: '150px',
 		height: '60px',
 		
-		marginTop: '10vh',
-
     border: 'solid 1px #64FFDA',
     color: '#64FFDA',
     fontSize: '18px',
