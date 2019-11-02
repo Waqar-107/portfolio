@@ -33,11 +33,11 @@ const styles = theme => ({
     alignItems: 'center',
     alignContent: 'center',
 
-    [theme.breakpoints.down('md')]:{
+    [theme.breakpoints.down('md')]: {
       display: 'none',
     },
 
-    [theme.breakpoints.up('md')]:{
+    [theme.breakpoints.up('md')]: {
       display: 'flex'
     }
   },
@@ -48,11 +48,11 @@ const styles = theme => ({
 
     //backgroundColor: 'yellow',
 
-    [theme.breakpoints.down('md')]:{
+    [theme.breakpoints.down('md')]: {
       display: 'flex',
     },
 
-    [theme.breakpoints.up('md')]:{
+    [theme.breakpoints.up('md')]: {
       display: 'none'
     }
   },
@@ -74,19 +74,19 @@ const styles = theme => ({
     alignItems: 'center',
     alignContent: 'center',
 
-    '&:hover':{
+    '&:hover': {
       backgroundColor: '#293d5a',
     }
   },
 
-  linkNav:{
+  linkNav: {
     textDecoration: 'none',
     color: '#a8b2d1',
 
     fontSize: '16px',
   },
 
-  p1:{
+  p1: {
     display: 'inline-flex',
     color: '#64FFDA',
   },
@@ -95,17 +95,17 @@ const styles = theme => ({
     display: 'inline-flex',
     color: '#a8b2d1',
 
-    '&:hover':{
+    '&:hover': {
       color: '#64FFDA',
     }
   },
 
-  navItem:{
+  navItem: {
     cursor: 'pointer',
     marginRight: '20px',
   }
 
- 
+
 });
 
 export default styles;

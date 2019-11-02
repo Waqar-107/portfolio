@@ -1,5 +1,5 @@
 const styles = theme => ({
-  mainBody:{
+  mainBody: {
     width: '100%',
 
     display: 'flex',
@@ -10,7 +10,7 @@ const styles = theme => ({
     alignContent: 'center',
   },
 
-  heading:{
+  heading: {
     height: '10vh',
     width: '100%',
 
@@ -30,16 +30,16 @@ const styles = theme => ({
 
   myProjects: {
     width: '90%',
-    
+
     textAlign: 'center',
     fontSize: '35px',
     color: '#e6f1ff',
 
-    [theme.breakpoints.down('md')]:{
+    [theme.breakpoints.down('md')]: {
       marginTop: '10vh',
     },
 
-    [theme.breakpoints.up('md')]:{
+    [theme.breakpoints.up('md')]: {
       marginTop: '15vh',
     },
   },
@@ -85,8 +85,8 @@ const styles = theme => ({
     alignItems: 'center',
 
     cursor: 'pointer',
-    
-    '&:hover':{
+
+    '&:hover': {
       backgroundColor: '#293d5a',
     }
   },

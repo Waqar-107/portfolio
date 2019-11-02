@@ -1,51 +1,51 @@
 const styles = theme => ({
   intro: {
-      height: '100%',
-      width: '100%',
+    height: '100%',
+    width: '100%',
   },
 
   hi: {
-      transitionDelay: '100ms',
-      wordSpacing: '5px',
-      lineHeight: '10px',
+    transitionDelay: '100ms',
+    wordSpacing: '5px',
+    lineHeight: '10px',
 
-      [theme.breakpoints.down('md')]:{
-          fontSize: '15px',
-          marginTop: '25%',
-          marginBottom: '3%',
-      },
+    [theme.breakpoints.down('md')]: {
+      fontSize: '15px',
+      marginTop: '25%',
+      marginBottom: '3%',
+    },
 
-      [theme.breakpoints.up('md')]:{
-          fontSize: '18px',
-          marginTop: '7%',
-          marginBottom: '2%',
-      },
+    [theme.breakpoints.up('md')]: {
+      fontSize: '18px',
+      marginTop: '7%',
+      marginBottom: '2%',
+    },
   },
-  
+
   name: {
-      // marginBottom: '1%',
-      transitionDelay: '200ms',
-      fontWeight: '600',
+    // marginBottom: '1%',
+    transitionDelay: '200ms',
+    fontWeight: '600',
 
-      [theme.breakpoints.down('md')]:{
-          fontSize: '40px',
-      },
+    [theme.breakpoints.down('md')]: {
+      fontSize: '40px',
+    },
 
-      [theme.breakpoints.up('md')]:{
-          fontSize: '70px',
-      },
+    [theme.breakpoints.up('md')]: {
+      fontSize: '70px',
+    },
   },
 
   moto: {
     transitionDelay: '300ms',
     fontWeight: '600',
 
-    [theme.breakpoints.down('md')]:{
+    [theme.breakpoints.down('md')]: {
       fontSize: '50px',
       marginBottom: '10%',
     },
 
-    [theme.breakpoints.up('md')]:{
+    [theme.breakpoints.up('md')]: {
       fontSize: '70px',
       marginBottom: '2%',
     },
@@ -54,13 +54,13 @@ const styles = theme => ({
   shortDescription: {
     fontWeight: '300',
 
-    [theme.breakpoints.down('md')]:{
+    [theme.breakpoints.down('md')]: {
       fontSize: '20px',
       wordSpacing: '5px',
       marginBottom: '15%',
     },
 
-    [theme.breakpoints.up('md')]:{
+    [theme.breakpoints.up('md')]: {
       fontSize: '25px',
       wordSpacing: '6px',
       marginBottom: '8%',
@@ -75,8 +75,8 @@ const styles = theme => ({
     color: '#64FFDA',
     fontSize: '18px',
     cursor: 'pointer',
-    
-    '&:hover':{
+
+    '&:hover': {
       backgroundColor: '#293d5a',
     }
   },

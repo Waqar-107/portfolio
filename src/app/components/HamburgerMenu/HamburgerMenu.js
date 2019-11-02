@@ -6,43 +6,44 @@ import styles from "./HamburgerMenuStyle";
 import Colors from '../../styles/Colors';
 
 class HamburgerMenu extends React.Component {
-  constructor(props){
+  constructor(props) {
     super(props);
     this.state = {
-      checked : false
+      checked: false
     }
   }
 
   handleCheckBox = () => {
-    this.setState({checked : !this.state.checked});
+    this.setState({ checked: !this.state.checked });
   }
 
   //-----------------------------------------------------------------------------------------------
   //the change in styles in menu
   getMenu = () => {
-    if(this.state.checked){
-      return {visibility: "visible"}
+    if (this.state.checked) {
+      return { visibility: "visible" }
     }
 
     else
-      return {visibility : "hidden"};
+      return { visibility: "hidden" };
   }
 
   getMenu1 = () => {
-    if(this.state.checked){
-      return {transform: "scale(1)", transitionDuration: "0.75s"}
+    if (this.state.checked) {
+      return { transform: "scale(1)", transitionDuration: "0.75s" }
     }
 
     else
-      return {transform : "scale(0)"};
+      return { transform: "scale(0)" };
   }
 
   getMenu2 = () => {
-    if(this.state.checked){
-      return {opacity: 1, }}
+    if (this.state.checked) {
+      return { opacity: 1, }
+    }
 
     else
-      return {opacity : 0, };
+      return { opacity: 0, };
   }
   //-----------------------------------------------------------------------------------------------
 
@@ -51,15 +52,15 @@ class HamburgerMenu extends React.Component {
     const { checked } = this.state;
     return (
       <div className={classes.menu_wrap}>
-        <input 
-          onChange={() => this.handleCheckBox()} 
-          type="checkbox" 
+        <input
+          onChange={() => this.handleCheckBox()}
+          type="checkbox"
           className={classes.menu_wrap_toggler} />
         <div className={classes.menu_wrap_hamburger}>
           <div className={this.state.checked ? classes.menu_wrap_hamburger_div_ifChecked : classes.menu_wrap_hamburger_div}></div>
         </div>
-        
-        <div className={classes.menu} style={{right: checked ? '0' : '-75vw'}}>
+
+        <div className={classes.menu} style={{ right: checked ? '0' : '-75vw' }}>
           <div className={classes.hamItem}>
             <Link
               activeClass="active"
@@ -67,7 +68,7 @@ class HamburgerMenu extends React.Component {
               spy={true}
               smooth={true}
               offset={-70}
-              duration= {500}
+              duration={500}
               onClick={this.handleCheckBox}
               className={classes.LINK}
             >
@@ -82,7 +83,7 @@ class HamburgerMenu extends React.Component {
               spy={true}
               smooth={true}
               offset={-70}
-              duration= {500}
+              duration={500}
               onClick={this.handleCheckBox}
               className={classes.LINK}
             >
@@ -97,7 +98,7 @@ class HamburgerMenu extends React.Component {
               spy={true}
               smooth={true}
               offset={-70}
-              duration= {500}
+              duration={500}
               onClick={this.handleCheckBox}
               className={classes.LINK}
             >
@@ -112,7 +113,7 @@ class HamburgerMenu extends React.Component {
               spy={true}
               smooth={true}
               offset={-70}
-              duration= {500}
+              duration={500}
               onClick={this.handleCheckBox}
               className={classes.LINK}
             >
@@ -127,7 +128,7 @@ class HamburgerMenu extends React.Component {
               spy={true}
               smooth={true}
               offset={-70}
-              duration= {500}
+              duration={500}
               onClick={this.handleCheckBox}
               className={classes.LINK}
             >
@@ -135,14 +136,14 @@ class HamburgerMenu extends React.Component {
               <div className={classes.p2H}>Contact</div>
             </Link>
           </div>
-          
-            <div className={classes.resume}>
-              <a href="/khan_cv.pdf" target="blank" 
-                className={classes.linkNav}
-                style={{color: Colors.themeFontColor}}
-              >Resume</a>
-            </div>
-          
+
+          <div className={classes.resume}>
+            <a href="/khan_cv.pdf" target="blank"
+              className={classes.linkNav}
+              style={{ color: Colors.themeFontColor }}
+            >Resume</a>
+          </div>
+
         </div>
       </div>
     );

@@ -20,34 +20,34 @@ const styles = theme => ({
 		display: 'flex',
 		flexWrap: 'no-wrap',
 		flexDirection: 'column',
-    justifyContent: 'center',
-    alignItems: 'flex-start',
+		justifyContent: 'center',
+		alignItems: 'flex-start',
 		alignContent: 'center',
 	},
 
 	line: {
 		height: '1px',
-		
-		[theme.breakpoints.down('770')]:{
-      width: '100%',
-    },
 
-    [theme.breakpoints.up('770')]:{
-      width: '60%',
-    },
-		
+		[theme.breakpoints.down('770')]: {
+			width: '100%',
+		},
+
+		[theme.breakpoints.up('770')]: {
+			width: '60%',
+		},
+
 		backgroundColor: Colors.lineColor,
 	},
 
-	capContainer:{
+	capContainer: {
 		height: '100%',
 		position: 'absolute',
 
 		display: 'flex',
 		flexWrap: 'no-wrap',
 		flexDirection: 'row',
-    justifyContent: 'flex-start',
-    alignItems: 'center',
+		justifyContent: 'flex-start',
+		alignItems: 'center',
 		alignContent: 'center',
 
 		backgroundColor: Colors.mediumDarkNavy,
@@ -62,19 +62,19 @@ const styles = theme => ({
 });
 
 class titleHead extends Component {
-  render() {
+	render() {
 		const { classes, caption, number } = this.props;
 
-		return(
+		return (
 			<div className={classes.outer}>
 				<div className={classes.lineContainer}>
 					<div className={classes.line}></div>
 				</div>
 				<div className={classes.capContainer}>
-					<div 
-						style={{color: Colors.themeFontColor, marginRight: '15px'}}
+					<div
+						style={{ color: Colors.themeFontColor, marginRight: '15px' }}
 					>{number}</div>
-					<div style={{color: Colors.nameColor, marginRight: '7px'}}>{caption}</div>
+					<div style={{ color: Colors.nameColor, marginRight: '7px' }}>{caption}</div>
 				</div>
 			</div>
 		);

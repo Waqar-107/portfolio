@@ -9,7 +9,7 @@ export function fetchUserDetail(cb) {
   })
 };
 
-export function fetchRating(cb){
+export function fetchRating(cb) {
   const url = 'https://codeforces.com/api/user.rating?handle=_lucifer_';
 
   axios.get(url).then(res => {
@@ -19,7 +19,7 @@ export function fetchRating(cb){
   })
 }
 
-export function fetchGitStatus(url, cb){
+export function fetchGitStatus(url, cb) {
   axios.get(url).then(res => {
     cb(res);
   }).catch(err => {

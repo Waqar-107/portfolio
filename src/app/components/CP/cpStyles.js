@@ -1,5 +1,5 @@
 const styles = theme => ({
-  mainBody:{
+  mainBody: {
     width: '100%',
 
     display: 'flex',
@@ -10,7 +10,7 @@ const styles = theme => ({
     alignContent: 'center',
   },
 
-  heading:{
+  heading: {
     height: '10vh',
     width: '100%',
 
@@ -35,7 +35,7 @@ const styles = theme => ({
     fontWeight: '500',
   },
 
-  link:{
+  link: {
     textDecoration: 'none',
     color: '#64FFDA',
   },
@@ -46,16 +46,16 @@ const styles = theme => ({
 
   solved: {
     width: '90%',
-    
+
     textAlign: 'center',
     fontSize: '25px',
     color: '#e6f1ff',
 
-    [theme.breakpoints.down('md')]:{
+    [theme.breakpoints.down('md')]: {
       marginTop: '5vh',
     },
 
-    [theme.breakpoints.up('md')]:{
+    [theme.breakpoints.up('md')]: {
       marginTop: '7vh',
     },
   },

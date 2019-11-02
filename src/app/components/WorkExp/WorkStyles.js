@@ -1,5 +1,5 @@
 const styles = theme => ({
-  mainBody:{
+  mainBody: {
     width: '100%',
 
     display: 'flex',
@@ -10,7 +10,7 @@ const styles = theme => ({
     alignContent: 'center',
   },
 
-  heading:{
+  heading: {
     height: '10vh',
     width: '100%',
 

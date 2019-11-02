@@ -1,5 +1,5 @@
 const styles = theme => ({
-  mainBody:{
+  mainBody: {
     width: '100%',
 
     display: 'flex',
@@ -10,7 +10,7 @@ const styles = theme => ({
     alignContent: 'center',
   },
 
-  heading:{
+  heading: {
     height: '10vh',
     width: '100%',
 
@@ -29,7 +29,7 @@ const styles = theme => ({
     width: '100%',
   },
 
-  mobile:{
+  mobile: {
     // height: '110vh',
     width: '100%',
 
@@ -40,16 +40,16 @@ const styles = theme => ({
     alignItems: 'flex-start',
     alignContent: 'flex-start',
 
-    [theme.breakpoints.down('md')]:{
+    [theme.breakpoints.down('md')]: {
       display: 'flex',
     },
 
-    [theme.breakpoints.up('md')]:{
-        display: 'none',
+    [theme.breakpoints.up('md')]: {
+      display: 'none',
     },
   },
 
-  web:{
+  web: {
     width: '100%',
 
     display: 'flex',
@@ -58,12 +58,12 @@ const styles = theme => ({
     alignItems: 'flex-start',
     alignContent: 'flex-start',
 
-    [theme.breakpoints.down('md')]:{
+    [theme.breakpoints.down('md')]: {
       display: 'none',
     },
 
-    [theme.breakpoints.up('md')]:{
-        display: 'flex',
+    [theme.breakpoints.up('md')]: {
+      display: 'flex',
     },
   },
 
@@ -85,7 +85,7 @@ const styles = theme => ({
 
     fontSize: '22px',
     fontWeight: '500',
-   
+
     display: 'flex',
     flexDirection: 'row',
     justifyContent: 'flex-start',
@@ -107,7 +107,7 @@ const styles = theme => ({
     alignContent: 'center',
   },
 
-  mobileImage:{
+  mobileImage: {
     width: '90%',
 
     display: 'flex',
@@ -118,7 +118,7 @@ const styles = theme => ({
     alignContent: 'center',
   },
 
-  dp:{
+  dp: {
     height: '45vh',
     width: '45vh',
 
@@ -138,7 +138,7 @@ const styles = theme => ({
     objectPosition: 'center right',
   },
 
-  dpCover:{
+  dpCover: {
     height: '45vh',
     width: '45vh',
 
@@ -148,12 +148,12 @@ const styles = theme => ({
     opacity: '0.3',
     cursor: 'pointer',
 
-    '&:hover':{
+    '&:hover': {
       opacity: 0,
     },
   },
 
-  mobileDpCover:{
+  mobileDpCover: {
     height: '30vh',
     width: '30vh',
 
@@ -163,19 +163,19 @@ const styles = theme => ({
     opacity: '0.3',
   },
 
-  dpFrame:{
+  dpFrame: {
     position: 'absolute',
 
     marginLeft: '3vh',
     marginTop: '3vh',
-    
-    transition: '0.1s ease-in', 
+
+    transition: '0.1s ease-in',
     cursor: 'pointer',
 
     border: 'solid 3px #64FFDA',
   },
-  
-  mobileDpFrame:{
+
+  mobileDpFrame: {
     position: 'absolute',
     height: '30vh',
     width: '30vh',
@@ -186,7 +186,7 @@ const styles = theme => ({
     border: 'solid 3px #64FFDA',
   },
 
-  link:{
+  link: {
     textDecoration: 'none',
     color: '#64FFDA',
   }
