@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 
 import TitleHead from '../Header/titleHead';
 
-import DP from '../../assets/khan.jpg';
+import DP from '../../assets/khan.PNG';
 import Colors from '../../styles/Colors';
 import styles from './AboutMeStyles';
 
