@@ -21,10 +21,10 @@ function Home(props) {
 			<div className={classes.nav}><Nav /></div>
 			<div className={classes.intro}><Intro /></div>
 			<div className={classes.socialWeb}><SocialWeb /></div>
-			<div id="aboutMe" className={classes.commonSegment}><About /></div>
+			{/* <div id="aboutMe" className={classes.commonSegment}><About /></div> */}
 			<div id="work" className={classes.commonSegment}><Work /></div>
 			<div id="problemSolving" className={classes.commonSegment}><CP /></div>
-			{/* <div id="projects" className={classes.commonSegment}><Projects /></div> */}
+			<div id="projects" className={classes.commonSegment}><Projects /></div>
 			<div id="contactMe" className={classes.commonSegment}><Contact /></div>
 			<div className={classes.footer}><Footer /></div>
 		</div>
