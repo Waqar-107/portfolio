@@ -1,3 +1,5 @@
+import Colors from '../../styles/Colors';
+
 const styles = theme => ({
   mainBody: {
     height: '10vh',
@@ -8,13 +10,12 @@ const styles = theme => ({
     display: 'inline-flex',
 
     zIndex: '5',
+    backgroundColor: Colors.mediumDarkNavy,
   },
 
   logo: {
     height: '100%',
     width: '20%',
-
-    // backgroundColor: 'cyan',
   },
 
   navBody: {
@@ -81,9 +82,9 @@ const styles = theme => ({
 
   linkNav: {
     textDecoration: 'none',
-    color: '#a8b2d1',
 
     fontSize: '16px',
+    color: Colors.themeFontColor,
   },
 
   p1: {

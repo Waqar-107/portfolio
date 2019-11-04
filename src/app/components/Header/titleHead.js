@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { withStyles } from '@material-ui/core';
 import PropTypes from 'prop-types';
 
@@ -61,24 +61,22 @@ const styles = theme => ({
 	}
 });
 
-class titleHead extends Component {
-	render() {
-		const { classes, caption, number } = this.props;
+function titleHead(props) {
+	const { classes, caption, number } = props;
 
-		return (
-			<div className={classes.outer}>
-				<div className={classes.lineContainer}>
-					<div className={classes.line}></div>
-				</div>
-				<div className={classes.capContainer}>
-					<div
-						style={{ color: Colors.themeFontColor, marginRight: '15px' }}
-					>{number}</div>
-					<div style={{ color: Colors.nameColor, marginRight: '7px' }}>{caption}</div>
-				</div>
+	return (
+		<div className={classes.outer}>
+			<div className={classes.lineContainer}>
+				<div className={classes.line}></div>
 			</div>
-		);
-	}
+			<div className={classes.capContainer}>
+				<div
+					style={{ color: Colors.themeFontColor, marginRight: '15px' }}
+				>{number}</div>
+				<div style={{ color: Colors.nameColor, marginRight: '7px' }}>{caption}</div>
+			</div>
+		</div>
+	);
 }
 
 titleHead.propTypes = {
