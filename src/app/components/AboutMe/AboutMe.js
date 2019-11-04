@@ -28,7 +28,7 @@ function AboutMe(props) {
 					</div>
 					<div className={classes.mobileImage}>
 						<div className={classes.mobileDpFrame}></div>
-						{/* <img className={classes.mobileDp} src={DP} alt="" /> */}
+						<img className={classes.mobileDp} src={DP} alt="" />
 						<div className={classes.mobileDpCover}></div>
 					</div>
 				</div>
