@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 
 import TitleHead from '../Header/titleHead';
 
-// import DP from '../../assets/khan.PNG';
+import DP from '../../assets/khan.jpg';
 import styles from './AboutMeStyles';
 
 function AboutMe(props) {
@@ -44,7 +44,7 @@ function AboutMe(props) {
 					</div>
 					<div className={classes.webImage}>
 						<div className={classes.webImageContainer}>
-							{/* <img className={classes.dp} src={DP} alt="" /> */}
+							<img className={classes.dp} src={DP} alt="" />
 							<div className={classes.dpCover}></div>
 						</div>
 					</div>
