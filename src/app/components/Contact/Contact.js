@@ -103,25 +103,23 @@ const styles = theme => ({
 
 });
 
-class Contact extends Component {
-  render() {
-    const { classes } = this.props;
-    return (
-      <div className={classes.outerSurface}>
-        <div className={classes.heading}>05. What's Next?</div>
-        <div className={classes.head2}>Get In Touch</div>
-        <div className={classes.kotha}>
-          I am expecting to graduate by July 2020 and eager to do intern to get acquainted with the industry. I'm interested in developing things using C++ and Python. Currently i'm learning React JS to code for the web.
+function Contact(props) {
+  const { classes } = props;
+  return (
+    <div className={classes.outerSurface}>
+      <div className={classes.heading}>05. What's Next?</div>
+      <div className={classes.head2}>Get In Touch</div>
+      <div className={classes.kotha}>
+        I am expecting to graduate by July 2020 and eager to do intern to get acquainted with the industry. I'm interested in developing things using C++ and Python. Currently i'm learning React JS to code for the web.
 								<br />
-          My Inbox is always opened. You can communicate with me through email if you want. I'll try my best to answer back!!!
+        My Inbox is always opened. You can communicate with me through email if you want. I'll try my best to answer back!!!
 							</div>
-        <div className={classes.mailMe}>
-          <a className={classes.mailLink}
-            href="mailto:waqar.hassan866@gmail.com">Say Hello</a>
-        </div>
+      <div className={classes.mailMe}>
+        <a className={classes.mailLink}
+          href="mailto:waqar.hassan866@gmail.com">Say Hello</a>
       </div>
-    );
-  }
+    </div>
+  );
 }
 
 Contact.propTypes = {
