@@ -46,7 +46,7 @@ class Projects extends Component {
 				</div>
 
 				<div className={classes.content}>
-					{/* <FeatProject mirror={false} 
+					<FeatProject mirror={false} 
 									imageName="VashaShikkha" 
 									projectName="vashaShikkha"
 									projectDescription="An application that helps us learn English in a very interactive way. In this app, we can practice speaking, reading, listening and writing. Different user will be assigned different tasks based on their chosen topic. In this app, the user can practice speaking, reading, listening and writing.
@@ -64,7 +64,7 @@ class Projects extends Component {
 									technologiesUsed={["java", "javaFX"]}
 									deployedLink=""
 									gitURL="https://github.com/Waqar-107/ChessMaestro"
-                /> */}
+                />
 
 					<div className={classes.myProjects}>My Projects</div>
 					<div className={classes.others}>
