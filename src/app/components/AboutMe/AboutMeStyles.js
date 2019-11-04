@@ -78,6 +78,8 @@ const styles = theme => ({
     justifyContent: 'flex-start',
     alignItems: 'flex-start',
     alignContent: 'flex-start',
+
+    color: '#8892b0',
   },
 
   mobilePara: {
@@ -93,6 +95,7 @@ const styles = theme => ({
     alignContent: 'flex-start',
 
     marginBottom: '20vh',
+    color: '#8892b0',
   },
 
   webImage: {
@@ -116,6 +119,53 @@ const styles = theme => ({
     justifyContent: 'center',
     alignItems: 'center',
     alignContent: 'center',
+  },
+
+  webImageContainer: {
+    height: '45vh',
+    width: '45vh',
+    position: 'relative',
+
+    backgroundColor: '#64FFDA',
+
+    '&:hover': {
+      backgroundColor: 'transparent',
+      '&:after': {
+        top: '15px',
+        left: '15px',
+      }
+    },
+
+    '&:before': {
+      content: "''",
+      display: 'block',
+      position: 'absolute',
+      height: '45vh',
+      width: '45vh',
+
+      top: 0,
+      left: 0,
+      right: 0,
+      bottom: 0,
+
+      backgroundColor: '#0a192f',
+      mixBlendMode: 'screen',
+    },
+
+    '&:after': {
+      content: "''",
+      display: 'block',
+      position: 'absolute',
+      height: '45vh',
+      width: '45vh',
+
+      border: '2px solid #64FFDA',
+      top: '20px',
+      left: '20px',
+      zIndex: '-1',
+
+      transition: 'all 0.1s ease-in',
+    },
   },
 
   dp: {
@@ -150,6 +200,10 @@ const styles = theme => ({
 
     '&:hover': {
       opacity: 0,
+      dpFrame: {
+        width: '43vh',
+        height: '43vh',
+      }
     },
   },
 
@@ -161,18 +215,6 @@ const styles = theme => ({
 
     backgroundColor: '#64FFDA',
     opacity: '0.3',
-  },
-
-  dpFrame: {
-    position: 'absolute',
-
-    marginLeft: '3vh',
-    marginTop: '3vh',
-
-    transition: '0.1s ease-in',
-    cursor: 'pointer',
-
-    border: 'solid 3px #64FFDA',
   },
 
   mobileDpFrame: {
