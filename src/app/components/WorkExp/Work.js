@@ -17,8 +17,8 @@ function Work(props) {
       </div>
       <div className={classes.content}
         style={{ color: Colors.motoColor, fontSize: '22px' }}>
-        I havent't worked officially anywhere but did a project with a group of 12 peoples in a cross-platform application.
-              </div>
+        I haven't worked officially anywhere but did a project with a group of 12 peoples in a cross-platform application.
+      </div>
     </div>
   );
 }
