@@ -1,7 +1,8 @@
 const styles = theme => ({
   intro: {
     height: '100%',
-    width: '100%',
+    width: '90%',
+    position: 'absolute'
   },
 
   hi: {
@@ -57,7 +58,7 @@ const styles = theme => ({
     [theme.breakpoints.down('md')]: {
       fontSize: '20px',
       wordSpacing: '5px',
-      marginBottom: '15%',
+      marginBottom: '10%',
     },
 
     [theme.breakpoints.up('md')]: {
