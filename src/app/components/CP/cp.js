@@ -74,6 +74,7 @@ class CP extends Component {
                   <br /><br />
               Also i practice in <a className={classes.link} href="http://lightoj.com/login_main.php" target="blank">Light Oj</a> and <a className={classes.link} href="https://www.hackerrank.com/" target="blank">HackerRank</a>.<br />
 
+              I have participated in <a className={classes.link} href="./hashcode_2019_certificate" target="blank">Google HashCode 2019</a><br/>
             </p>
           </div>
 
