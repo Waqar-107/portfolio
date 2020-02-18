@@ -72,9 +72,9 @@ class CP extends Component {
               Mainly i participate in contests held in <a className={classes.link} href="https://codeforces.com/" target="blank">Codeforces</a>. I have participated in <b className={classes.highlight}>{totalContest}</b> contests. My current rating is <b className={classes.highlight}>{currentRating}</b> and i have a maximum  rating of <b className={classes.highlight}>{mxRating}</b>.
                   I have solved about <b className={classes.highlight}>1500</b> problems and in the top <b className={classes.highlight}>250</b> in the standings made in terms of the number of solved problems.
                   <br /><br />
-              Also i practice in <a className={classes.link} href="http://lightoj.com/login_main.php" target="blank">Light Oj</a> and <a className={classes.link} href="https://www.hackerrank.com/" target="blank">HackerRank</a>.<br />
+              Also i practice in <a className={classes.link} href="http://lightoj.com/login_main.php" target="blank">Light Oj</a> and <a className={classes.link} href="https://www.hackerrank.com/" target="blank">HackerRank</a>.<br /><br />
 
-              I have participated in <a className={classes.link} href="./hashcode_2019_certificate" target="blank">Google HashCode 2019</a><br/>
+              I have participated in <a className={classes.link} href="./hashcode_2019_certificate.pdf" target="blank">Google HashCode 2019</a><br/>
             </p>
           </div>
 
