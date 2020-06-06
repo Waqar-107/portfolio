@@ -1,32 +1,37 @@
-const styles = theme => ({
-  mainBody: {
-    width: '100%',
+const styles = (theme) => ({
+	mainBody: {
+		width: '100%',
 
-    display: 'flex',
-    flexDirection: 'column',
-    flexWrap: 'no-wrap',
-    justifyContent: 'flex-start',
-    alignItems: 'center',
-    alignContent: 'center',
-  },
+		display: 'flex',
+		flexDirection: 'column',
+		flexWrap: 'no-wrap',
+		justifyContent: 'flex-start',
+		alignItems: 'center',
+		alignContent: 'center',
+	},
 
-  heading: {
-    height: '10vh',
-    width: '100%',
+	heading: {
+		height: '10vh',
+		width: '100%',
 
-    display: 'flex',
-    flexWrap: 'no-wrap',
-    justifyContent: 'flex-start',
-    alignItems: 'center',
-    alignContent: 'center',
+		display: 'flex',
+		flexWrap: 'no-wrap',
+		justifyContent: 'flex-start',
+		alignItems: 'center',
+		alignContent: 'center',
 
-    fontSize: '24px',
-    fontWeight: '600',
-  },
+		fontSize: '24px',
+		fontWeight: '600',
+	},
 
-  content: {
-    width: '100%',
-  },
+	content: {
+		width: '100%',
+	},
+
+	link: {
+		textDecoration: 'none',
+		color: '#64FFDA',
+	},
 });
 
 export default styles;

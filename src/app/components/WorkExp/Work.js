@@ -20,8 +20,10 @@ function Work(props) {
 				style={{ color: Colors.motoColor, fontSize: '22px' }}
 			>
 				I have been working for{' '}
-				<a href='http://mainframelabs.ltd/'>Mainframe Labs</a> as a part-time
-				junior software developer from Feb, 2020
+				<a className={classes.link} href='http://mainframelabs.ltd/'>
+					Mainframe Labs
+				</a>
+				as a part-time junior software developer from Feb, 2020
 			</div>
 		</div>
 	);
