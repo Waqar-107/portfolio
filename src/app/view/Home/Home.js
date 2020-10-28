@@ -1,29 +1,31 @@
 import React from "react";
-import {withStyles} from "@material-ui/core";
-import PropTypes from "prop-types";
 
 import SocialWeb from "../../components/SocialLinks/socialWeb";
-import styles from "./HomeStyles";
 import NavBar from "../../components/Header/NavBar";
+import Footer from "../../components/Footer/Footer";
 
-function Home(props) {
+import styles from "./HomeStyles";
+
+const Home = () => {
 	const classes = styles();
 	return (
 		<div className={classes.root}>
 			<div className={classes.navContainer}>
 				<NavBar />
 			</div>
-			<div className={classes.content}></div>
-			{/* <div className={classes.socialWeb}>
-				<SocialWeb />
+			<div className={classes.content}>
+				<div className={classes.socialWeb}>
+					<SocialWeb />
+				</div>
+				<div style={{height: "10vh"}}></div>
+				<Footer />
 			</div>
-			<div className={classes.footer}>
+
+			{/*<div className={classes.footer}>
 				<Footer />
 			</div> */}
 		</div>
 	);
-}
-
-Home.propTypes = {};
+};
 
 export default Home;

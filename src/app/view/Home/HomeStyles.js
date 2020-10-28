@@ -12,10 +12,25 @@ const styles = makeStyles((theme) => ({
 	},
 
 	content: {
-		height: "150vh",
 		width: "100%",
+	},
 
-		background: "green",
+	socialWeb: {
+		position: "fixed",
+		height: "90vh",
+		width: "10%",
+
+		top: "10vh",
+		left: 0,
+		zIndex: 2,
+
+		[theme.breakpoints.down("md")]: {
+			display: "none",
+		},
+
+		[theme.breakpoints.up("md")]: {
+			display: "block",
+		},
 	},
 }));
 
