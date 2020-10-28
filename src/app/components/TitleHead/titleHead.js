@@ -43,6 +43,9 @@ const styles = makeStyles((theme) => ({
 		height: "100%",
 		position: "absolute",
 
+		fontSize: 20,
+		fontWeight: 600,
+
 		display: "flex",
 		flexWrap: "no-wrap",
 		flexDirection: "row",

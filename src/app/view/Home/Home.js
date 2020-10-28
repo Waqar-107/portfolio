@@ -24,7 +24,16 @@ const Home = () => {
 				<div className={classes.itemContainer}>
 					<Intro />
 				</div>
-				<div className={classes.itemContainer}>
+				<div
+					id="aboutMe"
+					className={classes.itemContainer}
+					data-aos="fade-up"
+					data-aos-once="true"
+					data-aos-offset="10"
+					data-aos-delay="10"
+					data-aos-duration="1000"
+					data-aos-easing="ease-in-out"
+				>
 					<About />
 				</div>
 				<Footer />

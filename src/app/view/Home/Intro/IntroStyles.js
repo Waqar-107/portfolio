@@ -44,6 +44,7 @@ const styles = makeStyles((theme) => ({
 		fontSize: 18,
 		fontWeight: 300,
 		marginBottom: 50,
+		lineHeight: 1.5,
 
 		[theme.breakpoints.down("sm")]: {
 			width: "100%",

@@ -1,4 +1,5 @@
 import {makeStyles} from "@material-ui/core";
+import Colors from "../../../styles/Colors";
 
 const styles = makeStyles((theme) => ({
 	root: {
@@ -24,24 +25,35 @@ const styles = makeStyles((theme) => ({
 
 	content: {
 		width: "100%",
+		fontSize: 18,
+
+		display: "flex",
+		flexDirection: "row",
+		flexWrap: "wrap",
 	},
 
 	left: {
-		backgroundColor: "cyan",
-		height: "50vh",
+		lineHeight: 1.5,
+		color: "#8892b0",
+		paddingBottom: 50,
 
 		[theme.breakpoints.down("md")]: {
 			width: "100%",
+			paddingRight: 0,
 		},
 
 		[theme.breakpoints.up("md")]: {
 			width: "60%",
+			paddingRight: 10,
 		},
 	},
 
 	right: {
-		backgroundColor: "yellow",
-		height: "30vh",
+		paddingBottom: 50,
+
+		display: "flex",
+		flexDirection: "row",
+		justifyContent: "center",
 
 		[theme.breakpoints.down("md")]: {
 			width: "100%",
@@ -52,100 +64,9 @@ const styles = makeStyles((theme) => ({
 		},
 	},
 
-	/*mobile: {
-		width: "100%",
-
-		display: "flex",
-		flexWrap: "no-wrap",
-		flexDirection: "column",
-		justifyContent: "flex-start",
-		alignItems: "flex-start",
-		alignContent: "flex-start",
-
-		[theme.breakpoints.down("md")]: {
-			display: "flex",
-		},
-
-		[theme.breakpoints.up("md")]: {
-			display: "none",
-		},
-	},
-
-	web: {
-		width: "100%",
-
-		display: "flex",
-		flexWrap: "no-wrap",
-		justifyContent: "flex-start",
-		alignItems: "flex-start",
-		alignContent: "flex-start",
-
-		[theme.breakpoints.down("md")]: {
-			display: "none",
-		},
-
-		[theme.breakpoints.up("md")]: {
-			display: "flex",
-		},
-	},
-
-	webPara: {
-		width: "45%",
-
-		fontSize: "22px",
-		fontWeight: "500",
-
-		display: "flex",
-		flexDirection: "row",
-		justifyContent: "flex-start",
-		alignItems: "flex-start",
-		alignContent: "flex-start",
-
-		color: "#8892b0",
-	},
-
-	mobilePara: {
-		width: "90%",
-
-		fontSize: "22px",
-		fontWeight: "500",
-
-		display: "flex",
-		flexDirection: "row",
-		justifyContent: "flex-start",
-		alignItems: "flex-start",
-		alignContent: "flex-start",
-
-		marginBottom: "20vh",
-		color: "#8892b0",
-	},
-
-	webImage: {
-		width: "45%",
-		marginTop: "2%",
-
-		display: "flex",
-		flexDirection: "row",
-		flexWrap: "no-wrap",
-		justifyContent: "center",
-		alignItems: "flex-start",
-		alignContent: "center",
-	},
-
-	mobileImage: {
-		width: "90%",
-
-		display: "flex",
-		flexDirection: "row",
-		flexWrap: "no-wrap",
-		justifyContent: "center",
-		alignItems: "center",
-		alignContent: "center",
-	},
-
-	webImageContainer: {
-		height: "45vh",
-		width: "45vh",
+	imageContainer: {
+		height: 250,
+		width: 250,
 		position: "relative",
 
 		backgroundColor: "#64FFDA",
@@ -162,8 +83,8 @@ const styles = makeStyles((theme) => ({
 			content: "''",
 			display: "block",
 			position: "absolute",
-			height: "45vh",
-			width: "45vh",
+			height: 250,
+			width: 250,
 
 			top: 0,
 			left: 0,
@@ -178,8 +99,8 @@ const styles = makeStyles((theme) => ({
 			content: "''",
 			display: "block",
 			position: "absolute",
-			height: "45vh",
-			width: "45vh",
+			height: 250,
+			width: 250,
 
 			border: "2px solid #64FFDA",
 			top: "20px",
@@ -191,18 +112,8 @@ const styles = makeStyles((theme) => ({
 	},
 
 	dp: {
-		height: "45vh",
-		width: "45vh",
-
-		position: "absolute",
-
-		objectFit: "cover",
-		objectPosition: "center right",
-	},
-
-	mobileDp: {
-		height: "30vh",
-		width: "30vh",
+		height: 250,
+		width: 250,
 
 		position: "absolute",
 
@@ -211,8 +122,9 @@ const styles = makeStyles((theme) => ({
 	},
 
 	dpCover: {
-		height: "45vh",
-		width: "45vh",
+		height: 250,
+		width: 250,
+		zIndex: 10,
 
 		position: "absolute",
 
@@ -223,36 +135,35 @@ const styles = makeStyles((theme) => ({
 		"&:hover": {
 			opacity: 0,
 			dpFrame: {
-				width: "43vh",
-				height: "43vh",
+				width: 230,
+				height: 230,
 			},
 		},
 	},
 
-	mobileDpCover: {
-		height: "30vh",
-		width: "30vh",
-
-		position: "absolute",
-
-		backgroundColor: "#64FFDA",
-		opacity: "0.3",
-	},
-
-	mobileDpFrame: {
-		position: "absolute",
-		height: "30vh",
-		width: "30vh",
-
-		marginLeft: "1.5vh",
-		marginTop: "1.5vh",
-
-		border: "solid 3px #64FFDA",
-	},*/
-
 	link: {
 		textDecoration: "none",
 		color: "#64FFDA",
+	},
+
+	techs: {
+		display: "grid",
+		gridTemplateColumns: "repeat(2, minmax(140px, 200px))",
+		padding: "0px",
+		margin: "20px 0px 0px",
+		overflow: "hidden",
+		listStyle: "none",
+	},
+
+	lst: {
+		fontSize: 15,
+
+		"&:before": {
+			content: '"▹"',
+			color: Colors.themeFontColor,
+			fontSize: 20,
+			marginRight: 5,
+		},
 	},
 }));
 
