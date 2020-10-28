@@ -1,194 +1,191 @@
-const styles = theme => ({
-    /* MENU STYLES */
-    menu_wrap: {
-        position: "absolute",
-        top: "0",
-        right: "0",
-        zIndex: "1",
-    },
+import {makeStyles} from "@material-ui/core";
 
-    menu_wrap_toggler: {
-        position: "absolute",
-        top: "0",
-        right: "0",
-        zIndex: "2",
+const styles = makeStyles(() => ({
+	/* MENU STYLES */
+	menu_wrap: {
+		position: "absolute",
+		top: 10,
+		right: -5,
+		zIndex: 6,
+	},
 
-        cursor: "pointer",
-        width: "60px",
-        height: "60px",
+	menu_wrap_toggler: {
+		position: "absolute",
+		top: 0,
+		right: 0,
+		zIndex: 10,
 
-        userSelect: 'none',
-        opacity: "0",
+		cursor: "pointer",
+		width: "40px",
+		height: "40px",
 
-        '&:checked': {
-            menu_wrap_hamburger_div: {
-                transform: "rotate(135deg)"
-            }
-        }
-    },
+		userSelect: "none",
+		opacity: "0",
 
-    menu_wrap_hamburger: {
-        position: "absolute",
-        top: "0",
-        right: "0",
-        zIndex: 1,
-        width: "60px",
-        height: "60px",
-        backgroundColor: "transparent",
+		"&:checked": {
+			menu_wrap_hamburger_div: {
+				transform: "rotate(135deg)",
+			},
+		},
+	},
 
-        display: "flex",
-        alignItems: "center",
-        justifyContent: "center"
-    },
+	menu_wrap_hamburger: {
+		position: "absolute",
+		top: 0,
+		right: 0,
+		zIndex: 5,
+		width: "40px",
+		height: "40px",
+		backgroundColor: "transparent",
 
-    /* Hamburger Line */
-    menu_wrap_hamburger_div: {
-        position: "relative",
-        flex: "none",
-        width: "70%",
-        height: "2px",
-        backgroundColor: "#64FFDA",
-        display: "flex",
-        alignItems: "center",
-        justifyContent: "center",
-        transition: "all 0.4s ease",
+		display: "flex",
+		alignItems: "center",
+		justifyContent: "center",
+	},
 
-        '&:before': {
-            content: "''",
-            position: "absolute",
-            zIndex: "1",
-            top: "10px",
-            width: "100%",
-            height: "2px",
-            backgroundColor: "#64FFDA",
-        },
+	/* Hamburger Line */
+	menu_wrap_hamburger_div: {
+		position: "relative",
+		flex: "none",
+		width: "70%",
+		height: "2px",
+		backgroundColor: "#64FFDA",
+		display: "flex",
+		alignItems: "center",
+		justifyContent: "center",
+		transition: "all 0.4s ease",
 
-        '&:after': {
-            content: "''",
-            position: "absolute",
-            zIndex: "1",
-            top: "-10px",
-            width: "100%",
-            height: "2px",
-            backgroundColor: "#64FFDA",
-        }
-    },
+		"&:before": {
+			content: "''",
+			position: "absolute",
+			zIndex: 5,
+			top: "10px",
+			width: "100%",
+			height: "2px",
+			backgroundColor: "#64FFDA",
+		},
 
-    //use this when checked
-    menu_wrap_hamburger_div_ifChecked: {
-        position: "relative",
-        flex: "none",
-        width: "70%",
-        height: "2px",
-        backgroundColor: "#64FFDA",
-        display: "flex",
-        alignItems: "center",
-        justifyContent: "center",
-        transition: "all 0.4s ease",
-        transform: "rotate(135deg)",
+		"&:after": {
+			content: "''",
+			position: "absolute",
+			zIndex: 5,
+			top: "-10px",
+			width: "100%",
+			height: "2px",
+			backgroundColor: "#64FFDA",
+		},
+	},
 
-        '&:before': {
-            content: "''",
-            position: "absolute",
-            zIndex: "1",
-            //top : "10px",
-            width: "100%",
-            height: "2px",
-            backgroundColor: "#64FFDA",
-            top: 0,
-            transform: "rotate(90deg)",
-        },
+	//use this when checked
+	menu_wrap_hamburger_div_ifChecked: {
+		position: "relative",
+		flex: "none",
+		width: "70%",
+		height: "2px",
+		backgroundColor: "#64FFDA",
+		display: "flex",
+		alignItems: "center",
+		justifyContent: "center",
+		transition: "all 0.4s ease",
+		transform: "rotate(135deg)",
 
-        '&:after': {
-            content: "''",
-            position: "absolute",
-            zIndex: "1",
-            //top : "-10px",
-            width: "100%",
-            height: "2px",
-            backgroundColor: "#64FFDA",
-            top: 0,
-            transform: "rotate(90deg)",
-        }
-    },
+		"&:before": {
+			content: "''",
+			position: "absolute",
+			zIndex: 5,
+			width: "100%",
+			height: "2px",
+			backgroundColor: "#64FFDA",
+			top: 0,
+			transform: "rotate(90deg)",
+		},
 
-    menu: {
-        position: 'fixed',
-        top: '0',
+		"&:after": {
+			content: "''",
+			position: "absolute",
+			zIndex: 5,
+			width: "100%",
+			height: "2px",
+			backgroundColor: "#64FFDA",
+			top: 0,
+			transform: "rotate(90deg)",
+		},
+	},
 
-        height: '100%',
-        width: '75vw',
-        transition: 'all 0.4s ease-in',
+	menu: {
+		position: "fixed",
+		top: "0",
+		zIndex: 3,
 
-        backgroundColor: '#172A45',
+		height: "100%",
+		width: "75vw",
+		transition: "all 0.4s ease-in",
 
-        display: 'flex',
-        flexDirection: 'column',
-        flexWrap: 'no-wrap',
-        justifyContent: 'center',
-        alignItems: 'center',
-        alignContent: 'center',
-    },
+		backgroundColor: "#172A45",
 
-    p1: {
-        //display: 'inline-flex',
-        color: '#64FFDA',
-        marginBottom: '2px'
-    },
+		display: "flex",
+		flexDirection: "column",
+		flexWrap: "no-wrap",
+		justifyContent: "center",
+		alignItems: "center",
+		alignContent: "center",
+	},
 
-    p2H: {
-        //display: 'inline-flex',
-        color: '#8892b0',
+	p1: {
+		color: "#64FFDA",
+		marginBottom: "2px",
+	},
 
-        '&:hover': {
-            color: '#64FFDA',
-        }
-    },
+	p2H: {
+		color: "#8892b0",
 
-    hamItem: {
-        cursor: 'pointer',
-        marginBottom: '20px',
-    },
+		"&:hover": {
+			color: "#64FFDA",
+		},
+	},
 
-    LINK: {
-        display: 'flex',
-        flexDirection: 'column',
-        flexWrap: 'no-wrap',
-        justifyContent: 'center',
-        alignItems: 'center',
-        alignContent: 'center',
-    },
+	hamItem: {
+		cursor: "pointer",
+		marginBottom: "20px",
+	},
 
-    linkNav: {
-        textDecoration: 'none',
-        color: '#a8b2d1',
+	LINK: {
+		display: "flex",
+		flexDirection: "column",
+		flexWrap: "no-wrap",
+		justifyContent: "center",
+		alignItems: "center",
+		alignContent: "center",
+	},
 
-        fontSize: '16px',
-    },
+	linkNav: {
+		textDecoration: "none",
+		color: "#a8b2d1",
 
-    resume: {
-        height: '40px',
-        width: '100px',
+		fontSize: "16px",
+	},
 
-        marginTop: '10px',
-        borderRadius: '5px',
-        border: '0.5px solid #64FFDA',
-        color: '#64FFDA',
+	resume: {
+		height: "40px",
+		width: "100px",
 
-        //backgroundColor: 'white',
-        display: 'flex',
-        flexDirection: 'row',
-        flexWrap: 'no-wrap',
-        justifyContent: 'center',
-        alignItems: 'center',
-        alignContent: 'center',
+		marginTop: "10px",
+		borderRadius: "5px",
+		border: "0.5px solid #64FFDA",
+		color: "#64FFDA",
 
-        '&:hover': {
-            backgroundColor: '#293d5a',
-        }
-    },
+		//backgroundColor: 'white',
+		display: "flex",
+		flexDirection: "row",
+		flexWrap: "no-wrap",
+		justifyContent: "center",
+		alignItems: "center",
+		alignContent: "center",
 
+		"&:hover": {
+			backgroundColor: "#293d5a",
+		},
+	},
+}));
 
-});
-
-export default styles
+export default styles;

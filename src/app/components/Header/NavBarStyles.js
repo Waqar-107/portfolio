@@ -37,7 +37,6 @@ const styles = makeStyles((theme) => ({
 		height: "100%",
 		width: "100%",
 
-		backgroundColor: "red",
 		position: "relative",
 
 		[theme.breakpoints.down("md")]: {
