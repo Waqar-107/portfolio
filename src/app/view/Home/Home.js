@@ -4,6 +4,7 @@ import SocialWeb from "../../components/SocialLinks/socialWeb";
 import NavBar from "../../components/Header/NavBar";
 import Intro from "./Intro/Intro";
 import AboutMe from "./AboutMe/AboutMe";
+import Contact from "./Contact/Contact";
 import Footer from "../../components/Footer/Footer";
 
 import styles from "./HomeStyles";
@@ -85,15 +86,16 @@ const Home = () => {
 				></div>
 				<div
 					id="contactMe"
-					style={{marginBottom: 70}}
-					className={classes.itemContainer}
+					style={{marginBottom: 70, padding: "0% 5% 0% 5%"}}
 					data-aos="fade-up"
 					data-aos-once="true"
 					data-aos-offset="10"
 					data-aos-delay="10"
 					data-aos-duration="1000"
 					data-aos-easing="ease-in-out"
-				></div>
+				>
+					<Contact />
+				</div>
 
 				<Footer />
 			</div>
