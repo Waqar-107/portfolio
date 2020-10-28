@@ -3,9 +3,11 @@ import React from "react";
 import SocialWeb from "../../components/SocialLinks/socialWeb";
 import NavBar from "../../components/Header/NavBar";
 import Intro from "./Intro/Intro";
+import About from "./AboutMe/AboutMe";
 import Footer from "../../components/Footer/Footer";
 
 import styles from "./HomeStyles";
+import AboutMe from "./AboutMe/AboutMe";
 
 const Home = () => {
 	const classes = styles();
@@ -20,6 +22,7 @@ const Home = () => {
 				</div>
 				<div style={{height: "10vh"}}></div>
 				<Intro />
+				<About />
 				<Footer />
 			</div>
 		</div>

@@ -162,7 +162,7 @@ const styles = makeStyles(() => ({
 		textDecoration: "none",
 		color: "#a8b2d1",
 
-		fontSize: "16px",
+		fontSize: "14px",
 	},
 
 	resume: {

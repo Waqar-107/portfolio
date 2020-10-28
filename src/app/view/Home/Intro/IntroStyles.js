@@ -50,7 +50,7 @@ const styles = makeStyles((theme) => ({
 
 	shortDescription: {
 		fontSize: 18,
-		fontWeight: 500,
+		fontWeight: 300,
 		marginBottom: 50,
 
 		[theme.breakpoints.down("sm")]: {
@@ -68,7 +68,7 @@ const styles = makeStyles((theme) => ({
 
 		border: "solid 1px #64FFDA",
 		color: "#64FFDA",
-		fontSize: "18px",
+		fontSize: "16px",
 		cursor: "pointer",
 
 		"&:hover": {

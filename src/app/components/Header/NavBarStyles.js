@@ -63,18 +63,20 @@ const styles = makeStyles((theme) => ({
 	linkNav: {
 		textDecoration: "none",
 
-		fontSize: "16px",
+		fontSize: "14px",
 		color: Colors.themeFontColor,
 	},
 
 	p1: {
 		display: "inline-flex",
 		color: "#64FFDA",
+		fontSize: "14px",
 	},
 
 	p2: {
 		display: "inline-flex",
 		color: "#a8b2d1",
+		fontSize: "14px",
 
 		"&:hover": {
 			color: "#64FFDA",
