@@ -1,5 +1,4 @@
 import React, {useState} from "react";
-import {withStyles} from "@material-ui/core/styles";
 import {Link} from "react-scroll";
 
 import styles from "./HamburgerMenuStyle";

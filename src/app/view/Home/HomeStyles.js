@@ -1,4 +1,5 @@
 import {makeStyles} from "@material-ui/core";
+import Colors from "../../styles/Colors";
 
 const styles = makeStyles((theme) => ({
 	root: {
@@ -9,6 +10,8 @@ const styles = makeStyles((theme) => ({
 		height: "10vh",
 		width: "100%",
 		position: "fixed",
+		zIndex: 1,
+		backgroundColor: Colors.mediumDarkNavy,
 	},
 
 	content: {
