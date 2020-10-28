@@ -1,112 +1,91 @@
-import Colors from '../../styles/Colors';
+import {makeStyles} from "@material-ui/core";
+import Colors from "../../styles/Colors";
 
-const styles = theme => ({
-  mainBody: {
-    height: '10vh',
-    width: '100%',
+const styles = makeStyles((theme) => ({
+	root: {
+		height: "100%",
+		width: "100%",
+		padding: "0% 5% 0% 5%",
 
-    position: 'fixed',
-    transition: 'top 0.3s',
-    display: 'inline-flex',
+		transition: "top 0.3s",
+		display: "inline-flex",
 
-    zIndex: '5',
-    backgroundColor: Colors.mediumDarkNavy,
-  },
+		zIndex: "5",
+		backgroundColor: Colors.mediumDarkNavy,
+	},
 
-  logo: {
-    height: '100%',
-    width: '20%',
-  },
+	webNav: {
+		height: "100%",
+		width: "100%",
 
-  navBody: {
-    height: '100%',
-    width: '80%',
-  },
+		display: "flex",
+		flexDirection: "row",
+		justifyContent: "flex-end",
+		alignContent: "center",
+		alignItems: "center",
 
-  webNav: {
-    height: '100%',
-    width: '100%',
+		[theme.breakpoints.down("md")]: {
+			display: "none",
+		},
 
-    display: 'flex',
-    flexDirection: 'row',
-    flexWrap: 'no-wrap',
-    justifyContent: 'flex-end',
-    alignItems: 'center',
-    alignContent: 'center',
+		[theme.breakpoints.up("md")]: {
+			display: "flex",
+		},
+	},
 
-    [theme.breakpoints.down('md')]: {
-      display: 'none',
-    },
+	mobileNav: {
+		height: "100%",
+		width: "100%",
 
-    [theme.breakpoints.up('md')]: {
-      display: 'flex'
-    }
-  },
+		backgroundColor: "red",
+		position: "relative",
 
-  mobileNav: {
-    height: '100%',
-    width: '100%',
+		[theme.breakpoints.down("md")]: {
+			display: "flex",
+		},
 
-    //backgroundColor: 'yellow',
+		[theme.breakpoints.up("md")]: {
+			display: "none",
+		},
+	},
 
-    [theme.breakpoints.down('md')]: {
-      display: 'flex',
-    },
+	resume: {
+		padding: "7px 15px 7px 15px",
 
-    [theme.breakpoints.up('md')]: {
-      display: 'none'
-    }
-  },
+		borderRadius: "5px",
+		border: "0.5px solid #64FFDA",
+		color: "#64FFDA",
 
-  resume: {
-    height: '40px',
-    width: '80px',
+		"&:hover": {
+			backgroundColor: "#293d5a",
+		},
+	},
 
-    marginRight: '60px',
-    borderRadius: '5px',
-    border: '0.5px solid #64FFDA',
-    color: '#64FFDA',
+	linkNav: {
+		textDecoration: "none",
 
-    //backgroundColor: 'white',
-    display: 'flex',
-    flexDirection: 'row',
-    flexWrap: 'no-wrap',
-    justifyContent: 'center',
-    alignItems: 'center',
-    alignContent: 'center',
+		fontSize: "16px",
+		color: Colors.themeFontColor,
+	},
 
-    '&:hover': {
-      backgroundColor: '#293d5a',
-    }
-  },
+	p1: {
+		display: "inline-flex",
+		color: "#64FFDA",
+	},
 
-  linkNav: {
-    textDecoration: 'none',
+	p2: {
+		display: "inline-flex",
+		color: "#a8b2d1",
 
-    fontSize: '16px',
-    color: Colors.themeFontColor,
-  },
+		"&:hover": {
+			color: "#64FFDA",
+		},
+	},
 
-  p1: {
-    display: 'inline-flex',
-    color: '#64FFDA',
-  },
-
-  p2: {
-    display: 'inline-flex',
-    color: '#a8b2d1',
-
-    '&:hover': {
-      color: '#64FFDA',
-    }
-  },
-
-  navItem: {
-    cursor: 'pointer',
-    marginRight: '20px',
-  }
-
-
-});
+	navItem: {
+		cursor: "pointer",
+		marginRight: "20px",
+	},
+}));
 
 export default styles;
