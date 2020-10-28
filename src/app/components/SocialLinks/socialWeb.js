@@ -17,7 +17,7 @@ const styles = makeStyles(() => ({
 
 	lineBox: {
 		width: "100%",
-		height: "15vh",
+		height: "20vh",
 
 		display: "flex",
 		flexDirection: "row",
@@ -35,7 +35,7 @@ const styles = makeStyles(() => ({
 
 	iconBox: {
 		width: "100%",
-		height: "75vh",
+		height: "70vh",
 
 		display: "flex",
 		flexDirection: "column",

@@ -7,6 +7,8 @@ import Social from "../SocialLinks/socialMobile";
 const styles = makeStyles((theme) => ({
 	outerSurface: {
 		width: "100%",
+		height: "20vh",
+		padding: "0px 5% 0px 5%",
 
 		display: "flex",
 		flexDirection: "column",
@@ -15,14 +17,6 @@ const styles = makeStyles((theme) => ({
 		alignContent: "center",
 
 		backgroundColor: "#020c1b",
-
-		[theme.breakpoints.down("md")]: {
-			padding: "20px 5% 30px 5%",
-		},
-
-		[theme.breakpoints.up("md")]: {
-			padding: "5%",
-		},
 	},
 
 	social: {

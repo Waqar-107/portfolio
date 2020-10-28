@@ -17,7 +17,7 @@ const Home = () => {
 				<div className={classes.socialWeb}>
 					<SocialWeb />
 				</div>
-				<div style={{height: "10vh"}}></div>
+				<div style={{height: "100vh"}}></div>
 				<Footer />
 			</div>
 
