@@ -1,22 +1,32 @@
 import React from "react";
-import {withStyles} from "@material-ui/core";
-import PropTypes from "prop-types";
+import {Grid} from "@material-ui/core";
 
-import TitleHead from "../../../components/TitleHead/titleHead";
-
+import TitleHead from "../../../components/TitleHead/TitleHead";
 import DP from "../../../assets/khan.jpg";
 import styles from "./AboutMeStyles";
 
-function AboutMe(props) {
-	const {classes} = props;
+const AboutMe = () => {
+	const classes = styles();
 
 	return (
-		<div className={classes.mainBody}>
+		<div className={classes.root}>
 			<div className={classes.heading}>
 				<TitleHead number="01." caption="About Me" />
 			</div>
 
-			<div className={classes.content}>
+			<Grid
+				container
+				spacing={3}
+				direction="row"
+				justify="space-between"
+				alignContent="flex-start"
+				alignItems="flex-start"
+			>
+				<Grid item xl={7} lg={7} md={6} sm={12} xs={12} style={{background: "cyan"}}></Grid>
+				<Grid item xl={5} lg={5} md={6} sm={12} xs={12} style={{background: "yellow"}}></Grid>
+			</Grid>
+
+			{/* <div className={classes.content}>
 				<div className={classes.mobile}>
 					<div className={classes.mobilePara}>
 						<p>
@@ -79,13 +89,9 @@ function AboutMe(props) {
 						</div>
 					</div>
 				</div>
-			</div>
+			</div> */}
 		</div>
 	);
-}
-
-AboutMe.propTypes = {
-	classes: PropTypes.object.isRequired,
 };
 
-export default withStyles(styles)(AboutMe);
+export default AboutMe;

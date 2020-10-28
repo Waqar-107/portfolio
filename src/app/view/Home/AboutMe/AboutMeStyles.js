@@ -1,237 +1,259 @@
-const styles = theme => ({
-  mainBody: {
-    width: '100%',
+import {makeStyles} from "@material-ui/core";
 
-    display: 'flex',
-    flexDirection: 'column',
-    flexWrap: 'no-wrap',
-    justifyContent: 'flex-start',
-    alignItems: 'center',
-    alignContent: 'center',
-  },
+const styles = makeStyles((theme) => ({
+	root: {
+		width: "100%",
 
-  heading: {
-    height: '10vh',
-    width: '100%',
+		display: "flex",
+		flexDirection: "column",
+		flexWrap: "no-wrap",
+		justifyContent: "flex-start",
+		alignItems: "center",
+		alignContent: "center",
+	},
 
-    display: 'flex',
-    flexWrap: 'no-wrap',
-    justifyContent: 'flex-start',
-    alignItems: 'center',
-    alignContent: 'center',
+	heading: {
+		height: "10vh",
+		width: "100%",
 
-    fontSize: '24px',
-    fontWeight: '600',
-  },
+		display: "flex",
+		justifyContent: "flex-start",
+		alignItems: "center",
+		alignContent: "center",
+	},
 
+	content: {
+		width: "100%",
+	},
 
-  content: {
-    width: '100%',
-  },
+	left: {
+		backgroundColor: "cyan",
+		height: "50vh",
 
-  mobile: {
-    // height: '110vh',
-    width: '100%',
+		[theme.breakpoints.down("md")]: {
+			width: "100%",
+		},
 
-    display: 'flex',
-    flexWrap: 'no-wrap',
-    flexDirection: 'column',
-    justifyContent: 'flex-start',
-    alignItems: 'flex-start',
-    alignContent: 'flex-start',
+		[theme.breakpoints.up("md")]: {
+			width: "60%",
+		},
+	},
 
-    [theme.breakpoints.down('md')]: {
-      display: 'flex',
-    },
+	right: {
+		backgroundColor: "yellow",
+		height: "30vh",
 
-    [theme.breakpoints.up('md')]: {
-      display: 'none',
-    },
-  },
+		[theme.breakpoints.down("md")]: {
+			width: "100%",
+		},
 
-  web: {
-    width: '100%',
+		[theme.breakpoints.up("md")]: {
+			width: "40%",
+		},
+	},
 
-    display: 'flex',
-    flexWrap: 'no-wrap',
-    justifyContent: 'flex-start',
-    alignItems: 'flex-start',
-    alignContent: 'flex-start',
+	/*mobile: {
+		width: "100%",
 
-    [theme.breakpoints.down('md')]: {
-      display: 'none',
-    },
+		display: "flex",
+		flexWrap: "no-wrap",
+		flexDirection: "column",
+		justifyContent: "flex-start",
+		alignItems: "flex-start",
+		alignContent: "flex-start",
 
-    [theme.breakpoints.up('md')]: {
-      display: 'flex',
-    },
-  },
+		[theme.breakpoints.down("md")]: {
+			display: "flex",
+		},
 
-  webPara: {
-    width: '45%',
+		[theme.breakpoints.up("md")]: {
+			display: "none",
+		},
+	},
 
-    fontSize: '22px',
-    fontWeight: '500',
+	web: {
+		width: "100%",
 
-    display: 'flex',
-    flexDirection: 'row',
-    justifyContent: 'flex-start',
-    alignItems: 'flex-start',
-    alignContent: 'flex-start',
+		display: "flex",
+		flexWrap: "no-wrap",
+		justifyContent: "flex-start",
+		alignItems: "flex-start",
+		alignContent: "flex-start",
 
-    color: '#8892b0',
-  },
+		[theme.breakpoints.down("md")]: {
+			display: "none",
+		},
 
-  mobilePara: {
-    width: '90%',
+		[theme.breakpoints.up("md")]: {
+			display: "flex",
+		},
+	},
 
-    fontSize: '22px',
-    fontWeight: '500',
+	webPara: {
+		width: "45%",
 
-    display: 'flex',
-    flexDirection: 'row',
-    justifyContent: 'flex-start',
-    alignItems: 'flex-start',
-    alignContent: 'flex-start',
+		fontSize: "22px",
+		fontWeight: "500",
 
-    marginBottom: '20vh',
-    color: '#8892b0',
-  },
+		display: "flex",
+		flexDirection: "row",
+		justifyContent: "flex-start",
+		alignItems: "flex-start",
+		alignContent: "flex-start",
 
-  webImage: {
-    width: '45%',
-    marginTop: '2%',
+		color: "#8892b0",
+	},
 
-    display: 'flex',
-    flexDirection: 'row',
-    flexWrap: 'no-wrap',
-    justifyContent: 'center',
-    alignItems: 'flex-start',
-    alignContent: 'center',
-  },
+	mobilePara: {
+		width: "90%",
 
-  mobileImage: {
-    width: '90%',
+		fontSize: "22px",
+		fontWeight: "500",
 
-    display: 'flex',
-    flexDirection: 'row',
-    flexWrap: 'no-wrap',
-    justifyContent: 'center',
-    alignItems: 'center',
-    alignContent: 'center',
-  },
+		display: "flex",
+		flexDirection: "row",
+		justifyContent: "flex-start",
+		alignItems: "flex-start",
+		alignContent: "flex-start",
 
-  webImageContainer: {
-    height: '45vh',
-    width: '45vh',
-    position: 'relative',
+		marginBottom: "20vh",
+		color: "#8892b0",
+	},
 
-    backgroundColor: '#64FFDA',
+	webImage: {
+		width: "45%",
+		marginTop: "2%",
 
-    '&:hover': {
-      backgroundColor: 'transparent',
-      '&:after': {
-        top: '15px',
-        left: '15px',
-      }
-    },
+		display: "flex",
+		flexDirection: "row",
+		flexWrap: "no-wrap",
+		justifyContent: "center",
+		alignItems: "flex-start",
+		alignContent: "center",
+	},
 
-    '&:before': {
-      content: "''",
-      display: 'block',
-      position: 'absolute',
-      height: '45vh',
-      width: '45vh',
+	mobileImage: {
+		width: "90%",
 
-      top: 0,
-      left: 0,
-      right: 0,
-      bottom: 0,
+		display: "flex",
+		flexDirection: "row",
+		flexWrap: "no-wrap",
+		justifyContent: "center",
+		alignItems: "center",
+		alignContent: "center",
+	},
 
-      backgroundColor: '#0a192f',
-      mixBlendMode: 'screen',
-    },
+	webImageContainer: {
+		height: "45vh",
+		width: "45vh",
+		position: "relative",
 
-    '&:after': {
-      content: "''",
-      display: 'block',
-      position: 'absolute',
-      height: '45vh',
-      width: '45vh',
+		backgroundColor: "#64FFDA",
 
-      border: '2px solid #64FFDA',
-      top: '20px',
-      left: '20px',
-      zIndex: '-1',
+		"&:hover": {
+			backgroundColor: "transparent",
+			"&:after": {
+				top: "15px",
+				left: "15px",
+			},
+		},
 
-      transition: 'all 0.1s ease-in',
-    },
-  },
+		"&:before": {
+			content: "''",
+			display: "block",
+			position: "absolute",
+			height: "45vh",
+			width: "45vh",
 
-  dp: {
-    height: '45vh',
-    width: '45vh',
+			top: 0,
+			left: 0,
+			right: 0,
+			bottom: 0,
 
-    position: 'absolute',
+			backgroundColor: "#0a192f",
+			mixBlendMode: "screen",
+		},
 
-    objectFit: 'cover',
-    objectPosition: 'center right',
-  },
+		"&:after": {
+			content: "''",
+			display: "block",
+			position: "absolute",
+			height: "45vh",
+			width: "45vh",
 
-  mobileDp: {
-    height: '30vh',
-    width: '30vh',
+			border: "2px solid #64FFDA",
+			top: "20px",
+			left: "20px",
+			zIndex: "-1",
 
-    position: 'absolute',
+			transition: "all 0.1s ease-in",
+		},
+	},
 
-    objectFit: 'cover',
-    objectPosition: 'center right',
-  },
+	dp: {
+		height: "45vh",
+		width: "45vh",
 
-  dpCover: {
-    height: '45vh',
-    width: '45vh',
+		position: "absolute",
 
-    position: 'absolute',
+		objectFit: "cover",
+		objectPosition: "center right",
+	},
 
-    backgroundColor: '#64FFDA',
-    opacity: '0.3',
-    cursor: 'pointer',
+	mobileDp: {
+		height: "30vh",
+		width: "30vh",
 
-    '&:hover': {
-      opacity: 0,
-      dpFrame: {
-        width: '43vh',
-        height: '43vh',
-      }
-    },
-  },
+		position: "absolute",
 
-  mobileDpCover: {
-    height: '30vh',
-    width: '30vh',
+		objectFit: "cover",
+		objectPosition: "center right",
+	},
 
-    position: 'absolute',
+	dpCover: {
+		height: "45vh",
+		width: "45vh",
 
-    backgroundColor: '#64FFDA',
-    opacity: '0.3',
-  },
+		position: "absolute",
 
-  mobileDpFrame: {
-    position: 'absolute',
-    height: '30vh',
-    width: '30vh',
+		backgroundColor: "#64FFDA",
+		opacity: "0.3",
+		cursor: "pointer",
 
-    marginLeft: '1.5vh',
-    marginTop: '1.5vh',
+		"&:hover": {
+			opacity: 0,
+			dpFrame: {
+				width: "43vh",
+				height: "43vh",
+			},
+		},
+	},
 
-    border: 'solid 3px #64FFDA',
-  },
+	mobileDpCover: {
+		height: "30vh",
+		width: "30vh",
 
-  link: {
-    textDecoration: 'none',
-    color: '#64FFDA',
-  }
-});
+		position: "absolute",
+
+		backgroundColor: "#64FFDA",
+		opacity: "0.3",
+	},
+
+	mobileDpFrame: {
+		position: "absolute",
+		height: "30vh",
+		width: "30vh",
+
+		marginLeft: "1.5vh",
+		marginTop: "1.5vh",
+
+		border: "solid 3px #64FFDA",
+	},*/
+
+	link: {
+		textDecoration: "none",
+		color: "#64FFDA",
+	},
+}));
 
 export default styles;

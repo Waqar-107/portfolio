@@ -18,6 +18,17 @@ const styles = makeStyles((theme) => ({
 		width: "100%",
 	},
 
+	itemContainer: {
+		width: "100%",
+		[theme.breakpoints.down("md")]: {
+			padding: "0% 5% 0% 5%",
+		},
+
+		[theme.breakpoints.up("md")]: {
+			padding: "0% 5% 0% 12%",
+		},
+	},
+
 	socialWeb: {
 		position: "fixed",
 		height: "90vh",

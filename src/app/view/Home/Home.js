@@ -21,8 +21,12 @@ const Home = () => {
 					<SocialWeb />
 				</div>
 				<div style={{height: "10vh"}}></div>
-				<Intro />
-				<About />
+				<div className={classes.itemContainer}>
+					<Intro />
+				</div>
+				<div className={classes.itemContainer}>
+					<About />
+				</div>
 				<Footer />
 			</div>
 		</div>
