@@ -12,7 +12,7 @@ const ProblemSolving = () => {
 	return (
 		<div className={classes.root}>
 			<div className={classes.heading}>
-				<TitleHead number="03." caption="Problem Solving" />
+				<TitleHead number="04." caption="Problem Solving" />
 			</div>
 
 			<div className={classes.content}>
