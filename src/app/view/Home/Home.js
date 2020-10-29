@@ -4,6 +4,7 @@ import SocialWeb from "../../components/SocialLinks/socialWeb";
 import NavBar from "../../components/Header/NavBar";
 import Intro from "./Intro/Intro";
 import AboutMe from "./AboutMe/AboutMe";
+import ProblemSolving from "./ProblemSolving/ProblemSolving";
 import Contact from "./Contact/Contact";
 import Footer from "../../components/Footer/Footer";
 
@@ -33,8 +34,7 @@ const Home = () => {
 					data-aos-offset="10"
 					data-aos-delay="10"
 					data-aos-duration="1000"
-					data-aos-easing="ease-in-out"
-				>
+					data-aos-easing="ease-in-out">
 					<AboutMe />
 				</div>
 
@@ -47,8 +47,7 @@ const Home = () => {
 					data-aos-offset="10"
 					data-aos-delay="10"
 					data-aos-duration="1000"
-					data-aos-easing="ease-in-out"
-				></div>
+					data-aos-easing="ease-in-out"></div>
 
 				<div
 					id="work"
@@ -59,20 +58,20 @@ const Home = () => {
 					data-aos-offset="10"
 					data-aos-delay="10"
 					data-aos-duration="1000"
-					data-aos-easing="ease-in-out"
-				></div>
+					data-aos-easing="ease-in-out"></div>
 
 				<div
 					id="problemSolving"
-					style={{marginBottom: 70}}
+					style={{marginBottom: 150}}
 					className={classes.itemContainer}
 					data-aos="fade-up"
 					data-aos-once="true"
 					data-aos-offset="10"
 					data-aos-delay="10"
 					data-aos-duration="1000"
-					data-aos-easing="ease-in-out"
-				></div>
+					data-aos-easing="ease-in-out">
+					<ProblemSolving />
+				</div>
 				<div
 					id="projects"
 					style={{marginBottom: 70}}
@@ -82,8 +81,7 @@ const Home = () => {
 					data-aos-offset="10"
 					data-aos-delay="10"
 					data-aos-duration="1000"
-					data-aos-easing="ease-in-out"
-				></div>
+					data-aos-easing="ease-in-out"></div>
 				<div
 					id="contactMe"
 					style={{marginBottom: 70, padding: "0% 5% 0% 5%"}}
@@ -92,8 +90,7 @@ const Home = () => {
 					data-aos-offset="10"
 					data-aos-delay="10"
 					data-aos-duration="1000"
-					data-aos-easing="ease-in-out"
-				>
+					data-aos-easing="ease-in-out">
 					<Contact />
 				</div>
 
