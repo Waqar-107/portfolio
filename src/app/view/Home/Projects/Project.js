@@ -36,6 +36,7 @@ const Project = () => {
 						</Grid>
 					))}
 				</Grid>
+
 				<Collapse isOpened={!collapseProject}>
 					<Grid
 						container
@@ -44,7 +45,7 @@ const Project = () => {
 						wrap="wrap"
 						justify="space-between"
 						alignContent="flex-start"
-						alignItems="flex-start"
+						alignItems="strech"
 						style={{marginTop: 12}}>
 						{projects.slice(6, projects.length).map((obj, idx) => (
 							<Grid item xl={4} lg={4} md={6} sm={12} xs={12} key={idx}>
@@ -69,7 +70,7 @@ const Project = () => {
 					wrap="wrap"
 					justify="space-between"
 					alignContent="flex-start"
-					alignItems="flex-start">
+					alignItems="stretch">
 					{ugCourses.slice(0, 6).map((obj, idx) => (
 						<Grid item xl={4} lg={4} md={6} sm={12} xs={12} key={idx}>
 							<ProjectBox data={obj} />
@@ -84,7 +85,7 @@ const Project = () => {
 						wrap="wrap"
 						justify="space-between"
 						alignContent="flex-start"
-						alignItems="flex-start"
+						alignItems="stretch"
 						style={{marginTop: 12}}>
 						{ugCourses.slice(6, ugCourses.length).map((obj, idx) => (
 							<Grid item xl={4} lg={4} md={6} sm={12} xs={12} key={idx}>

@@ -7,7 +7,6 @@ import GithubIcon from "../../components/Icons/Github";
 import DeployIcon from "../../components/Icons/Deployment";
 
 import styles from "./ProjectBoxStyles";
-import {Grid} from "@material-ui/core";
 
 const ProjectBox = ({data}) => {
 	const classes = styles();
