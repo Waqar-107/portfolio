@@ -18,7 +18,7 @@ const Hackerrank = (props) => {
 };
 
 Hackerrank.propTypes = {
-	iconStyles: PropTypes.object.isRequired,
+	iconStyles: PropTypes.string.isRequired,
 };
 
 export default Hackerrank;

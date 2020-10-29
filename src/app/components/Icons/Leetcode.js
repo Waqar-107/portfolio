@@ -17,7 +17,7 @@ const Leetcode = (props) => {
 };
 
 Leetcode.propTypes = {
-	iconStyles: PropTypes.object.isRequired,
+	iconStyles: PropTypes.string.isRequired,
 };
 
 export default Leetcode;

@@ -7,30 +7,39 @@ import GithubIcon from "../../components/Icons/Github";
 import DeployIcon from "../../components/Icons/Deployment";
 
 import styles from "./ProjectBoxStyles";
+import {Grid} from "@material-ui/core";
 
 const ProjectBox = ({data}) => {
 	const classes = styles();
-	console.log(data.gitURL, "gt");
 
 	return (
 		<div className={classes.root}>
 			<div className={classes.uno}>
 				<DocumentIcon iconStyles={classes.doc_icon} />
 				<div className={classes.iconContainer}>
-					{data.gitURL ? (
+					{data.gitURL && data.gitURL.length > 0 ? (
 						<a href={data.gitURL} target="blank">
-							<GithubIcon className={`${classes.icon} ${classes.icon_hover}`} />
+							<GithubIcon iconStyles={`${classes.icon} ${classes.icon_hover}`} />
 						</a>
 					) : null}
 					{data.deployedLink ? (
 						<a href={data.deployedLink} target="blank">
-							<DeployIcon className={`${classes.icon} ${classes.icon_hover} ${classes.ml10}`} />
+							<DeployIcon iconStyles={`${classes.icon} ${classes.icon_hover} ${classes.ml10}`} />
 						</a>
 					) : null}
 				</div>
 			</div>
-			<div className={classes.dos}></div>
-			<div className={classes.tres}></div>
+			<div className={classes.dos}>
+				<div className={classes.name}>{data.name}</div>
+				<div className={classes.description}>{data.description}</div>
+			</div>
+			<div className={classes.tres}>
+				{data.tags.map((tag, idx) => (
+					<div key={idx} className={classes.tag}>
+						{tag}
+					</div>
+				))}
+			</div>
 		</div>
 	);
 };

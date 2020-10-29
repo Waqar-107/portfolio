@@ -130,7 +130,7 @@ exports.projects = [
 		name: "ShashthoSheba",
 		description:
 			"A telemedicine app for online consultation. The project is under the supervision of Prof. Dr. A.B.M Alim Al Islam(Razi) sir. I worked in the backend which is developed in Node.js and MongoDB. The app has been developed in Flutter.",
-		tech: ["Node.js", "MongoDB", "Flutter", "AWS"],
+		tags: ["Node.js", "MongoDB", "Flutter", "AWS"],
 	},
 
 	{
@@ -138,14 +138,14 @@ exports.projects = [
 		description:
 			"This is a console based program that can flood the DNS server by continuously sending dns queries. The code was tested on Bind9 DNS server. The os was seed-labs ubuntu 16.04.",
 		gitURL: "https://github.com/Waqar-107/DoS-Attack-to-The-DNS-Server",
-		tech: ["Python", "Bind9", "Shell"],
+		tags: ["Python", "Bind9", "Shell"],
 	},
 
 	{
 		name: "Centre for Energy Studies",
 		description:
 			"An webapp for the Centre for Energy Studies, BUET. The frontend is made using React js and the backend using Node.js and MongoDB. There's also an admin panel to update the data.",
-		tech: ["React js", "Node.js", "MongoDB", "MERN-Stack"],
+		tags: ["React js", "Node.js", "MongoDB", "MERN-Stack"],
 		deployedLink: "http://ces.buet.ac.bd/",
 	},
 
@@ -153,7 +153,7 @@ exports.projects = [
 		name: "ChessMaestro",
 		description: "A multiplayer chess game implemented using java.",
 		gitURL: "https://github.com/Waqar-107/ChessMaestro",
-		tech: ["Java", "JavaFx"],
+		tags: ["Java", "JavaFx"],
 	},
 
 	{
@@ -161,7 +161,7 @@ exports.projects = [
 		description:
 			"An accelerometer based hand gesture controlled robot. This was made during my level-3, term-1 as the microcontroller project.",
 		gitURL: "https://github.com/Waqar-107/Nymeria",
-		tech: ["C", "C++", "ATMega32"],
+		tags: ["C", "C++", "ATMega32"],
 	},
 
 	{
@@ -169,7 +169,7 @@ exports.projects = [
 		description:
 			"A railway management software. Ticket management, train schedule maintaining can be done. Also tender management has been implemented both for the autority and the bidder.",
 		gitURL: "https://github.com/Waqar-107/Rail-Rush",
-		tech: ["HTML", "CSS", "Bootstrap", "PHP", "JavaScript", "Oracle-11g"],
+		tags: ["HTML", "CSS", "Bootstrap", "PHP", "JavaScript", "Oracle-11g"],
 	},
 
 	{
@@ -177,14 +177,14 @@ exports.projects = [
 		description:
 			"A subset of the gcc compiler that was made during my level-3, term-1. It was made through four iterations. First a data structure called symbolTable was made, using lex a code was tokenized, using yacc the grammer was written and finally converted into 8086-assembly code.",
 		gitURL: "https://github.com/Waqar-107/CSE-310-Compiler",
-		tech: ["C", "C++", "Yacc", "Lex", "Shell"],
+		tags: ["C", "C++", "Yacc", "Lex", "Shell"],
 	},
 
 	{
 		name: "Design Pattern",
 		description: "Various design patterns implemented in java.",
 		gitURL: "https://github.com/Waqar-107/Design-Pattern",
-		tech: ["Java"],
+		tags: ["Java"],
 	},
 
 	{
@@ -192,7 +192,7 @@ exports.projects = [
 		description:
 			"The classic tic-tac-toe game implemented in native android. Min-max algorithm have been used that drives the opponent.",
 		gitURL: "https://github.com/Waqar-107/Tic-Tac-Toe",
-		tech: ["Java", "Android"],
+		tags: ["Java", "Android"],
 	},
 
 	{
@@ -200,7 +200,7 @@ exports.projects = [
 		description:
 			"An app made for IEEE MadC 2017. The app had informations that can be used during travelling, also it gives the nearest police stations and hospitals location. It can send mail in case of emergency.",
 		gitURL: "https://github.com/Waqar-107/Lost_and_Survive",
-		tech: ["Java", "Android"],
+		tags: ["Java", "Android"],
 	},
 
 	{
@@ -208,7 +208,7 @@ exports.projects = [
 		description:
 			"A game using c and c++. For the gui we used igraphics. It was our term project of level-1, term-1.",
 		gitURL: "https://github.com/Waqar-107/Flappy-ball",
-		tech: ["C", "C++"],
+		tags: ["C", "C++"],
 	},
 ];
 
@@ -218,7 +218,7 @@ exports.featuredProjects = [
 		name: "Centre for Enery Studies",
 		description:
 			"An webapp for the Centre for Energy Studies, BUET. The frontend is made using React js and the backend using Node.js and MongoDB. There's also an admin panel to update the data.",
-		tech: ["React js", "Node.js", "MongoDB", "MERN-Stack"],
+		tags: ["React js", "Node.js", "MongoDB", "MERN-Stack"],
 		deployedLink: "http://ces.buet.ac.bd/",
 	},
 
@@ -227,7 +227,7 @@ exports.featuredProjects = [
 		name: "ChessMaestro",
 		description:
 			"A multiplayer chess game that i built as a project in my level 1, term 2 using java. For the GUI  javafx has been used.",
-		tech: ["java", "javaFX"],
+		tags: ["java", "javaFX"],
 		gitURL: "https://github.com/Waqar-107/ChessMaestro",
 	},
 
@@ -236,7 +236,7 @@ exports.featuredProjects = [
 		name: "vashaShikkha",
 		description:
 			"An application that helps us learn English in a very interactive way. In this app, we can practice speaking, reading, listening and writing. Different user will be assigned different tasks based on their chosen topic. In this app, the user can practice speaking, reading, listening and writing. This is a group project where i have worked in the web-app team.",
-		tech: ["React js", "Laravel", "Flutter"],
+		tags: ["React js", "Laravel", "Flutter"],
 		deployedLink: "https://vashasikkha.mainframelabs.ltd/",
 	},
 ];

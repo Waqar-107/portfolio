@@ -22,7 +22,7 @@ const Fork = (props) => {
 };
 
 Fork.propTypes = {
-	iconStyles: PropTypes.object.isRequired,
+	iconStyles: PropTypes.string.isRequired,
 };
 
 export default Fork;

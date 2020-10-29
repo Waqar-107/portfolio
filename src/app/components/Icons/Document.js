@@ -15,7 +15,7 @@ const Document = (props) => {
 };
 
 Document.propTypes = {
-	iconStyles: PropTypes.object.isRequired,
+	iconStyles: PropTypes.string.isRequired,
 };
 
 export default Document;

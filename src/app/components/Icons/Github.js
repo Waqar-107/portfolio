@@ -15,7 +15,7 @@ const Github = (props) => {
 };
 
 Github.propTypes = {
-	iconStyles: PropTypes.object.isRequired,
+	iconStyles: PropTypes.string.isRequired,
 };
 
 export default Github;

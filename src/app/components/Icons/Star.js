@@ -18,7 +18,7 @@ const Star = (props) => {
 };
 
 Star.propTypes = {
-	iconStyles: PropTypes.object.isRequired,
+	iconStyles: PropTypes.string.isRequired,
 };
 
 export default Star;

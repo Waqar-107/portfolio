@@ -18,7 +18,7 @@ const Codeforces = (props) => {
 };
 
 Codeforces.propTypes = {
-	iconStyles: PropTypes.object.isRequired,
+	iconStyles: PropTypes.string.isRequired,
 };
 
 export default Codeforces;

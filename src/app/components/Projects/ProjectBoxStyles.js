@@ -35,10 +35,21 @@ const styles = makeStyles(() => ({
 		alignItems: "flex-start",
 	},
 
+	tag: {
+		fontSize: 12,
+		marginRight: 12,
+		marginBottom: 5,
+	},
+
 	name: {
 		fontSize: 20,
-		fontWeight: "400",
 		color: Colors.nameColor,
+		marginBottom: 10,
+	},
+
+	description: {
+		fontSize: 16,
+		lineHeight: 1.3,
 	},
 
 	iconContainer: {

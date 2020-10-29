@@ -11,6 +11,7 @@ import "./transition.css";
 const Project = () => {
 	const classes = styles();
 	const [collapseProject, setCollapseProject] = useState(true);
+	const [collapseUgCourses, setCollapseUgCourses] = useState(true);
 
 	return (
 		<div className={classes.root}>
@@ -58,6 +59,46 @@ const Project = () => {
 					</div>
 				</div>
 				{/*---------------------------My Projects-----------------------------------*/}
+
+				{/*---------------------------Undergrad-----------------------------------*/}
+				<div className={classes.head}>Undergrad Courses</div>
+				<Grid
+					container
+					spacing={3}
+					direction="row"
+					wrap="wrap"
+					justify="space-between"
+					alignContent="flex-start"
+					alignItems="flex-start">
+					{ugCourses.slice(0, 6).map((obj, idx) => (
+						<Grid item xl={4} lg={4} md={6} sm={12} xs={12} key={idx}>
+							<ProjectBox data={obj} />
+						</Grid>
+					))}
+				</Grid>
+				<Collapse isOpened={!collapseUgCourses}>
+					<Grid
+						container
+						spacing={3}
+						direction="row"
+						wrap="wrap"
+						justify="space-between"
+						alignContent="flex-start"
+						alignItems="flex-start"
+						style={{marginTop: 12}}>
+						{ugCourses.slice(6, ugCourses.length).map((obj, idx) => (
+							<Grid item xl={4} lg={4} md={6} sm={12} xs={12} key={idx}>
+								<ProjectBox data={obj} />
+							</Grid>
+						))}
+					</Grid>
+				</Collapse>
+				<div className={classes.btnContainer}>
+					<div className={classes.seeMore} onClick={() => setCollapseUgCourses(!collapseUgCourses)}>
+						{collapseUgCourses ? "More Projects" : "Fewer Projects"}
+					</div>
+				</div>
+				{/*---------------------------Undergrad-----------------------------------*/}
 			</div>
 		</div>
 	);

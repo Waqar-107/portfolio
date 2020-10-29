@@ -78,7 +78,7 @@ const Home = () => {
 
 				<div
 					id="projects"
-					style={{marginBottom: 70}}
+					style={{marginBottom: 90}}
 					className={classes.itemContainer}
 					data-aos="fade-up"
 					data-aos-once="true"
