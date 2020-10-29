@@ -5,6 +5,7 @@ import NavBar from "../../components/Header/NavBar";
 import Intro from "./Intro/Intro";
 import AboutMe from "./AboutMe/AboutMe";
 import ProblemSolving from "./ProblemSolving/ProblemSolving";
+import Project from "./Projects/Project";
 import Contact from "./Contact/Contact";
 import Footer from "../../components/Footer/Footer";
 
@@ -22,9 +23,11 @@ const Home = () => {
 					<SocialWeb />
 				</div>
 				<div style={{height: "10vh"}}></div>
+
 				<div className={classes.itemContainer}>
 					<Intro />
 				</div>
+
 				<div
 					id="aboutMe"
 					style={{marginBottom: 70}}
@@ -72,6 +75,7 @@ const Home = () => {
 					data-aos-easing="ease-in-out">
 					<ProblemSolving />
 				</div>
+
 				<div
 					id="projects"
 					style={{marginBottom: 70}}
@@ -81,10 +85,13 @@ const Home = () => {
 					data-aos-offset="10"
 					data-aos-delay="10"
 					data-aos-duration="1000"
-					data-aos-easing="ease-in-out"></div>
+					data-aos-easing="ease-in-out">
+					<Project />
+				</div>
+
 				<div
 					id="contactMe"
-					style={{marginBottom: 70, padding: "0% 5% 0% 5%"}}
+					className={classes.itemContainer}
 					data-aos="fade-up"
 					data-aos-once="true"
 					data-aos-offset="10"

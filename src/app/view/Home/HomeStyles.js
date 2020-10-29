@@ -25,7 +25,7 @@ const styles = makeStyles((theme) => ({
 		},
 
 		[theme.breakpoints.up("md")]: {
-			padding: "0% 5% 0% 12%",
+			padding: "0% 12% 0% 12%",
 		},
 	},
 
