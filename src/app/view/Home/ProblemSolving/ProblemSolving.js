@@ -28,9 +28,11 @@ const ProblemSolving = () => {
 					</a>
 					.<br />
 					<br />I have participated in <span className={classes.stats}>88</span> contests and solved
-					total <span>1661</span> problems with a max rating of <span>1658</span> at Codeforces. In
-					leetcode I have participated in <span>7</span> contests and solved about <span>230</span>{" "}
-					problems with the max rating of <span>1609</span>.
+					total <span className={classes.stats}>1661</span> problems with a max rating of{" "}
+					<span className={classes.stats}>1658</span> at Codeforces. In leetcode I have participated
+					in <span className={classes.stats}>7</span> contests and solved about{" "}
+					<span className={classes.stats}>230</span> problems with the max rating of{" "}
+					<span className={classes.stats}>1609</span>.
 					<br />
 					<br />I have also participated{" "}
 					<a className={classes.link} href="./hashcode_2019_certificate.pdf" target="blank">

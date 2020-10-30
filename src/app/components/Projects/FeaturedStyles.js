@@ -31,7 +31,7 @@ const styles = makeStyles((theme) => ({
 		},
 
 		[theme.breakpoints.up("lg")]: {
-			padding: 0,
+			padding: "20px 0px 0px 0px",
 		},
 	},
 
