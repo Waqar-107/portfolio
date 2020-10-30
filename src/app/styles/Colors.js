@@ -11,6 +11,7 @@ export const Colors = {
 	lineColor: "#2d3952",
 	projectBox: "#172a45",
 	featProject: "#1d4752",
+	imageCoverColor: "#5ee2cb",
 };
 
 export default Colors;

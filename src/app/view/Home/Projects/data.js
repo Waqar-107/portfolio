@@ -214,7 +214,6 @@ exports.projects = [
 
 exports.featuredProjects = [
 	{
-		imageName: "CES",
 		name: "Centre for Enery Studies",
 		description:
 			"An webapp for the Centre for Energy Studies, BUET. The frontend is made using React js and the backend using Node.js and MongoDB. There's also an admin panel to update the data.",
@@ -223,7 +222,6 @@ exports.featuredProjects = [
 	},
 
 	{
-		imageName: "Chess",
 		name: "ChessMaestro",
 		description:
 			"A multiplayer chess game that i built as a project in my level 1, term 2 using java. For the GUI  javafx has been used.",
@@ -232,8 +230,7 @@ exports.featuredProjects = [
 	},
 
 	{
-		imageName: "VashaShikkha",
-		name: "vashaShikkha",
+		name: "VashaShikkha",
 		description:
 			"An application that helps us learn English in a very interactive way. In this app, we can practice speaking, reading, listening and writing. Different user will be assigned different tasks based on their chosen topic. In this app, the user can practice speaking, reading, listening and writing. This is a group project where i have worked in the web-app team.",
 		tags: ["React js", "Laravel", "Flutter"],

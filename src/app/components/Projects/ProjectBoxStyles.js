@@ -10,7 +10,7 @@ const styles = makeStyles(() => ({
 		cursor: "pointer",
 		marginTop: 10,
 
-		transition: "margin 0.5s ease-out",
+		transition: "margin 0.15s ease-out",
 		"&:hover": {
 			marginTop: 5,
 		},
