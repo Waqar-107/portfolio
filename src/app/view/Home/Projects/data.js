@@ -232,7 +232,7 @@ exports.featuredProjects = [
 	{
 		name: "VashaShikkha",
 		description:
-			"An application that helps us learn English in a very interactive way. In this app, we can practice speaking, reading, listening and writing. Different user will be assigned different tasks based on their chosen topic. In this app, the user can practice speaking, reading, listening and writing. This is a group project where i have worked in the web-app team.",
+			"An application that targets to teach English in an interactive way. Different users will be assigned different tasks based on their chosen topic. There are varioud type of exercises, e.g: mcq, sentence matching, word-game etc.",
 		tags: ["React js", "Laravel", "Flutter"],
 		deployedLink: "https://vashasikkha.mainframelabs.ltd/",
 	},
