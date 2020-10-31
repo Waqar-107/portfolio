@@ -51,7 +51,7 @@ const styles = makeStyles((theme) => ({
 
 	at: {
 		color: Colors.themeFontColor,
-		margin: "0px 5px 0px 7px",
+		margin: "0px 5px 0px 5px",
 	},
 
 	institute: {
@@ -163,10 +163,7 @@ const styles = makeStyles((theme) => ({
 
 	mobileTabContainer: {
 		width: "100%",
-		height: 50,
 		marginBottom: 25,
-		background: "cyan",
-		flexDirection: "row",
 
 		[theme.breakpoints.down("sm")]: {
 			display: "flex",
@@ -175,6 +172,10 @@ const styles = makeStyles((theme) => ({
 		[theme.breakpoints.up("md")]: {
 			display: "none",
 		},
+	},
+
+	indicator: {
+		backgroundColor: Colors.themeFontColor,
 	},
 }));
 

@@ -1,5 +1,7 @@
 import React, {useState} from "react";
 import PropTypes from "prop-types";
+import {Tab, Tabs} from "@material-ui/core";
+
 import Colors from "../../styles/Colors";
 import styles from "./ExperienceStyles";
 
@@ -7,10 +9,33 @@ const Experience = ({data}) => {
 	const classes = styles();
 	const [idx, setIdx] = useState(0);
 
+	const handleChange = (event, newValue) => {
+		setIdx(newValue);
+	};
+
 	return (
 		<div className={classes.root}>
 			<div className={classes.tabContainer}>
-				<div className={classes.mobileTabContainer}></div>
+				<div className={classes.mobileTabContainer}>
+					<Tabs
+						value={idx}
+						onChange={handleChange}
+						variant="scrollable"
+						classes={{
+							indicator: classes.indicator,
+						}}>
+						{data.map((obj, jdx) => (
+							<Tab
+								label={obj.tab}
+								key={jdx}
+								style={
+									idx === jdx ? {color: Colors.themeFontColor, background: Colors.projectBox} : null
+								}
+							/>
+						))}
+					</Tabs>
+				</div>
+
 				<div className={classes.webTabContainer}>
 					<div className={classes.webLine} style={{height: 50 * data.length}}>
 						<div className={classes.webGreenLine} style={{marginTop: 50 * idx}}></div>
@@ -21,7 +46,7 @@ const Experience = ({data}) => {
 								onClick={() => setIdx(jdx)}
 								key={jdx}
 								style={
-									idx == jdx ? {color: Colors.themeFontColor, background: Colors.projectBox} : null
+									idx === jdx ? {color: Colors.themeFontColor, background: Colors.projectBox} : null
 								}
 								className={classes.webTab}>
 								{obj.tab}
