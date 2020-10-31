@@ -38,7 +38,9 @@ const styles = makeStyles((theme) => ({
 	},
 
 	descriptionHeading: {
-		display: "inline-flex",
+		display: "flex",
+		flexWrap: "wrap",
+
 		fontSize: 20,
 		fontWeight: 600,
 	},

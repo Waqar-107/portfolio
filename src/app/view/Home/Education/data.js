@@ -16,11 +16,11 @@ exports.data = [
 	{
 		tab: "H.S.C",
 		role: "H.S.C",
-		institute: "Dhaka Residential Model College",
+		institute: "DRMC",
 		instituteLink: "http://www.drmc.edu.bd/",
 		date: "May 2013 - May 2015",
 		description: [
-			"Passed Higher Secondary School Certificate from DRMC.",
+			"Passed Higher Secondary School Certificate from Dhaka Residential Model College.",
 			"Got 5.00 out of 5.00 in all the subjects except Bengali.",
 			"Left the institution where I've studied for 10 years.",
 		],
@@ -29,11 +29,11 @@ exports.data = [
 	{
 		tab: "S.S.C",
 		role: "S.S.C",
-		institute: "Dhaka Residential Model College",
+		institute: "DRMC",
 		instituteLink: "http://www.drmc.edu.bd/",
 		date: "Jan 2011 - Feb 2013",
 		description: [
-			"Passed Secondary School Certificate from DRMC.",
+			"Passed Secondary School Certificate from Dhaka Residential Model College.",
 			"Got 5.00 out of 5.00 in all the subjects.",
 		],
 	},
@@ -41,11 +41,11 @@ exports.data = [
 	{
 		tab: "J.S.C",
 		role: "J.S.C",
-		institute: "Dhaka Residential Model College",
+		institute: "DRMC",
 		instituteLink: "http://www.drmc.edu.bd/",
 		date: "Jan 2010 - Dec 2010",
 		description: [
-			"Passed Junior Secondary School Certificate from DRMC.",
+			"Passed Junior Secondary School Certificate from Dhaka Residential Model College.",
 			"Got 5.00 out of 5.00 in all the subjects.",
 		],
 	},
