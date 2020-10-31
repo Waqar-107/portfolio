@@ -9,7 +9,7 @@ exports.data = [
 			"Doing my undergrad from CSE, BUET.",
 			"Completed 139.5 credit hours out of 158.5.",
 			"Current CGPA - 3.07 out of 4.00.",
-			"Doing my thesis on 'Semantic Specification of Program DEvelopment'.",
+			"Doing my thesis on 'Semantic Specification of Program Development'.",
 		],
 	},
 
