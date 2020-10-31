@@ -1,6 +1,6 @@
 import React from "react";
 
-import TitleHead from "../../../components/TitleHead/TitleHead";
+// import TitleHead from "../../../components/TitleHead/TitleHead";
 import DP from "../../../assets/khan.jpg";
 import styles from "./AboutMeStyles";
 
@@ -9,9 +9,7 @@ const AboutMe = () => {
 
 	return (
 		<div className={classes.root}>
-			<div className={classes.heading}>
-				<TitleHead number="01." caption="About Me" />
-			</div>
+			<div className={classes.heading}>{/* <TitleHead number="01." caption="About Me" /> */}</div>
 
 			<div className={classes.content}>
 				<div className={classes.left}>
