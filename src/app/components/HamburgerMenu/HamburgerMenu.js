@@ -23,8 +23,7 @@ const HamburgerMenu = () => {
 				<div
 					className={
 						checked ? classes.menu_wrap_hamburger_div_ifChecked : classes.menu_wrap_hamburger_div
-					}
-				></div>
+					}></div>
 			</div>
 
 			<div className={classes.menu} style={{right: checked ? "0" : "-75vw"}}>
@@ -37,8 +36,7 @@ const HamburgerMenu = () => {
 						offset={-70}
 						duration={500}
 						onClick={handleCheckBox}
-						className={classes.LINK}
-					>
+						className={classes.LINK}>
 						<div className={classes.p1}>01.</div>
 						<div className={classes.p2H}>About</div>
 					</Link>
@@ -52,8 +50,7 @@ const HamburgerMenu = () => {
 						offset={-70}
 						duration={500}
 						onClick={handleCheckBox}
-						className={classes.LINK}
-					>
+						className={classes.LINK}>
 						<div className={classes.p1}>02.</div>
 						<div className={classes.p2H}>Education</div>
 					</Link>
@@ -67,8 +64,7 @@ const HamburgerMenu = () => {
 						offset={-70}
 						duration={500}
 						onClick={handleCheckBox}
-						className={classes.LINK}
-					>
+						className={classes.LINK}>
 						<div className={classes.p1}>03.</div>
 						<div className={classes.p2H}>Experience</div>
 					</Link>
@@ -82,8 +78,7 @@ const HamburgerMenu = () => {
 						offset={-70}
 						duration={500}
 						onClick={handleCheckBox}
-						className={classes.LINK}
-					>
+						className={classes.LINK}>
 						<div className={classes.p1}>04.</div>
 						<div className={classes.p2H}>Problem Solving</div>
 					</Link>
@@ -97,8 +92,7 @@ const HamburgerMenu = () => {
 						offset={-70}
 						duration={500}
 						onClick={handleCheckBox}
-						className={classes.LINK}
-					>
+						className={classes.LINK}>
 						<div className={classes.p1}>05.</div>
 						<div className={classes.p2H}>Work</div>
 					</Link>
@@ -112,8 +106,7 @@ const HamburgerMenu = () => {
 						offset={-70}
 						duration={500}
 						onClick={handleCheckBox}
-						className={classes.LINK}
-					>
+						className={classes.LINK}>
 						<div className={classes.p1}>06.</div>
 						<div className={classes.p2H}>Contact</div>
 					</Link>
@@ -124,8 +117,7 @@ const HamburgerMenu = () => {
 						href="/khan_cv.pdf"
 						target="blank"
 						className={classes.linkNav}
-						style={{color: Colors.themeFontColor}}
-					>
+						style={{color: Colors.themeFontColor}}>
 						Resume
 					</a>
 				</div>

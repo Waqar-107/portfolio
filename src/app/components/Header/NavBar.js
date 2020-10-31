@@ -16,16 +16,14 @@ const NavBar = () => {
 					data-aos-offset="0"
 					data-aos-delay="10"
 					data-aos-duration="700"
-					data-aos-easing="ease-in-out"
-				>
+					data-aos-easing="ease-in-out">
 					<Link
 						activeClass="active"
 						to="aboutMe"
 						spy={true}
 						smooth={true}
 						offset={-70}
-						duration={500}
-					>
+						duration={500}>
 						<p className={classes.p1}>01.</p>
 						<p className={classes.p2}>&nbsp;&nbsp;About</p>
 					</Link>
@@ -38,16 +36,14 @@ const NavBar = () => {
 					data-aos-offset="0"
 					data-aos-delay="10"
 					data-aos-duration="900"
-					data-aos-easing="ease-in-out"
-				>
+					data-aos-easing="ease-in-out">
 					<Link
 						activeClass="active"
 						to="education"
 						spy={true}
 						smooth={true}
 						offset={-70}
-						duration={500}
-					>
+						duration={500}>
 						<p className={classes.p1}>02.</p>
 						<p className={classes.p2}>&nbsp;&nbsp;Education</p>
 					</Link>
@@ -60,8 +56,7 @@ const NavBar = () => {
 					data-aos-offset="0"
 					data-aos-delay="10"
 					data-aos-duration="1100"
-					data-aos-easing="ease-in-out"
-				>
+					data-aos-easing="ease-in-out">
 					<Link activeClass="active" to="work" spy={true} smooth={true} offset={-70} duration={500}>
 						<p className={classes.p1}>03.</p>
 						<p className={classes.p2}>&nbsp;&nbsp;Experience</p>
@@ -75,16 +70,14 @@ const NavBar = () => {
 					data-aos-offset="0"
 					data-aos-delay="10"
 					data-aos-duration="1300"
-					data-aos-easing="ease-in-out"
-				>
+					data-aos-easing="ease-in-out">
 					<Link
 						activeClass="active"
 						to="problemSolving"
 						spy={true}
 						smooth={true}
 						offset={-70}
-						duration={500}
-					>
+						duration={500}>
 						<p className={classes.p1}>04.</p>
 						<p className={classes.p2}>&nbsp;&nbsp;Problem Solving</p>
 					</Link>
@@ -97,16 +90,14 @@ const NavBar = () => {
 					data-aos-offset="0"
 					data-aos-delay="10"
 					data-aos-duration="1500"
-					data-aos-easing="ease-in-out"
-				>
+					data-aos-easing="ease-in-out">
 					<Link
 						activeClass="active"
 						to="projects"
 						spy={true}
 						smooth={true}
 						offset={-70}
-						duration={500}
-					>
+						duration={500}>
 						<p className={classes.p1}>05.</p>
 						<p className={classes.p2}>&nbsp;&nbsp;Work</p>
 					</Link>
@@ -119,16 +110,14 @@ const NavBar = () => {
 					data-aos-offset="0"
 					data-aos-delay="10"
 					data-aos-duration="1700"
-					data-aos-easing="ease-in-out"
-				>
+					data-aos-easing="ease-in-out">
 					<Link
 						activeClass="active"
 						to="contactMe"
 						spy={true}
 						smooth={true}
 						offset={-70}
-						duration={500}
-					>
+						duration={500}>
 						<p className={classes.p1}>06.</p>
 						<p className={classes.p2}>&nbsp;&nbsp;Contact</p>
 					</Link>
@@ -141,8 +130,7 @@ const NavBar = () => {
 					data-aos-offset="0"
 					data-aos-delay="10"
 					data-aos-duration="1900"
-					data-aos-easing="ease-in-out"
-				>
+					data-aos-easing="ease-in-out">
 					<a href="/khan_cv.pdf" target="blank" className={classes.linkNav}>
 						Resume
 					</a>

@@ -15,8 +15,7 @@ const Intro = () => {
 				data-aos-offset="0"
 				data-aos-delay="10"
 				data-aos-duration="1100"
-				data-aos-easing="ease-in-out"
-			>
+				data-aos-easing="ease-in-out">
 				Hi, my name is
 			</div>
 
@@ -28,8 +27,7 @@ const Intro = () => {
 				data-aos-offset="0"
 				data-aos-delay="10"
 				data-aos-duration="1200"
-				data-aos-easing="ease-in-out"
-			>
+				data-aos-easing="ease-in-out">
 				Waqar Hassan Khan
 			</div>
 
@@ -41,8 +39,7 @@ const Intro = () => {
 				data-aos-offset="0"
 				data-aos-delay="10"
 				data-aos-duration="1300"
-				data-aos-easing="ease-in-out"
-			>
+				data-aos-easing="ease-in-out">
 				I write codes to stay alive :)
 			</div>
 
@@ -54,8 +51,7 @@ const Intro = () => {
 				data-aos-offset="0"
 				data-aos-delay="10"
 				data-aos-duration="1400"
-				data-aos-easing="ease-in-out"
-			>
+				data-aos-easing="ease-in-out">
 				I am an undergrad student at the Department of CSE, BUET and expecting to graduate by
 				February 2021.
 			</div>
@@ -67,8 +63,7 @@ const Intro = () => {
 				data-aos-offset="0"
 				data-aos-delay="10"
 				data-aos-duration="1500"
-				data-aos-easing="ease-in-out"
-			>
+				data-aos-easing="ease-in-out">
 				<a className={classes.mailLink} href="mailto:waqar.hassan866@gmail.com">
 					send me owls!!
 				</a>
