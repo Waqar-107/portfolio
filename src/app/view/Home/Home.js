@@ -4,6 +4,7 @@ import SocialWeb from "../../components/SocialLinks/socialWeb";
 import NavBar from "../../components/Header/NavBar";
 import Intro from "./Intro/Intro";
 import AboutMe from "./AboutMe/AboutMe";
+import Education from "./Education/Education";
 import ProblemSolving from "./ProblemSolving/ProblemSolving";
 import Project from "./Projects/Project";
 import Contact from "./Contact/Contact";
@@ -50,7 +51,9 @@ const Home = () => {
 					data-aos-offset="10"
 					data-aos-delay="10"
 					data-aos-duration="1000"
-					data-aos-easing="ease-in-out"></div>
+					data-aos-easing="ease-in-out">
+					<Education />
+				</div>
 
 				<div
 					id="work"
