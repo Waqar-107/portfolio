@@ -214,9 +214,9 @@ exports.projects = [
 
 exports.featuredProjects = [
 	{
-		name: "Centre for Enery Studies",
+		name: "Centre for Energy Studies",
 		description:
-			"An webapp for the Centre for Energy Studies, BUET. The frontend is made using React js and the backend using Node.js and MongoDB. There's also an admin panel to update the data.",
+			"A webapp for the Centre for Energy Studies, BUET. The frontend is made using React js and the backend using Node.js and MongoDB. There's also an admin panel to update the data.",
 		tags: ["React js", "Node.js", "MongoDB", "MERN-Stack"],
 		deployedLink: "http://ces.buet.ac.bd/",
 	},

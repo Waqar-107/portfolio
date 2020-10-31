@@ -14,7 +14,7 @@ const Featured = ({data, mirror}) => {
 	const classes = styles();
 
 	const selectImage = (name) => {
-		if (name === "Centre for Enery Studies") return CESImg;
+		if (name === "Centre for Energy Studies") return CESImg;
 		else if (name === "ChessMaestro") return ChessImg;
 		return VashaShikhhaImg;
 	};
