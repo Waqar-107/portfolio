@@ -111,6 +111,7 @@ const styles = makeStyles((theme) => ({
 
 	webTabContainer: {
 		flexDirection: "row",
+		boxShadow: `inset 2px 0px 0px 0px ${Colors.lineColor}`,
 
 		[theme.breakpoints.down("sm")]: {
 			display: "none",
@@ -121,49 +122,10 @@ const styles = makeStyles((theme) => ({
 		},
 	},
 
-	webTabInner: {
-		width: "calc(100% - 2px)",
-		display: "flex",
-		flexDirection: "column",
-	},
-
-	webTab: {
-		height: 50,
-		width: "100%",
-
-		color: Colors.fontColor,
-		fontSize: 16,
-		paddingLeft: 20,
-		cursor: "pointer",
-
-		display: "flex",
-		flexDirection: "row",
-		justifyContent: "flex-start",
-		alignContent: "center",
-		alignItems: "center",
-
-		"&:hover": {
-			color: Colors.themeFontColor,
-			background: Colors.projectBox,
-		},
-	},
-
-	webLine: {
-		background: Colors.lineColor,
-		width: 2,
-	},
-
-	webGreenLine: {
-		position: "absolute",
-		height: 50,
-		width: 2,
-		background: Colors.themeFontColor,
-		transition: "margin 0.15s ease-out",
-	},
-
 	mobileTabContainer: {
 		width: "100%",
 		marginBottom: 25,
+		boxShadow: `inset 0px -2px 0px 0px ${Colors.lineColor}`,
 
 		[theme.breakpoints.down("sm")]: {
 			display: "flex",
@@ -176,6 +138,16 @@ const styles = makeStyles((theme) => ({
 
 	indicator: {
 		backgroundColor: Colors.themeFontColor,
+
+		[theme.breakpoints.down("sm")]: {},
+
+		[theme.breakpoints.up("md")]: {
+			left: 0,
+		},
+	},
+
+	web_tab: {
+		alignItems: "flex-start",
 	},
 }));
 

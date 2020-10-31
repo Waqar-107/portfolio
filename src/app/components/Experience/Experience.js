@@ -37,22 +37,26 @@ const Experience = ({data}) => {
 				</div>
 
 				<div className={classes.webTabContainer}>
-					<div className={classes.webLine} style={{height: 50 * data.length}}>
-						<div className={classes.webGreenLine} style={{marginTop: 50 * idx}}></div>
-					</div>
-					<div className={classes.webTabInner}>
+					<Tabs
+						value={idx}
+						onChange={handleChange}
+						orientation="vertical"
+						classes={{
+							indicator: classes.indicator,
+						}}>
 						{data.map((obj, jdx) => (
-							<div
-								onClick={() => setIdx(jdx)}
+							<Tab
+								classes={{
+									wrapper: classes.web_tab,
+								}}
+								label={obj.tab}
 								key={jdx}
 								style={
 									idx === jdx ? {color: Colors.themeFontColor, background: Colors.projectBox} : null
 								}
-								className={classes.webTab}>
-								{obj.tab}
-							</div>
+							/>
 						))}
-					</div>
+					</Tabs>
 				</div>
 			</div>
 
