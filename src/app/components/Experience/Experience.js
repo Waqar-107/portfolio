@@ -10,6 +10,7 @@ const Experience = ({data}) => {
 	return (
 		<div className={classes.root}>
 			<div className={classes.tabContainer}>
+				<div className={classes.mobileTabContainer}></div>
 				<div className={classes.webTabContainer}>
 					<div className={classes.webLine} style={{height: 50 * data.length}}>
 						<div className={classes.webGreenLine} style={{marginTop: 50 * idx}}></div>

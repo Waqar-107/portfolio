@@ -6,33 +6,33 @@ const styles = makeStyles((theme) => ({
 		width: "100%",
 
 		display: "flex",
-		[theme.breakpoints.down("md")]: {
+		[theme.breakpoints.down("sm")]: {
 			flexDirection: "column",
 		},
 
-		[theme.breakpoints.up("lg")]: {
+		[theme.breakpoints.up("md")]: {
 			flexDirection: "row",
 		},
 	},
 
 	descriptionContainer: {
-		[theme.breakpoints.down("md")]: {
+		[theme.breakpoints.down("sm")]: {
 			width: "100%",
 			paddingLeft: 0,
 		},
 
-		[theme.breakpoints.up("lg")]: {
+		[theme.breakpoints.up("md")]: {
 			width: "80%",
 			paddingLeft: 50,
 		},
 	},
 
 	tabContainer: {
-		[theme.breakpoints.down("md")]: {
+		[theme.breakpoints.down("sm")]: {
 			width: "100%",
 		},
 
-		[theme.breakpoints.up("lg")]: {
+		[theme.breakpoints.up("md")]: {
 			width: "20%",
 		},
 	},
@@ -92,6 +92,9 @@ const styles = makeStyles((theme) => ({
 
 	lst: {
 		fontSize: 18,
+		marginBottom: 10,
+		marginLeft: "1em",
+		textIndent: "-1.2em",
 
 		"&:before": {
 			content: '"▹"',
@@ -107,8 +110,15 @@ const styles = makeStyles((theme) => ({
 	},
 
 	webTabContainer: {
-		display: "flex",
 		flexDirection: "row",
+
+		[theme.breakpoints.down("sm")]: {
+			display: "none",
+		},
+
+		[theme.breakpoints.up("md")]: {
+			display: "flex",
+		},
 	},
 
 	webTabInner: {
@@ -149,6 +159,22 @@ const styles = makeStyles((theme) => ({
 		width: 2,
 		background: Colors.themeFontColor,
 		transition: "margin 0.15s ease-out",
+	},
+
+	mobileTabContainer: {
+		width: "100%",
+		height: 50,
+		marginBottom: 25,
+		background: "cyan",
+		flexDirection: "row",
+
+		[theme.breakpoints.down("sm")]: {
+			display: "flex",
+		},
+
+		[theme.breakpoints.up("md")]: {
+			display: "none",
+		},
 	},
 }));
 
