@@ -61,7 +61,7 @@ const styles = makeStyles((theme) => ({
 			display: "block",
 			margin: "auto",
 			height: "0.5px",
-			width: "0px",
+			width: 0,
 			backgroundColor: "transparent",
 			transition: "width .5s ease, background-color .5s ease",
 		},
@@ -101,11 +101,6 @@ const styles = makeStyles((theme) => ({
 		"& > a": {
 			color: Colors.themeFontColor,
 			textDecoration: "none",
-			transition: "width .5s ease, background-color .5s ease",
-
-			"&:hover": {
-				borderBottom: `0.5px solid ${Colors.themeFontColor}`,
-			},
 		},
 	},
 
