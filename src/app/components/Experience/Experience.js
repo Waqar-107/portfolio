@@ -28,6 +28,9 @@ const Experience = ({data}) => {
 							<Tab
 								label={obj.tab}
 								key={jdx}
+								classes={{
+									wrapper: classes.mobile_tab,
+								}}
 								style={
 									idx === jdx ? {color: Colors.themeFontColor, background: Colors.projectBox} : null
 								}

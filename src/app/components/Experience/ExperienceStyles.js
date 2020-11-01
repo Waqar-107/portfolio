@@ -148,6 +148,11 @@ const styles = makeStyles((theme) => ({
 
 	web_tab: {
 		alignItems: "flex-start",
+		textTransform: "none",
+	},
+
+	mobile_tab: {
+		textTransform: "none",
 	},
 }));
 
