@@ -18,7 +18,8 @@ const ProblemSolving = () => {
 			<div className={classes.content}>
 				<div>
 					I have participated in a few inter university programming contests and also participated
-					in preliminary of ACM-ICPC Dhaka Regional thrice. Mostly i participated in the contests at{" "}
+					in preliminary of ACM-ICPC Dhaka Regional thrice. Mostly I have participated in the
+					contests at{" "}
 					<a className={classes.link} href="https://codeforces.com/" target="blank">
 						codeforces
 					</a>{" "}
@@ -31,10 +32,10 @@ const ProblemSolving = () => {
 					total <span className={classes.stats}>1661</span> problems with a max rating of{" "}
 					<span className={classes.stats}>1658</span> at Codeforces. In leetcode I have participated
 					in <span className={classes.stats}>7</span> contests and solved about{" "}
-					<span className={classes.stats}>230</span> problems with the max rating of{" "}
+					<span className={classes.stats}>310</span> problems with the max rating of{" "}
 					<span className={classes.stats}>1609</span>.
 					<br />
-					<br />I have also participated{" "}
+					<br />I have also participated in{" "}
 					<a className={classes.link} href="./hashcode_2019_certificate.pdf" target="blank">
 						Google HashCode 2019
 					</a>

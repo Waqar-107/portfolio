@@ -28,7 +28,7 @@ const AboutMe = () => {
 					I enjoy coding in Python and C++. I also love to make webapps using the MERN stack.
 					<br />
 					<br />
-					Here are few technologies i have been working with,
+					Here are few technologies I have been working with,
 					<br />
 					<ul className={classes.techs}>
 						<li className={classes.lst}>Python</li>
