@@ -15,7 +15,7 @@ const AboutMe = () => {
 
 			<div className={classes.content}>
 				<div className={classes.left}>
-					Hi! I'm Waqar. i am a student at{" "}
+					Hi! I'm Waqar. I am a student at{" "}
 					<a className={classes.link} href="https://www.buet.ac.bd/web/" target="blank">
 						Buet
 					</a>{" "}
