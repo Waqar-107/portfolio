@@ -107,9 +107,8 @@ const Contact = () => {
 			<div className={classes.heading}>05. What's Next?</div>
 			<div className={classes.head2}>Get In Touch</div>
 			<div className={classes.kotha}>
-				I am expecting to graduate by February 2021 and eager to join the industry. I'm interested
-				in developing things using C++ and Python. Currently I'm working on the second iteration of
-				VashaShikkha, an english learning app .
+				I will be working in the software industry for a while now. Alongside it, I will continue to
+				do research on Blockchains.
 				<br />
 				My Inbox is always opened. You can communicate with me through email or linkedin if you
 				want. I'll try my best to answer back!!!

@@ -1,5 +1,14 @@
 exports.data = [
 	{
+		tab: "Enosis Solutions",
+		role: "Software Engineer(L-1)",
+		institute: "Enosis Solutions",
+		instituteLink: "https://www.enosisbd.com/",
+		date: "April 2021 - Present",
+		description: ["Going to start from April 1, 2021."],
+	},
+
+	{
 		tab: "Mainframe Labs Ltd.",
 		role: "Full Stack Dev.",
 		institute: "Mainframe Labs Ltd.",

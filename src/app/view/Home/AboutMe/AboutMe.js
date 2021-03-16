@@ -15,7 +15,7 @@ const AboutMe = () => {
 
 			<div className={classes.content}>
 				<div className={classes.left}>
-					Hi! I'm Waqar. I am a student at{" "}
+					Hi! I'm Waqar. I have completed mu undergrad from{" "}
 					<a className={classes.link} href="https://www.buet.ac.bd/web/" target="blank">
 						Buet
 					</a>{" "}
@@ -33,6 +33,7 @@ const AboutMe = () => {
 					<ul className={classes.techs}>
 						<li className={classes.lst}>Python</li>
 						<li className={classes.lst}>C++</li>
+						<li className={classes.lst}>C#</li>
 						<li className={classes.lst}>JavaScript</li>
 						<li className={classes.lst}>Java</li>
 						<li className={classes.lst}>React.js</li>

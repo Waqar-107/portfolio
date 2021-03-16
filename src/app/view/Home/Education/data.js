@@ -4,12 +4,12 @@ exports.data = [
 		role: "B.Sc.",
 		institute: "BUET",
 		instituteLink: "https://www.buet.ac.bd/",
-		date: "Feb 2016 - Present",
+		date: "Feb 2016 - Feb 2021",
 		description: [
-			"Doing my undergrad from CSE, BUET.",
-			"Completed 139.5 credit hours out of 158.5.",
-			"Current CGPA - 3.07 out of 4.00.",
-			"Doing my thesis on 'Semantic Specification of Program Development'.",
+			"Completed my undergrad from CSE, BUET.",
+			"Completed 160 credit hours.",
+			"CGPA - 3.07 out of 4.00.",
+			"Did my thesis on 'Knowledge Graph Generation from Program Source Code for Semantic Representation'.",
 		],
 	},
 
