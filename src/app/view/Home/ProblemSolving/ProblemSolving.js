@@ -29,10 +29,10 @@ const ProblemSolving = () => {
 					</a>
 					.<br />
 					<br />I have participated in <span className={classes.stats}>88</span> contests and solved
-					total <span className={classes.stats}>1661</span> problems with a max rating of{" "}
+					total <span className={classes.stats}>1671</span> problems with a max rating of{" "}
 					<span className={classes.stats}>1658</span> at Codeforces. In leetcode I have participated
 					in <span className={classes.stats}>7</span> contests and solved about{" "}
-					<span className={classes.stats}>310</span> problems with the max rating of{" "}
+					<span className={classes.stats}>430</span> problems with the max rating of{" "}
 					<span className={classes.stats}>1609</span>.
 					<br />
 					<br />I have also participated in{" "}
@@ -41,7 +41,7 @@ const ProblemSolving = () => {
 					</a>
 					<br />
 					<br />I used to practice at LightOj, HackerRank and Uva too. Currently I'm concentrating
-					on leetcode for my interview preparation.
+					on leetcode to keep up the practice.
 				</div>
 
 				<div className={classes.head}>My Codes</div>

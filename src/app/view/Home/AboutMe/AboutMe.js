@@ -39,7 +39,7 @@ const AboutMe = () => {
 						<li className={classes.lst}>React.js</li>
 						<li className={classes.lst}>Node.js</li>
 						<li className={classes.lst}>MongoDB</li>
-						<li className={classes.lst}>MySQL</li>
+						<li className={classes.lst}>MS SQL Server</li>
 					</ul>
 				</div>
 				<div className={classes.right}>

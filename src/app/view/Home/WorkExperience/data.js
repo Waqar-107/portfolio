@@ -5,7 +5,11 @@ exports.data = [
 		institute: "Enosis Solutions",
 		instituteLink: "https://www.enosisbd.com/",
 		date: "April 2021 - Present",
-		description: ["Going to start from April 1, 2021."],
+		description: [
+			"Going through a training period",
+			"Completed revising HTML, CSS, Vanilla JS and SQL",
+			"Currently learning C# and .Net",
+		],
 	},
 
 	{

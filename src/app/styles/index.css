@@ -17,3 +17,19 @@ body {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
+
+body::-webkit-scrollbar {
+	width: 7px;
+}
+
+body {
+	scrollbar-width: thin;
+	scrollbar-color: #495670 #0a192f;
+}
+body::-webkit-scrollbar-track {
+	background: #0a192f;
+}
+body::-webkit-scrollbar-thumb {
+	background-color: #495670;
+	border-radius: 5px;
+}

@@ -52,8 +52,8 @@ const Intro = () => {
 				data-aos-delay="10"
 				data-aos-duration="1400"
 				data-aos-easing="ease-in-out">
-				I am an undergrad student at the Department of CSE, BUET and expecting to graduate by
-				February 2021.
+				I have completed my undergrad from CSE, BUET. Currently, I am working as a Software Engineer
+				at Enosis Solutions.
 			</div>
 
 			<div
