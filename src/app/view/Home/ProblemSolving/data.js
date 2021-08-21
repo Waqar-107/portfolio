@@ -4,8 +4,8 @@ exports.data = [
 		profileURL: "https://codeforces.com/profile/_lucifer_",
 		gitURL: "https://github.com/Waqar-107/Codeforces",
 		projectDescription: "accepted problems in Codeforces",
-		fork: 53,
-		star: 80,
+		fork: 56,
+		star: 91,
 	},
 
 	{

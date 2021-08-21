@@ -1,5 +1,17 @@
 exports.data = [
 	{
+		tab: "M.Sc.",
+		role: "M.Sc.",
+		institute: "BUET",
+		instituteLink: "https://www.buet.ac.bd/",
+		date: "April 2016 - Present",
+		description: [
+			"Doing my postgrad from CSE, BUET.",
+			"Doing Distributed Computing Systems and High Dimensional Data Management course",
+		],
+	},
+
+	{
 		tab: "B.Sc.",
 		role: "B.Sc.",
 		institute: "BUET",

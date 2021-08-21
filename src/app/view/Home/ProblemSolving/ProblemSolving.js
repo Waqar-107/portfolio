@@ -29,7 +29,7 @@ const ProblemSolving = () => {
 					</a>
 					.<br />
 					<br />I have participated in <span className={classes.stats}>88</span> contests and solved
-					total <span className={classes.stats}>1671</span> problems with a max rating of{" "}
+					about <span className={classes.stats}>1700</span> problems with a max rating of{" "}
 					<span className={classes.stats}>1658</span> at Codeforces. In leetcode I have participated
 					in <span className={classes.stats}>7</span> contests and solved about{" "}
 					<span className={classes.stats}>430</span> problems with the max rating of{" "}

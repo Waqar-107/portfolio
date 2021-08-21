@@ -6,9 +6,10 @@ exports.data = [
 		instituteLink: "https://www.enosisbd.com/",
 		date: "April 2021 - Present",
 		description: [
-			"Going through a training period",
-			"Completed revising HTML, CSS, Vanilla JS and SQL",
-			"Currently learning C# and .Net",
+			"Had training of two months",
+			"Went through HTML, CSS, Vanilla JS, Microsoft SQL Server, Angular JS, C#, Linq, .Net MVC, NHibernate, F# and Azure Functions.",
+			"Currently working on a CRM project",
+			"Collaborating with teams residing in the USA, Mexico, and Thailand.",
 		],
 	},
 

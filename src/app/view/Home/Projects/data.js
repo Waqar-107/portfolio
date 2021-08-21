@@ -214,11 +214,11 @@ exports.projects = [
 
 exports.featuredProjects = [
 	{
-		name: "Centre for Energy Studies",
+		name: "VashaShikkha",
 		description:
-			"A webapp for the Centre for Energy Studies, BUET. The frontend is made using React js and the backend using Node.js and MongoDB. There's also an admin panel to update the data.",
-		tags: ["React js", "Node.js", "MongoDB", "MERN-Stack"],
-		deployedLink: "http://ces.buet.ac.bd/",
+			"An application that targets to teach English in an interactive way. Different users will be assigned different tasks based on their chosen topic. There are varioud type of exercises, e.g: mcq, sentence matching etc.",
+		tags: ["React", "Node.js", "Flutter"],
+		deployedLink: "https://main.d1as7x06xeg9bv.amplifyapp.com",
 	},
 
 	{
@@ -230,10 +230,10 @@ exports.featuredProjects = [
 	},
 
 	{
-		name: "VashaShikkha",
+		name: "Centre for Energy Studies",
 		description:
-			"An application that targets to teach English in an interactive way. Different users will be assigned different tasks based on their chosen topic. There are varioud type of exercises, e.g: mcq, sentence matching, word-game etc.",
-		tags: ["React js", "Laravel", "Flutter"],
-		deployedLink: "https://vashasikkha.mainframelabs.ltd/",
+			"A webapp for the Centre for Energy Studies, BUET. The frontend is made using React js and the backend using Node.js and MongoDB. There's also an admin panel to update the data.",
+		tags: ["React js", "Node.js", "MongoDB", "MERN-Stack"],
+		deployedLink: "http://ces.buet.ac.bd/",
 	},
 ];
