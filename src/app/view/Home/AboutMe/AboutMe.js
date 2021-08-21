@@ -1,7 +1,7 @@
 import React from "react";
 
 import TitleHead from "../../../components/TitleHead/TitleHead";
-import DP from "../../../assets/khan.jpg";
+import DP from "../../../assets/khan.jpeg";
 import styles from "./AboutMeStyles";
 
 const AboutMe = () => {
