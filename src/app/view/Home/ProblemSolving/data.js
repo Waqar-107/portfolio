@@ -5,7 +5,7 @@ exports.data = [
 		gitURL: "https://github.com/Waqar-107/Codeforces",
 		projectDescription: "accepted problems in Codeforces",
 		fork: 56,
-		star: 91,
+		star: 92,
 	},
 
 	{
