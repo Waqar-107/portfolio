@@ -131,7 +131,10 @@ const NavBar = () => {
 					data-aos-delay="10"
 					data-aos-duration="1900"
 					data-aos-easing="ease-in-out">
-					<a href="/Waqars_Resume.pdf" target="blank" className={classes.linkNav}>
+					<a
+						href="https://drive.google.com/file/d/1KXgCABsUjFJXvTZxC_99qvQeI1G_172a/view?usp=sharing"
+						target="blank"
+						className={classes.linkNav}>
 						Resume
 					</a>
 				</div>

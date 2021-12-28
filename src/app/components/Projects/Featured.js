@@ -6,7 +6,7 @@ import DeployIcon from "../../components/Icons/Deployment";
 
 import ChessImg from "../../assets/featured/chess.png";
 import CESImg from "../../assets/featured/ces.jfif";
-import VashaShikhhaImg from "../../assets/featured/vashaShikkha.PNG";
+import VashaShikhhaImg from "../../assets/featured/vashaShikkha.png";
 
 import styles from "./FeaturedStyles";
 
