@@ -17,7 +17,7 @@ const Project = () => {
 	return (
 		<div className={classes.root}>
 			<div className={classes.heading}>
-				<TitleHead number="05." caption="Things I've Developed" />
+				<TitleHead number="06." caption="Things I've Developed" />
 			</div>
 
 			<div className={classes.content}>

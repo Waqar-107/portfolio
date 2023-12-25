@@ -73,12 +73,32 @@ const NavBar = () => {
 					data-aos-easing="ease-in-out">
 					<Link
 						activeClass="active"
-						to="problemSolving"
+						to="publications"
 						spy={true}
 						smooth={true}
 						offset={-70}
 						duration={500}>
 						<p className={classes.p1}>04.</p>
+						<p className={classes.p2}>&nbsp;&nbsp;Publications</p>
+					</Link>
+				</div>
+
+				<div
+					className={classes.navItem}
+					data-aos="fade-down"
+					data-aos-once="true"
+					data-aos-offset="0"
+					data-aos-delay="10"
+					data-aos-duration="1300"
+					data-aos-easing="ease-in-out">
+					<Link
+						activeClass="active"
+						to="problemSolving"
+						spy={true}
+						smooth={true}
+						offset={-70}
+						duration={500}>
+						<p className={classes.p1}>05.</p>
 						<p className={classes.p2}>&nbsp;&nbsp;Problem Solving</p>
 					</Link>
 				</div>
@@ -98,8 +118,8 @@ const NavBar = () => {
 						smooth={true}
 						offset={-70}
 						duration={500}>
-						<p className={classes.p1}>05.</p>
-						<p className={classes.p2}>&nbsp;&nbsp;Work</p>
+						<p className={classes.p1}>06.</p>
+						<p className={classes.p2}>&nbsp;&nbsp;Courses</p>
 					</Link>
 				</div>
 
@@ -118,7 +138,7 @@ const NavBar = () => {
 						smooth={true}
 						offset={-70}
 						duration={500}>
-						<p className={classes.p1}>06.</p>
+						<p className={classes.p1}>07.</p>
 						<p className={classes.p2}>&nbsp;&nbsp;Contact</p>
 					</Link>
 				</div>

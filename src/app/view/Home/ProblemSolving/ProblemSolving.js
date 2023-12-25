@@ -12,7 +12,7 @@ const ProblemSolving = () => {
 	return (
 		<div className={classes.root}>
 			<div className={classes.heading}>
-				<TitleHead number="04." caption="Problem Solving" />
+				<TitleHead number="05." caption="Problem Solving" />
 			</div>
 
 			<div className={classes.content}>
@@ -21,16 +21,16 @@ const ProblemSolving = () => {
 					in preliminary of ACM-ICPC Dhaka Regional thrice. Mostly I have participated in the
 					contests at{" "}
 					<a className={classes.link} href="https://codeforces.com/" target="blank">
-						codeforces
+						CodeForces
 					</a>{" "}
 					and{" "}
 					<a className={classes.link} href="https://leetcode.com/" target="blank">
-						leetcode
+						LeetCode
 					</a>
 					.<br />
 					<br />I have participated in <span className={classes.stats}>88</span> contests and solved
 					about <span className={classes.stats}>1700</span> problems with a max rating of{" "}
-					<span className={classes.stats}>1658</span> at Codeforces. In leetcode I have participated
+					<span className={classes.stats}>1658</span> at Codeforces. In LeetCode I have participated
 					in <span className={classes.stats}>7</span> contests and solved about{" "}
 					<span className={classes.stats}>430</span> problems with the max rating of{" "}
 					<span className={classes.stats}>1609</span>.
@@ -41,7 +41,7 @@ const ProblemSolving = () => {
 					</a>
 					<br />
 					<br />I used to practice at LightOj, HackerRank and Uva too. Currently I'm concentrating
-					on leetcode to keep up the practice.
+					on LeetCode to keep up the practice.
 				</div>
 
 				<div className={classes.head}>My Codes</div>

@@ -72,7 +72,7 @@ const HamburgerMenu = () => {
 				<div className={classes.hamItem}>
 					<Link
 						activeClass="active"
-						to="problemSolving"
+						to="publications"
 						spy={true}
 						smooth={true}
 						offset={-70}
@@ -80,6 +80,20 @@ const HamburgerMenu = () => {
 						onClick={handleCheckBox}
 						className={classes.LINK}>
 						<div className={classes.p1}>04.</div>
+						<div className={classes.p2H}>Publications</div>
+					</Link>
+				</div>
+				<div className={classes.hamItem}>
+					<Link
+						activeClass="active"
+						to="problemSolving"
+						spy={true}
+						smooth={true}
+						offset={-70}
+						duration={500}
+						onClick={handleCheckBox}
+						className={classes.LINK}>
+						<div className={classes.p1}>05.</div>
 						<div className={classes.p2H}>Problem Solving</div>
 					</Link>
 				</div>
@@ -93,8 +107,8 @@ const HamburgerMenu = () => {
 						duration={500}
 						onClick={handleCheckBox}
 						className={classes.LINK}>
-						<div className={classes.p1}>05.</div>
-						<div className={classes.p2H}>Work</div>
+						<div className={classes.p1}>06.</div>
+						<div className={classes.p2H}>Courses</div>
 					</Link>
 				</div>
 				<div className={classes.hamItem}>
@@ -107,7 +121,7 @@ const HamburgerMenu = () => {
 						duration={500}
 						onClick={handleCheckBox}
 						className={classes.LINK}>
-						<div className={classes.p1}>06.</div>
+						<div className={classes.p1}>07.</div>
 						<div className={classes.p2H}>Contact</div>
 					</Link>
 				</div>
