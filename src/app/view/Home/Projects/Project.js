@@ -17,11 +17,11 @@ const Project = () => {
 	return (
 		<div className={classes.root}>
 			<div className={classes.heading}>
-				<TitleHead number="06." caption="Things I've Developed" />
+				<TitleHead number="06." caption="Works" />
 			</div>
 
 			<div className={classes.content}>
-				<Grid container direction="column" style={{marginBottom: 60}}>
+				{/* <Grid container direction="column" style={{marginBottom: 60}}>
 					{featuredProjects.map((obj, idx) => (
 						<Grid
 							item
@@ -41,7 +41,7 @@ const Project = () => {
 							<Featured data={obj} mirror={idx % 2} />
 						</Grid>
 					))}
-				</Grid>
+				</Grid> */}
 
 				{/*---------------------------My Projects-----------------------------------*/}
 				<div className={classes.head}>My Projects</div>

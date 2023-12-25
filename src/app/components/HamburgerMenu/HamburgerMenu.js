@@ -108,7 +108,7 @@ const HamburgerMenu = () => {
 						onClick={handleCheckBox}
 						className={classes.LINK}>
 						<div className={classes.p1}>06.</div>
-						<div className={classes.p2H}>Courses</div>
+						<div className={classes.p2H}>Works</div>
 					</Link>
 				</div>
 				<div className={classes.hamItem}>

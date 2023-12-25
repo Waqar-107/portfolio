@@ -119,7 +119,7 @@ const NavBar = () => {
 						offset={-70}
 						duration={500}>
 						<p className={classes.p1}>06.</p>
-						<p className={classes.p2}>&nbsp;&nbsp;Courses</p>
+						<p className={classes.p2}>&nbsp;&nbsp;Works</p>
 					</Link>
 				</div>
 

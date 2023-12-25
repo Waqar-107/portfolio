@@ -6,6 +6,7 @@ import Intro from "./Intro/Intro";
 import AboutMe from "./AboutMe/AboutMe";
 import Education from "./Education/Education";
 import WorkExperience from "./WorkExperience/WorkExperience";
+import Publications from "./Publications/publications";
 import ProblemSolving from "./ProblemSolving/ProblemSolving";
 import Project from "./Projects/Project";
 import Contact from "./Contact/Contact";
@@ -67,6 +68,19 @@ const Home = () => {
 					data-aos-duration="1000"
 					data-aos-easing="ease-in-out">
 					<WorkExperience />
+				</div>
+
+				<div
+					id="publications"
+					style={{marginBottom: 120}}
+					className={classes.itemContainer}
+					data-aos="fade-up"
+					data-aos-once="true"
+					data-aos-offset="10"
+					data-aos-delay="10"
+					data-aos-duration="1000"
+					data-aos-easing="ease-in-out">
+					<Publications />
 				</div>
 
 				<div
