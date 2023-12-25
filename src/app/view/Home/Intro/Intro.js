@@ -52,8 +52,7 @@ const Intro = () => {
 				data-aos-delay="10"
 				data-aos-duration="1400"
 				data-aos-easing="ease-in-out">
-				I have completed my undergrad from CSE, BUET. Currently, I am working as a Software Engineer
-				at Enosis Solutions.
+				I am a second-year Ph.D student at the Department of Computer Science, Arizona State University.
 			</div>
 
 			<div
@@ -64,7 +63,7 @@ const Intro = () => {
 				data-aos-delay="10"
 				data-aos-duration="1500"
 				data-aos-easing="ease-in-out">
-				<a className={classes.mailLink} href="mailto:waqar.hassan866@gmail.com">
+				<a className={classes.mailLink} href="mailto:wkhan17@asu.edu">
 					send me owls!!
 				</a>
 			</div>

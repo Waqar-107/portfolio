@@ -1,5 +1,17 @@
 exports.data = [
 	{
+		tab: "Ph.D.",
+		role: "Ph.D.",
+		institute: "ASU",
+		instituteLink: "https://www.asu.edu/",
+		date: "Aug 2022 - Present",
+		description: [
+			"Pursuing Ph.D. at the department of Computer Science, SCAI, ASU",
+			"CGPA - 3.58 out of 4.00.",
+			"CGPA in code and depth courses - 4.00 out of 4.00.",
+		],
+	},
+	{
 		tab: "B.Sc.",
 		role: "B.Sc.",
 		institute: "BUET",
