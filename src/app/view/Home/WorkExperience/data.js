@@ -1,15 +1,30 @@
 exports.data = [
 	{
+		tab: "Arizona State University",
+		role: "Graduate Teaching Associate",
+		institute: "Arizona State University",
+		instituteLink: "https://www.asu.edu/",
+		date: "August 2022 - Present",
+		description: [
+			"Conducted office hours where I helped debugging students code (Java, C, and C++).",
+			"Conducted recitation sessions.",
+			"Helped instructor to create data structure assignments.",
+			"Proctored exams",
+			"Graded programming assignments and exam scripts"
+		],
+	},
+	{
 		tab: "Enosis Solutions",
 		role: "Software Engineer(L-1)",
 		institute: "Enosis Solutions",
 		instituteLink: "https://www.enosisbd.com/",
-		date: "April 2021 - Present",
+		date: "April 2021 - July 2022",
 		description: [
-			"Had training of two months",
-			"Went through HTML, CSS, Vanilla JS, Microsoft SQL Server, Angular JS, C#, Linq, .Net MVC, NHibernate, F# and Azure Functions.",
-			"Currently working on a CRM project",
-			"Collaborating with teams residing in the USA, Mexico, and Thailand.",
+			"Worked on an ad-sales-focused CRM project called Matrix.",
+			"Collaborated with teams residing in the USA, Mexico, and Thailand.",
+			"Analyzed client requirements, implemented new features, and fixed bugs reported by the clients.",
+			"Used C#, F#, AngularJS, MS SQL Server, .Net Framework in the project.",
+			"Contributed to using Angular 14 for the front end. Implemented internationalization, cookie management, and some components to create a generic table in the Angular app."
 		],
 	},
 
