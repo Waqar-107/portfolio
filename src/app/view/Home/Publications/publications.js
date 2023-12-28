@@ -2,10 +2,12 @@ import React from "react";
 import {Grid} from "@material-ui/core";
 
 import {posters, papers} from "./data";
-import Featured from "../../../components/Projects/Featured";
+import Poster from "../../../components/Publications/Poster";
 import TitleHead from "../../../components/TitleHead/TitleHead";
 import styles from "./styles";
 import "../Projects/transition.css";
+
+// import posterImg from "../../../assets/publications/posters/edtech_soups23.jpg"
 
 const Publications = () => {
 	const classes = styles();
@@ -16,6 +18,7 @@ const Publications = () => {
 				<TitleHead number="04." caption="Publications" />
 			</div>
 
+      <div className={classes.head}>Posters</div>
 			<div className={classes.content}>
 				<Grid container direction="column" style={{marginBottom: 60}}>
 					{posters.map((obj, idx) => (
@@ -34,7 +37,7 @@ const Publications = () => {
 							data-aos-delay="10"
 							data-aos-duration={1000 + idx * 100}
 							data-aos-easing="ease-in-out">
-							{/* <Featured data={obj} mirror={idx % 2} /> */}
+							<Poster data={obj} />
 						</Grid>
 					))}
 				</Grid>

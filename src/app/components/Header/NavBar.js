@@ -152,7 +152,7 @@ const NavBar = () => {
 					data-aos-duration="1900"
 					data-aos-easing="ease-in-out">
 					<a
-						href="https://drive.google.com/file/d/1swMVb5qqP_Yi1fniyT9SuFojiw_k503_/view?usp=sharing"
+						href="https://drive.google.com/file/d/1OEsdIsSRPLMDo_kV_ys-kVsk1jIhxDdU/view?usp=sharing"
 						target="blank"
 						className={classes.linkNav}>
 						Resume

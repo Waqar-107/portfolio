@@ -128,7 +128,7 @@ const HamburgerMenu = () => {
 
 				<div className={classes.resume}>
 					<a
-						href="https://drive.google.com/file/d/1swMVb5qqP_Yi1fniyT9SuFojiw_k503_/view?usp=sharing"
+						href="https://drive.google.com/file/d/1OEsdIsSRPLMDo_kV_ys-kVsk1jIhxDdU/view?usp=sharing"
 						target="blank"
 						className={classes.linkNav}
 						style={{color: Colors.themeFontColor}}>
