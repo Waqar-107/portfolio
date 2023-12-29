@@ -43,40 +43,9 @@ const styles = makeStyles((theme) => ({
 		marginBottom: 20,
 	},
 
-	btnContainer: {
-		width: "100%",
-		height: "150px",
-
-		marginTop: 20,
-		marginBottom: 20,
-
-		display: "flex",
-		flexDirection: "row",
-		justifyContent: "center",
-		alignContent: "center",
-		alignItems: "center",
-	},
-
-	seeMore: {
-		width: "150px",
-		height: "60px",
-
-		border: "solid 1px #64FFDA",
-		color: "#64FFDA",
-		fontSize: "18px",
-
-		display: "flex",
-		flexDirection: "row",
-		justifyContent: "center",
-		alignContent: "center",
-		alignItems: "center",
-
-		cursor: "pointer",
-
-		"&:hover": {
-			backgroundColor: "#293d5a",
-		},
-	},
+	paperContainer: {
+		display: "flex"
+	}
 }));
 
 export default styles;

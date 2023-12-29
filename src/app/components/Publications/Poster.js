@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { Grid } from "@material-ui/core";
-import styles from "./PosterStyles";
+import styles from "./styles";
 
 
 const Poster = ({data}) => {
