@@ -12,7 +12,7 @@ exports.papers = [
 		name: "Shashthosheba: Dissecting Perception of Bangladeshi People towards Telemedicine Apps through the Lens of Features of the Apps",
     authors: ["Waqar Hassan Khan", "Md Al Imran", "Ahmed Nafis Fuad", "Mohammed Latif Siddiq", "ABM Alim Al Islam"],
 		venue: "arXiv preprint (2022)",
-    paperLink: "publications/papers/shasthosheba.pdf",
+    paperLink: "publications/papers/shashthosheba.pdf",
 	}
 ];
 
