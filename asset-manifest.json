@@ -1,19 +1,18 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.06810d4c.css",
-    "main.js": "/portfolio/static/js/main.57e7f214.js",
+    "main.js": "/portfolio/static/js/main.bdccedc3.js",
     "static/media/ces.jfif": "/portfolio/static/media/ces.3a7badc3e90a7b9b2a8c.jfif",
-    "static/media/edtech_soups23.jpg": "/portfolio/static/media/edtech_soups23.d8112a0ac55dc3ded079.jpg",
-    "static/media/misinfo_soups23.jpg": "/portfolio/static/media/misinfo_soups23.7ddfd2e353aa72618b2a.jpg",
+    "static/media/poster.jpg": "/portfolio/static/media/poster.7ddfd2e353aa72618b2a.jpg",
     "static/media/khan.jpg": "/portfolio/static/media/khan.c75770ee5cebd573c2d6.jpg",
     "static/media/vashaShikkha.png": "/portfolio/static/media/vashaShikkha.ce73ceb85576d7ce016d.png",
     "static/media/chess.png": "/portfolio/static/media/chess.f4bee189ceffc6d40ee9.png",
     "index.html": "/portfolio/index.html",
     "main.06810d4c.css.map": "/portfolio/static/css/main.06810d4c.css.map",
-    "main.57e7f214.js.map": "/portfolio/static/js/main.57e7f214.js.map"
+    "main.bdccedc3.js.map": "/portfolio/static/js/main.bdccedc3.js.map"
   },
   "entrypoints": [
     "static/css/main.06810d4c.css",
-    "static/js/main.57e7f214.js"
+    "static/js/main.bdccedc3.js"
   ]
 }
