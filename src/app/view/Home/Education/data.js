@@ -7,7 +7,7 @@ exports.data = [
 		date: "Aug 2022 - Present",
 		description: [
 			"Pursuing Ph.D. at the department of Computer Science, SCAI, ASU",
-			"CGPA - 3.58 out of 4.00.",
+			"CGPA - 3.72 out of 4.00.",
 			"CGPA in last two semesters - 4.00 out of 4.00.",
 		],
 	},
