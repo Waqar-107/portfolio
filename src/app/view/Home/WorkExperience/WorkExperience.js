@@ -11,7 +11,7 @@ const WorkExperience = () => {
 	return (
 		<div className={classes.root}>
 			<div className={classes.heading}>
-				<TitleHead number="03." caption="Where I've Worked" />
+				<TitleHead number="03." caption="Work Experience" />
 			</div>
 
 			<div className={classes.content}>
