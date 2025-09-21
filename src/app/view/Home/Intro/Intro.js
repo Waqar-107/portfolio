@@ -8,7 +8,7 @@ const Intro = () => {
 	return (
 		<div className={classes.intro}>
 			<div
-				style={{color: Colors.themeFontColor}}
+				style={{ color: Colors.themeFontColor }}
 				className={classes.hi}
 				data-aos="fade-up"
 				data-aos-once="true"
@@ -20,7 +20,7 @@ const Intro = () => {
 			</div>
 
 			<div
-				style={{color: Colors.nameColor}}
+				style={{ color: Colors.nameColor }}
 				className={classes.name}
 				data-aos="fade-up"
 				data-aos-once="true"
@@ -32,7 +32,7 @@ const Intro = () => {
 			</div>
 
 			<div
-				style={{color: Colors.motoColor}}
+				style={{ color: Colors.motoColor }}
 				className={classes.moto}
 				data-aos="fade-up"
 				data-aos-once="true"
@@ -44,27 +44,15 @@ const Intro = () => {
 			</div>
 
 			<div
-				style={{color: Colors.shortDescriptionColor}}
-				className={classes.shortDescription}
+				className={classes.mailMe}
 				data-aos="fade-up"
 				data-aos-once="true"
 				data-aos-offset="0"
 				data-aos-delay="10"
 				data-aos-duration="1400"
 				data-aos-easing="ease-in-out">
-				I am a second-year Ph.D student at the Department of Computer Science, Arizona State University.
-			</div>
-
-			<div
-				className={classes.mailMe}
-				data-aos="fade-up"
-				data-aos-once="true"
-				data-aos-offset="0"
-				data-aos-delay="10"
-				data-aos-duration="1500"
-				data-aos-easing="ease-in-out">
 				<a className={classes.mailLink} href="mailto:wkhan17@asu.edu">
-					send me owls!!
+					Contact Me!!
 				</a>
 			</div>
 		</div>

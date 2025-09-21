@@ -1,5 +1,3 @@
-import React from "react";
-
 import SocialWeb from "../../components/SocialLinks/socialWeb";
 import NavBar from "../../components/Header/NavBar";
 import Intro from "./Intro/Intro";
@@ -25,7 +23,7 @@ const Home = () => {
 				<div className={classes.socialWeb}>
 					<SocialWeb />
 				</div>
-				<div style={{height: "10vh"}}></div>
+				<div style={{ height: "10vh" }}></div>
 
 				<div className={classes.itemContainer}>
 					<Intro />
@@ -33,7 +31,7 @@ const Home = () => {
 
 				<div
 					id="aboutMe"
-					style={{marginBottom: 70}}
+					style={{ marginBottom: 70 }}
 					className={classes.itemContainer}
 					data-aos="fade-up"
 					data-aos-once="true"
@@ -46,7 +44,7 @@ const Home = () => {
 
 				<div
 					id="education"
-					style={{marginBottom: 120}}
+					style={{ marginBottom: 120 }}
 					className={classes.itemContainer}
 					data-aos="fade-up"
 					data-aos-once="true"
@@ -59,7 +57,7 @@ const Home = () => {
 
 				<div
 					id="work"
-					style={{marginBottom: 120}}
+					style={{ marginBottom: 120 }}
 					className={classes.itemContainer}
 					data-aos="fade-up"
 					data-aos-once="true"
@@ -72,7 +70,7 @@ const Home = () => {
 
 				<div
 					id="publications"
-					style={{marginBottom: 120}}
+					style={{ marginBottom: 120 }}
 					className={classes.itemContainer}
 					data-aos="fade-up"
 					data-aos-once="true"
@@ -85,7 +83,7 @@ const Home = () => {
 
 				<div
 					id="problemSolving"
-					style={{marginBottom: 150}}
+					style={{ marginBottom: 150 }}
 					className={classes.itemContainer}
 					data-aos="fade-up"
 					data-aos-once="true"
@@ -98,7 +96,7 @@ const Home = () => {
 
 				<div
 					id="projects"
-					style={{marginBottom: 90}}
+					style={{ marginBottom: 90 }}
 					className={classes.itemContainer}
 					data-aos="fade-up"
 					data-aos-once="true"
