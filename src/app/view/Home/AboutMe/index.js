@@ -2,7 +2,7 @@ import React from "react";
 
 import TitleHead from "../../../components/TitleHead/TitleHead";
 import DP from "../../../assets/khan.jpg";
-import styles from "./AboutMeStyles";
+import styles from "./styles";
 
 const AboutMe = () => {
 	const classes = styles();
@@ -15,7 +15,7 @@ const AboutMe = () => {
 
 			<div className={classes.content}>
 				<div className={classes.left}>
-					I am a Ph.D. student in the Department of Computer Science at the School of Computing and Augmented Intelligence, Arizona State University. I work in the <a className={classes.link} href="https://shadelab.asu.edu/" target="blank">SHaDE Lab</a> under Dr. Ariane Middel. My research interest lies in Accessibility, Human-Computer Interaction (HCI), and Urban Climate.
+					I am a Ph.D. student in the Department of Computer Science at the School of Computing and Augmented Intelligence, Arizona State University. I work in the <a className={classes.link} href="https://shadelab.asu.edu/" target="blank">SHaDE Lab</a> under the supervision of Dr. Ariane Middel. My research interest lies in Accessibility, Human-Computer Interaction (HCI), and Urban Climate.
 					<br /><br />
 					Here are some methods and technologies I’ve been working with:
 					<br />

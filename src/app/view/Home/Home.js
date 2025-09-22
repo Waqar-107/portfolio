@@ -1,12 +1,11 @@
 import SocialWeb from "../../components/SocialLinks/socialWeb";
 import NavBar from "../../components/Header/NavBar";
-import Intro from "./Intro/Intro";
-import AboutMe from "./AboutMe/AboutMe";
+import Intro from "./Intro";
+import AboutMe from "./AboutMe";
 import Education from "./Education/Education";
 import WorkExperience from "./WorkExperience/WorkExperience";
 import Publications from "./Publications/publications";
-import ProblemSolving from "./ProblemSolving/ProblemSolving";
-import Project from "./Projects/Project";
+import CurrentProjects from "./CurrentProjects";
 import Contact from "./Contact/Contact";
 import Footer from "../../components/Footer/Footer";
 
@@ -69,6 +68,19 @@ const Home = () => {
 				</div>
 
 				<div
+					id="projects"
+					style={{ marginBottom: 90 }}
+					className={classes.itemContainer}
+					data-aos="fade-up"
+					data-aos-once="true"
+					data-aos-offset="10"
+					data-aos-delay="10"
+					data-aos-duration="1000"
+					data-aos-easing="ease-in-out">
+					<CurrentProjects />
+				</div>
+
+				<div
 					id="publications"
 					style={{ marginBottom: 120 }}
 					className={classes.itemContainer}
@@ -81,7 +93,7 @@ const Home = () => {
 					<Publications />
 				</div>
 
-				<div
+				{/* <div
 					id="problemSolving"
 					style={{ marginBottom: 150 }}
 					className={classes.itemContainer}
@@ -92,20 +104,9 @@ const Home = () => {
 					data-aos-duration="1000"
 					data-aos-easing="ease-in-out">
 					<ProblemSolving />
-				</div>
+				</div> */}
 
-				<div
-					id="projects"
-					style={{ marginBottom: 90 }}
-					className={classes.itemContainer}
-					data-aos="fade-up"
-					data-aos-once="true"
-					data-aos-offset="10"
-					data-aos-delay="10"
-					data-aos-duration="1000"
-					data-aos-easing="ease-in-out">
-					<Project />
-				</div>
+
 
 				<div
 					id="contactMe"

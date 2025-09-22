@@ -1,7 +1,7 @@
 import React from "react";
 
 import Colors from "../../../styles/Colors";
-import styles from "./IntroStyles";
+import styles from "./styles";
 
 const Intro = () => {
 	const classes = styles();

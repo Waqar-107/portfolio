@@ -8,12 +8,12 @@ import DeployIcon from "../../components/Icons/Deployment";
 
 import styles from "./ProjectBoxStyles";
 
-const ProjectBox = ({data}) => {
+const ProjectBox = ({ data, showTopLink }) => {
 	const classes = styles();
 
 	return (
 		<div className={classes.root}>
-			<div className={classes.uno}>
+			<div className={classes.uno} style={{ display: showTopLink ? "" : "none" }}>
 				<DocumentIcon iconStyles={classes.doc_icon} />
 				<div className={classes.iconContainer}>
 					{data.gitURL && data.gitURL.length > 0 ? (
@@ -45,6 +45,7 @@ const ProjectBox = ({data}) => {
 
 ProjectBox.propTypes = {
 	data: PropTypes.object.isRequired,
+	showTopLink: PropTypes.bool.isRequired,
 };
 
 export default ProjectBox;
