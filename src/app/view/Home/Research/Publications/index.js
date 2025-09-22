@@ -3,9 +3,7 @@ import { Grid } from "@material-ui/core";
 
 import { conference_other_tracks, arxiv_papers } from "./data";
 import Paper from "../../../../components/Paper";
-import TitleHead from "../../../../components/TitleHead";
 import styles from "./styles";
-// import "../../PastProjects/ArchivalProjects/transition.css";
 
 const Publications = () => {
 	const classes = styles();
