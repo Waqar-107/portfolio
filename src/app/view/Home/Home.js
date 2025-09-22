@@ -93,21 +93,6 @@ const Home = () => {
 					<Achievements />
 				</div>
 
-				{/* <div
-					id="problemSolving"
-					style={{ marginBottom: 150 }}
-					className={classes.itemContainer}
-					data-aos="fade-up"
-					data-aos-once="true"
-					data-aos-offset="10"
-					data-aos-delay="10"
-					data-aos-duration="1000"
-					data-aos-easing="ease-in-out">
-					<ProblemSolving />
-				</div> */}
-
-
-
 				<div
 					id="contactMe"
 					className={classes.itemContainer}

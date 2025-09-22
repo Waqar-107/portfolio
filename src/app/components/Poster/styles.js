@@ -4,8 +4,6 @@ import { makeStyles } from "@material-ui/core";
 const styles = makeStyles((theme) => ({
   root: {
     width: "100%",
-    height: "auto",
-
     display: "flex",
     flexDirection: "row",
     flexWrap: "wrap",
@@ -14,14 +12,8 @@ const styles = makeStyles((theme) => ({
     alignItems: "flex-start"
   },
 
-  container: {
+  imageContainer: {
     width: "100%",
-  },
-
-  detailsContainer: {
-    [theme.breakpoints.up("md")]: {
-      marginLeft: "5%"
-    }
   },
 
   posterImage: {
@@ -30,6 +22,15 @@ const styles = makeStyles((theme) => ({
     objectFit: "cover",
     objectPosition: "center"
   },
+
+
+  // detailsContainer: {
+  //   [theme.breakpoints.up("md")]: {
+  //     marginLeft: "5%"
+  //   }
+  // },
+
+
 
   name: {
     fontStyle: "bolder",

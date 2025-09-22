@@ -1,8 +1,9 @@
 import React from "react";
 import { Grid } from "@material-ui/core";
 
-import { conference_other_tracks, arxiv_papers } from "./data";
+import { conference_other_tracks, arxiv_papers, poster_events } from "./data";
 import Paper from "../../../../components/Paper";
+import Poster from "../../../../components/Poster";
 import styles from "./styles";
 
 const Publications = () => {
@@ -22,6 +23,23 @@ const Publications = () => {
 							</li>
 						))}
 					</ol>
+				</Grid>
+
+				<div className={classes.head}>Poster Events</div>
+				<Grid
+					style={{ margin: 0, marginBottom: 20 }}
+					container
+					spacing={3}
+					direction="row"
+					wrap="wrap"
+					justifyContent="space-between"
+					alignContent="flex-start"
+					alignItems="flex-start">
+					{poster_events.map((obj, idx) => (
+						<Grid item xl={4} lg={4} md={6} sm={12} xs={12} key={idx}>
+							<Poster data={obj} />
+						</Grid>
+					))}
 				</Grid>
 
 				<div className={classes.head}>arXiv Papers</div>
