@@ -1,7 +1,7 @@
 import { Grid } from "@material-ui/core";
 import { projects } from "./data";
-import ProjectBox from "../../../components/Projects/ProjectBox";
-import TitleHead from "../../../components/TitleHead";
+import ProjectBox from "../../../../components/Projects/ProjectBox";
+import TitleHead from "../../../../components/TitleHead";
 import styles from "./styles";
 
 const CurrentProjects = () => {
@@ -9,9 +9,7 @@ const CurrentProjects = () => {
 
 	return (
 		<div className={classes.root}>
-			<div className={classes.heading}>
-				<TitleHead number="04." caption="Ongoing Projects" />
-			</div>
+			<div className={classes.head}>Ongoing Projects</div>
 
 			<div className={classes.content}>
 				<Grid

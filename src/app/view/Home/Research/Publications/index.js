@@ -2,21 +2,17 @@ import React from "react";
 import { Grid } from "@material-ui/core";
 
 import { conference_other_tracks, arxiv_papers } from "./data";
-import Paper from "../../../components/Paper";
-import TitleHead from "../../../components/TitleHead";
+import Paper from "../../../../components/Paper";
+import TitleHead from "../../../../components/TitleHead";
 import styles from "./styles";
-import "../../PastProjects/ArchivalProjects/transition.css";
+// import "../../PastProjects/ArchivalProjects/transition.css";
 
 const Publications = () => {
 	const classes = styles();
 
 	return (
 		<div className={classes.root}>
-			<div className={classes.heading}>
-				<TitleHead number="05." caption="Publications" />
-			</div>
-
-			<div className={classes.head}>Peer Reviewed Workshop and Special Track Publications</div>
+			<div className={classes.head} style={{ marginTop: 100 }}>Peer Reviewed Workshop and Special Track Publications</div>
 			<div className={classes.content}>
 				<Grid container direction="column" style={{ marginBottom: 20 }}>
 					<ol>

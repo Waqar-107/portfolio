@@ -4,8 +4,7 @@ import Intro from "./Intro";
 import AboutMe from "./AboutMe";
 import Education from "./Education";
 import WorkExperience from "./WorkExperience";
-import Publications from "./Publications";
-import CurrentProjects from "./CurrentProjects";
+import Research from "./Research/";
 import Contact from "./Contact";
 import Footer from "../../components/Footer/Footer";
 
@@ -68,7 +67,7 @@ const Home = () => {
 				</div>
 
 				<div
-					id="projects"
+					id="research"
 					style={{ marginBottom: 90 }}
 					className={classes.itemContainer}
 					data-aos="fade-up"
@@ -77,20 +76,7 @@ const Home = () => {
 					data-aos-delay="10"
 					data-aos-duration="1000"
 					data-aos-easing="ease-in-out">
-					<CurrentProjects />
-				</div>
-
-				<div
-					id="publications"
-					style={{ marginBottom: 120 }}
-					className={classes.itemContainer}
-					data-aos="fade-up"
-					data-aos-once="true"
-					data-aos-offset="10"
-					data-aos-delay="10"
-					data-aos-duration="1000"
-					data-aos-easing="ease-in-out">
-					<Publications />
+					<Research />
 				</div>
 
 				{/* <div
