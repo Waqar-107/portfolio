@@ -1,18 +1,16 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.06810d4c.css",
-    "main.js": "/portfolio/static/js/main.ef957ee3.js",
-    "static/media/ces.jfif": "/portfolio/static/media/ces.3a7badc3e90a7b9b2a8c.jfif",
-    "static/media/poster.jpg": "/portfolio/static/media/poster.7ddfd2e353aa72618b2a.jpg",
+    "main.css": "/portfolio/static/css/main.dd0992c9.css",
+    "main.js": "/portfolio/static/js/main.887fef46.js",
+    "static/media/UCRC_2025_UCI.jpg": "/portfolio/static/media/UCRC_2025_UCI.e9609c50341e855ae5df.jpg",
+    "static/media/UCRC_2025_Cool_Routes.jpg": "/portfolio/static/media/UCRC_2025_Cool_Routes.97b60406fbd1cc3e0c98.jpg",
     "static/media/khan.jpg": "/portfolio/static/media/khan.c75770ee5cebd573c2d6.jpg",
-    "static/media/vashaShikkha.png": "/portfolio/static/media/vashaShikkha.ce73ceb85576d7ce016d.png",
-    "static/media/chess.png": "/portfolio/static/media/chess.f4bee189ceffc6d40ee9.png",
     "index.html": "/portfolio/index.html",
-    "main.06810d4c.css.map": "/portfolio/static/css/main.06810d4c.css.map",
-    "main.ef957ee3.js.map": "/portfolio/static/js/main.ef957ee3.js.map"
+    "main.dd0992c9.css.map": "/portfolio/static/css/main.dd0992c9.css.map",
+    "main.887fef46.js.map": "/portfolio/static/js/main.887fef46.js.map"
   },
   "entrypoints": [
-    "static/css/main.06810d4c.css",
-    "static/js/main.ef957ee3.js"
+    "static/css/main.dd0992c9.css",
+    "static/js/main.887fef46.js"
   ]
 }
