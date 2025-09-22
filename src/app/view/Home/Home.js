@@ -6,9 +6,10 @@ import Education from "./Education";
 import WorkExperience from "./WorkExperience";
 import Research from "./Research/";
 import Contact from "./Contact";
+import Achievements from "./Achievements";
 import Footer from "../../components/Footer/Footer";
-
 import styles from "./HomeStyles";
+
 
 const Home = () => {
 	const classes = styles();
@@ -68,7 +69,7 @@ const Home = () => {
 
 				<div
 					id="research"
-					style={{ marginBottom: 90 }}
+					style={{ marginBottom: 120 }}
 					className={classes.itemContainer}
 					data-aos="fade-up"
 					data-aos-once="true"
@@ -77,6 +78,19 @@ const Home = () => {
 					data-aos-duration="1000"
 					data-aos-easing="ease-in-out">
 					<Research />
+				</div>
+
+				<div
+					id="achievements"
+					style={{ marginBottom: 90 }}
+					className={classes.itemContainer}
+					data-aos="fade-up"
+					data-aos-once="true"
+					data-aos-offset="10"
+					data-aos-delay="10"
+					data-aos-duration="1000"
+					data-aos-easing="ease-in-out">
+					<Achievements />
 				</div>
 
 				{/* <div
