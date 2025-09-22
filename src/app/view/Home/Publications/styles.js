@@ -1,4 +1,4 @@
-import {makeStyles} from "@material-ui/core";
+import { makeStyles } from "@material-ui/core";
 
 const styles = makeStyles((theme) => ({
 	root: {
@@ -28,7 +28,7 @@ const styles = makeStyles((theme) => ({
 		display: "flex",
 		flexDirection: "column",
 		color: "#8892b0",
-		lineHeight: 1.5,
+		// lineHeight: 1.5,
 	},
 
 	head: {
@@ -39,8 +39,7 @@ const styles = makeStyles((theme) => ({
 		fontWeight: 600,
 		color: "white",
 
-		marginTop: 50,
-		marginBottom: 20,
+		marginBottom: 5,
 	},
 
 	paperContainer: {

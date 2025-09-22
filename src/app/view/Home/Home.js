@@ -4,7 +4,7 @@ import Intro from "./Intro";
 import AboutMe from "./AboutMe";
 import Education from "./Education/Education";
 import WorkExperience from "./WorkExperience/WorkExperience";
-import Publications from "./Publications/publications";
+import Publications from "./Publications";
 import CurrentProjects from "./CurrentProjects";
 import Contact from "./Contact/Contact";
 import Footer from "../../components/Footer/Footer";

@@ -1,10 +1,10 @@
 import Colors from "../../styles/Colors";
-import {makeStyles} from "@material-ui/core";
+import { makeStyles } from "@material-ui/core";
 
 const styles = makeStyles((theme) => ({
-	root: {
-		width: "100%",
-		height: "auto",
+  root: {
+    width: "100%",
+    height: "auto",
 
     display: "flex",
     flexDirection: "row",
@@ -12,7 +12,7 @@ const styles = makeStyles((theme) => ({
     justifyContent: "center",
     alignContent: "flex-start",
     alignItems: "flex-start"
-	},
+  },
 
   container: {
     width: "100%",
@@ -20,7 +20,7 @@ const styles = makeStyles((theme) => ({
 
   detailsContainer: {
     [theme.breakpoints.up("md")]: {
-      marginLeft: "5%" 
+      marginLeft: "5%"
     }
   },
 
@@ -28,13 +28,12 @@ const styles = makeStyles((theme) => ({
     width: "100%",
     height: "auto",
     objectFit: "cover",
-		objectPosition: "center"
+    objectPosition: "center"
   },
 
   name: {
     fontStyle: "bolder",
     color: Colors.nameColor,
-    marginBottom: 1
   },
 
   venue: {
@@ -43,12 +42,6 @@ const styles = makeStyles((theme) => ({
   },
 
   author: {
-    display: "flex",
-    flexDirection: "row",
-    flexWrap: "wrap",
-    fontStyle: "italic",
-    fontSize: 17,
-    marginBottom: 10,
     color: Colors.iconColor
   },
 
@@ -56,34 +49,20 @@ const styles = makeStyles((theme) => ({
     fontStyle: "bold",
     color: Colors.themeFontColor,
     margin: 0,
-    marginRight: 3
   },
 
   otherAuthors: {
     margin: 0,
-    marginRight: 3
   },
 
-  linkContainer:{
+  linkContainer: {
     display: "flex",
-    
-    [theme.breakpoints.up("md")]: {
-      marginTop: 50,
-    },
-
-    [theme.breakpoints.down("sm")]: {
-      marginTop: 30,
-    }
+    marginTop: 10,
   },
 
   link: {
     color: Colors.themeFontColor,
-    marginRight: 25
   },
-
-  paperLinkContainer:{
-    marginTop: 30
-  }
 }));
 
 export default styles;
