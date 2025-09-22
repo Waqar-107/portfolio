@@ -1,5 +1,5 @@
 import SocialWeb from "../../components/SocialLinks/socialWeb";
-import NavBar from "../../components/Header/NavBar";
+import NavBar from "../../components/Header";
 import Intro from "./Intro";
 import AboutMe from "./AboutMe";
 import Education from "./Education";

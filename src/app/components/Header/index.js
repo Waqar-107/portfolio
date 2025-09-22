@@ -1,8 +1,8 @@
 import React from "react";
-import {Link} from "react-scroll";
+import { Link } from "react-scroll";
 
-import HamburgerMenu from "../HamburgerMenu/HamburgerMenu";
-import styles from "./NavBarStyles";
+import HamburgerMenu from "../HamburgerMenu";
+import styles from "./styles";
 
 const NavBar = () => {
 	const classes = styles();
@@ -73,13 +73,13 @@ const NavBar = () => {
 					data-aos-easing="ease-in-out">
 					<Link
 						activeClass="active"
-						to="publications"
+						to="research"
 						spy={true}
 						smooth={true}
 						offset={-70}
 						duration={500}>
 						<p className={classes.p1}>04.</p>
-						<p className={classes.p2}>&nbsp;&nbsp;Publications</p>
+						<p className={classes.p2}>&nbsp;&nbsp;Research</p>
 					</Link>
 				</div>
 
@@ -93,13 +93,13 @@ const NavBar = () => {
 					data-aos-easing="ease-in-out">
 					<Link
 						activeClass="active"
-						to="problemSolving"
+						to="achievements"
 						spy={true}
 						smooth={true}
 						offset={-70}
 						duration={500}>
 						<p className={classes.p1}>05.</p>
-						<p className={classes.p2}>&nbsp;&nbsp;Problem Solving</p>
+						<p className={classes.p2}>&nbsp;&nbsp;Achievements</p>
 					</Link>
 				</div>
 
@@ -113,32 +113,12 @@ const NavBar = () => {
 					data-aos-easing="ease-in-out">
 					<Link
 						activeClass="active"
-						to="projects"
-						spy={true}
-						smooth={true}
-						offset={-70}
-						duration={500}>
-						<p className={classes.p1}>06.</p>
-						<p className={classes.p2}>&nbsp;&nbsp;Works</p>
-					</Link>
-				</div>
-
-				<div
-					className={classes.navItem}
-					data-aos="fade-down"
-					data-aos-once="true"
-					data-aos-offset="0"
-					data-aos-delay="10"
-					data-aos-duration="1700"
-					data-aos-easing="ease-in-out">
-					<Link
-						activeClass="active"
 						to="contactMe"
 						spy={true}
 						smooth={true}
 						offset={-70}
 						duration={500}>
-						<p className={classes.p1}>07.</p>
+						<p className={classes.p1}>06.</p>
 						<p className={classes.p2}>&nbsp;&nbsp;Contact</p>
 					</Link>
 				</div>
@@ -152,7 +132,7 @@ const NavBar = () => {
 					data-aos-duration="1900"
 					data-aos-easing="ease-in-out">
 					<a
-						href="https://drive.google.com/file/d/1OEsdIsSRPLMDo_kV_ys-kVsk1jIhxDdU/view?usp=sharing"
+						href="https://drive.google.com/file/d/1OS6DPwEaJzuPX7SNI6H6eB_Jg2HFFsvt/view?usp=sharing"
 						target="blank"
 						className={classes.linkNav}>
 						Resume

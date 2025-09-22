@@ -5,7 +5,7 @@ const Contact = () => {
 	const classes = styles();
 	return (
 		<div className={classes.outerSurface}>
-			<div className={classes.heading}>07. What's Next?</div>
+			<div className={classes.heading}>06. What's Next?</div>
 			<div className={classes.head2}>Get In Touch</div>
 			<div className={classes.kotha}>
 				My Inbox is always opened. You can communicate with me through email or linkedin if you
