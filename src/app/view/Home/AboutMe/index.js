@@ -1,6 +1,6 @@
 import React from "react";
 
-import TitleHead from "../../../components/TitleHead/TitleHead";
+import TitleHead from "../../../components/TitleHead";
 import DP from "../../../assets/khan.jpg";
 import styles from "./styles";
 

@@ -6,7 +6,7 @@ import Education from "./Education";
 import WorkExperience from "./WorkExperience";
 import Publications from "./Publications";
 import CurrentProjects from "./CurrentProjects";
-import Contact from "./Contact/Contact";
+import Contact from "./Contact";
 import Footer from "../../components/Footer/Footer";
 
 import styles from "./HomeStyles";

@@ -1,7 +1,7 @@
 import React from "react";
 
 import data from "./data";
-import TitleHead from "../../../components/TitleHead/TitleHead";
+import TitleHead from "../../../components/TitleHead";
 import Experience from "../../../components/Experience";
 import styles from "./styles";
 
