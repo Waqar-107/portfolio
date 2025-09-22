@@ -2,8 +2,8 @@ import React from "react";
 
 import data from "./data";
 import TitleHead from "../../../components/TitleHead/TitleHead";
-import Experience from "../../../components/Experience/Experience";
-import styles from "./WorkExperienceStyles";
+import Experience from "../../../components/Experience";
+import styles from "./styles";
 
 const WorkExperience = () => {
 	const classes = styles();

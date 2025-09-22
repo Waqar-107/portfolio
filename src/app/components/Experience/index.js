@@ -1,11 +1,11 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import PropTypes from "prop-types";
-import {Tab, Tabs} from "@material-ui/core";
+import { Tab, Tabs } from "@material-ui/core";
 
 import Colors from "../../styles/Colors";
-import styles from "./ExperienceStyles";
+import styles from "./styles";
 
-const Experience = ({data}) => {
+const Experience = ({ data }) => {
 	const classes = styles();
 	const [idx, setIdx] = useState(0);
 
@@ -32,7 +32,7 @@ const Experience = ({data}) => {
 									wrapper: classes.mobile_tab,
 								}}
 								style={
-									idx === jdx ? {color: Colors.themeFontColor, background: Colors.projectBox} : null
+									idx === jdx ? { color: Colors.themeFontColor, background: Colors.projectBox } : null
 								}
 							/>
 						))}
@@ -55,7 +55,7 @@ const Experience = ({data}) => {
 								label={obj.tab}
 								key={jdx}
 								style={
-									idx === jdx ? {color: Colors.themeFontColor, background: Colors.projectBox} : null
+									idx === jdx ? { color: Colors.themeFontColor, background: Colors.projectBox } : null
 								}
 							/>
 						))}
@@ -74,7 +74,7 @@ const Experience = ({data}) => {
 				<div className={classes.date}>{data[idx].date}</div>
 				<ul className={classes.points}>
 					{data[idx].description.map((obj, jdx) => (
-						<li key={jdx} className={classes.lst} dangerouslySetInnerHTML={{__html: obj}}></li>
+						<li key={jdx} className={classes.lst} dangerouslySetInnerHTML={{ __html: obj }}></li>
 					))}
 				</ul>
 			</div>

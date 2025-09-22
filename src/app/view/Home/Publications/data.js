@@ -43,7 +43,9 @@ exports.conference_papers = [];
 
 exports.journal_papers = [];
 
-exports.poster_events = [];
+exports.poster_events = [
+
+];
 
 exports.arxiv_papers = [
   {
