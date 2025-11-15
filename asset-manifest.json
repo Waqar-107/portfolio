@@ -1,16 +1,18 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.dd0992c9.css",
-    "main.js": "/portfolio/static/js/main.887fef46.js",
+    "main.js": "/portfolio/static/js/main.ba9a0fb3.js",
     "static/media/UCRC_2025_UCI.jpg": "/portfolio/static/media/UCRC_2025_UCI.e9609c50341e855ae5df.jpg",
+    "static/media/issr_fall_25.png": "/portfolio/static/media/issr_fall_25.6673e2eea2c3b694f2a5.png",
     "static/media/UCRC_2025_Cool_Routes.jpg": "/portfolio/static/media/UCRC_2025_Cool_Routes.97b60406fbd1cc3e0c98.jpg",
+    "static/media/issr_spring_25.jpg": "/portfolio/static/media/issr_spring_25.e961ffe9a610a6ced0e0.jpg",
     "static/media/khan.jpg": "/portfolio/static/media/khan.c75770ee5cebd573c2d6.jpg",
     "index.html": "/portfolio/index.html",
     "main.dd0992c9.css.map": "/portfolio/static/css/main.dd0992c9.css.map",
-    "main.887fef46.js.map": "/portfolio/static/js/main.887fef46.js.map"
+    "main.ba9a0fb3.js.map": "/portfolio/static/js/main.ba9a0fb3.js.map"
   },
   "entrypoints": [
     "static/css/main.dd0992c9.css",
-    "static/js/main.887fef46.js"
+    "static/js/main.ba9a0fb3.js"
   ]
 }
