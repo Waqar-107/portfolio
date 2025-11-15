@@ -29,6 +29,7 @@ const styles = makeStyles((theme) => ({
     display: "flex",
     flexDirection: "column",
     color: "#8892b0",
+    whiteSpace: "pre-line",
   },
 
   awardTitle: {

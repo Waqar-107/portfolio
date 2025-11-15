@@ -1,6 +1,7 @@
 const ucrc_25_uci_img = require("../../../../assets/publications/posters/UCRC_2025_UCI/UCRC_2025_UCI.jpg")
 const ucrc_25_cool_routes_img = require("../../../../assets/publications/posters/UCRC_2025_Cool_Routes/UCRC_2025_Cool_Routes.jpg")
-
+const issr_fall_25_img = require("../../../../assets/publications/posters/issr_fall_25.png")
+const issr_spring_25_img = require("../../../../assets/publications/posters/issr_spring_25.jpg")
 
 exports.conference_other_tracks = [
   {
@@ -9,7 +10,7 @@ exports.conference_other_tracks = [
     venue: "The 27th International ACM SIGACCESS Conference on Computers and Accessibility (ASSETS 2025)",
     venueLink: "https://assets25.sigaccess.org/",
     // posterLink: "publications/posters/SOUPS_23_poster_edtech/poster.pdf",
-    // paperLink: "publications/posters/SOUPS_23_poster_edtech/abstract.pdf",
+    paperLink: "https://dl.acm.org/doi/10.1145/3663547.3759699",
     // imageLink: edtech_soups23_img
   },
   {
@@ -48,13 +49,15 @@ exports.poster_events = [
     name: "\"To Walk or Not to Walk\": Pedestrian Perceptions of Heat and Shade in Route Planning",
     authors: ["Waqar Hassan Khan", "Isaac Buo", "Ariane Middel"],
     venue: "ISSR Graduate Student Poster Contest (Fall 2025)",
-    venueLink: "https://issr.asu.edu/events/poster-contest",
+    venueLink: "https://issr.asu.edu/node/926",
+    posterImage: issr_fall_25_img
   },
   {
     name: "\"I Just Take Every Situation as It Comes\":Exploring Weather-Induced Navigational Challenges for Blind and Visually Impaired Pedestrians in Urban Environments",
     authors: ["Waqar Hassan Khan", "Ariane Middel"],
     venue: "ISSR Graduate Student Poster Contest (Spring 2025)",
-    venueLink: "https://issr.asu.edu/events/poster-contest",
+    venueLink: "https://issrasu.submittable.com/gallery/521546c2-33a0-4287-a04d-3d1cdd4c7f68",
+    posterImage: issr_spring_25_img
   },
   {
     name: "ASU Cool Routes",
