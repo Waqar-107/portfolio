@@ -36,7 +36,7 @@ exports.conference_other_tracks = [
     authors: ["Protik Bose Pranto", "Waqar Hassan Khan", "Sahar Abdelnabi", "Rebecca Weil", "Mario Fritz", "Rakibul Hasan"],
     venue: "Designing Technology and Policy Simultaneously (CHI'23 Workshop)",
     venueLink: "https://chi2023.acm.org/for-authors/workshops-and-symposia/accepted-workshops-symposia/",
-    paperLink: "publications/papers/CHI_23_Design_Policy_misinfo.pdf"
+    paperLink: "https://arxiv.org/pdf/2306.04883"
   }
 ];
 
