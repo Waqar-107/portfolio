@@ -9,9 +9,14 @@ exports.conference_other_tracks = [
     authors: ["Waqar Hassan Khan", "Isaac Buo", "Ariane Middel"],
     venue: "The 27th International ACM SIGACCESS Conference on Computers and Accessibility (ASSETS 2025)",
     venueLink: "https://assets25.sigaccess.org/",
-    // posterLink: "publications/posters/SOUPS_23_poster_edtech/poster.pdf",
     paperLink: "https://dl.acm.org/doi/10.1145/3663547.3759699",
-    // imageLink: edtech_soups23_img
+  },
+  {
+    name: "[Abstract] Online Decision-Making Tool for Active Shade Management",
+    authors: ["Ariane Middel", "Gisel Guzman", "Waqar Hassan Khan"],
+    venue: "12th International Conference on Urban Climate",
+    venueLink: "https://meetingorganizer.copernicus.org/ICUC12/ICUC12-955.html",
+    paperLink: "publications/papers/ICUC12-955-print.pdf",
   },
   {
     name: "[Poster] Exploring Privacy and Security Concerns of EdTech Users: A Qualitative Analysis of User Written Reviews",
