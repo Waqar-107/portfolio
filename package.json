@@ -6,7 +6,7 @@
   "dependencies": {
     "@material-ui/core": "^4.12.3",
     "aos": "^2.3.4",
-    "axios": "^1.7.4",
+    "axios": "^1.13.5",
     "browserslist": "^4.17.1",
     "react": "^16.14.0",
     "react-collapse": "^5.1.0",
