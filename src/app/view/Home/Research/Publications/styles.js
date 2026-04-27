@@ -9,6 +9,8 @@ const styles = makeStyles((theme) => ({
 		justifyContent: "flex-start",
 		alignItems: "center",
 		alignContent: "center",
+
+		marginTop: 100
 	},
 
 	heading: {

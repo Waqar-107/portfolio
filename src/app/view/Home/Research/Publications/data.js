@@ -47,7 +47,15 @@ exports.conference_other_tracks = [
 
 exports.conference_papers = [];
 
-exports.journal_papers = [];
+exports.journal_papers = [
+  {
+    name: "Cool Routes: Real-Time Human Thermal Exposure Routing",
+    authors: ["Isaac Buo", "Waqar Hassan Khan", "Evan Crabtree", "Fletcher Emmott", "Devbrat Hariyani", "Ariane Middel"],
+    venue: "Building and Environment",
+    venueLink: "https://www.sciencedirect.com/journal/building-and-environment",
+    paperLink: "https://doi.org/10.1016/j.buildenv.2026.114622",
+  }
+];
 
 exports.poster_events = [
   {
@@ -58,7 +66,7 @@ exports.poster_events = [
     posterImage: issr_fall_25_img
   },
   {
-    name: "\"I Just Take Every Situation as It Comes\":Exploring Weather-Induced Navigational Challenges for Blind and Visually Impaired Pedestrians in Urban Environments",
+    name: "Exploring Weather-Induced Navigational Challenges for Blind and Visually Impaired Pedestrians in Urban Environments",
     authors: ["Waqar Hassan Khan", "Ariane Middel"],
     venue: "ISSR Graduate Student Poster Contest (Spring 2025)",
     venueLink: "https://issrasu.submittable.com/gallery/521546c2-33a0-4287-a04d-3d1cdd4c7f68",
@@ -79,6 +87,17 @@ exports.poster_events = [
     venueLink: "https://ucrc.asu.edu/ucrc-poster-event",
     posterLink: "publications/posters/UCRC_2025_UCI/UCRC_2025_UCI.pdf",
     posterImage: ucrc_25_uci_img
+  }
+];
+
+exports.datasets = [
+   {
+    name: "Cool Routes: Real-Time Human Thermal Exposure Routing",
+    authors: ["Isaac Buo", "Waqar Hassan Khan", "Protik Bose Pranto", "Ariane Middel"],
+    venue: "CAP LTER",
+    venueLink: "https://globalfutures.asu.edu/caplter/data-portal/",
+    paperLink: "https://doi.org/10.6073/pasta/300ddb6879bab8a5e0208f6df3ed2cc0",
+    isDataset: true
   }
 ];
 

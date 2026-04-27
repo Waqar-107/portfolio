@@ -20,7 +20,7 @@ const Paper = ({ data }) => {
         <span className={classes.name}><strong>{data.name}</strong></span>.&nbsp;
         <a className={classes.venue} target="_blank" href={data.venueLink}>{data.venue}</a>
         &nbsp;
-        [<a className={classes.link} href={data.paperLink} target="_blank">Paper</a>
+        [<a className={classes.link} href={data.paperLink} target="_blank">{data.isDataset ? "Dataset" : "Paper"}</a>
         {
           data.posterLink ?
             <span>,&nbsp;<a className={classes.link} href={data.posterLink} target="_blank">Poster</a></span> : ""}

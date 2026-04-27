@@ -13,6 +13,17 @@ exports.data = [
 		],
 	},
 	{
+		tab: "M.Sc.",
+		role: "M.Sc.",
+		institute: "ASU",
+		instituteLink: "https://www.asu.edu/",
+		date: "Aug 2022 - April 2026",
+		description: [
+			"Passed Ph.D. comphreshensive exam and earned a Master's degree in Computer Science",
+			"CGPA - 3.97 out of 4.00.",
+		],
+	},
+	{
 		tab: "B.Sc.",
 		role: "B.Sc.",
 		institute: "BUET",
