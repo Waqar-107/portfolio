@@ -2,6 +2,17 @@ import { makeStyles } from "@material-ui/core";
 import Colors from "../../../styles/Colors";
 
 const styles = makeStyles(() => ({
+  head: {
+		width: "100%",
+		textAlign: "center",
+
+		fontSize: 22,
+		fontWeight: 600,
+		color: "white",
+
+		marginBottom: 5,
+	},
+
   achievementGrid: {
     display: "grid",
     gridTemplateColumns: "repeat(2, minmax(0, 1fr))",
