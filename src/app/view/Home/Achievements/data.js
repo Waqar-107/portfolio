@@ -16,7 +16,7 @@ exports.achievements = [
     subtitle: "Outdoor Heat Exposure: Assessing Thermal Walkability in Three PASS Neighborhoods",
     description:
       "Received funding to study pedestrian thermal comfort in Phoenix-area neighborhoods.",
-    tags: ["Research Grant", "CAP LTER", "$500"],
+    tags: ["Research Grant", "CAP LTER", "$5000"],
     icon: "💰",
   },
   {
