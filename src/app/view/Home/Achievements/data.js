@@ -40,3 +40,30 @@ exports.achievements = [
     icon: "✈️",
   },
 ];
+
+exports.news_coverage = [
+  {
+    title: "New 'Cool Routes' app maps shadiest routes for your walk",
+    subtitle: "With real-time weather and shade data, the online tool can reduce heat exposure without adding significant distance to a trip.",
+    newspaper_name: "ASU News",
+    url: "https://news.asu.edu/20260610-environment-and-sustainability-new-cool-routes-app-maps-shadiest-routes-your-walk?utm_campaign=ASU_News_News+6-17-26_7081195&utm_medium=email&utm_source=Media%20Relations%20&%20Strategic%20Communications_SFMCE&utm_term=ASU&utm_content=Shade-routes-hed&ecd42=518002422&ecd73=367247361&ecd37=ASU%20Media%20Relations_All%20Employees&ecd43=6/17/2026",
+    date: "June 10, 2026",
+    author: "Joe Rojas-Burke"
+  },
+  {
+    title: "Arizona students design app that calculates least-sweaty walking route",
+    subtitle: "Cool Routes helps users find the coolest paths and reduce exposure to dangerous heat.",
+    newspaper_name: "Popular Science",
+    url: "https://www.popsci.com/technology/cool-routes-walking-app-arizona/",
+    date: "June 12, 2026",
+    author: "Margherita Bassi"
+  },
+  {
+    title: "Desperate for shade on your walk? There’s (almost) an app for that",
+    subtitle: "By mapping shade, a new online tool calculates the best way to stroll a city without overheating.",
+    newspaper_name: "Grist",
+    url: "https://grist.org/cities/desperate-for-shade-on-your-walk-theres-almost-an-app-for-that/",
+    date: "June 18, 2026",
+    author: "Matt Simon"
+  }
+]

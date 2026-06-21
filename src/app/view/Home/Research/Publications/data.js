@@ -6,6 +6,7 @@ const issr_spring_25_img = require("../../../../assets/publications/posters/issr
 exports.peer_reviwed = [
  {
     type: "Journal Article",
+    rank: "Q1",
     year: "2026",
     name: "Cool Routes: Real-Time Human Thermal Exposure Routing",
     authors: ["Isaac Buo", "Waqar Hassan Khan", "Evan Crabtree", "Fletcher Emmott", "Devbrat Hariyani", "Ariane Middel"],
@@ -16,6 +17,7 @@ exports.peer_reviwed = [
   {
     type: "Conference Poster",
     year: "2025",
+    rank: "CORE A",
     name: "\"Tell Me What That Is\": Examining Blind and Low Vision Individuals’ Reviews on Assistive Smartphone Applications",
     authors: ["Waqar Hassan Khan", "Isaac Buo", "Ariane Middel"],
     venue: "The 27th International ACM SIGACCESS Conference on Computers and Accessibility (ASSETS 2025)",
@@ -25,6 +27,7 @@ exports.peer_reviwed = [
   {
     type: "Conference Poster",
     year: "2023",
+    rank: "CORE A",
     name: "Exploring Privacy and Security Concerns of EdTech Users: A Qualitative Analysis of User Written Reviews",
     authors: ["Waqar Hassan Khan", "Protik Bose Pranto", "Tianyi Yang", "Rakibul Hasan"],
     venue: "Nineteenth Symposium on Usable Privacy and Security (SOUPS 2023)",
@@ -36,6 +39,7 @@ exports.peer_reviwed = [
   {
     type: "Conference Poster",
     year: "2023",
+    rank: "CORE A",
     name: "Understanding the Effect of Private Data in Disinformation Propagation",
     authors: ["Protik Bose Pranto", "Waqar Hassan Khan", "Sahar Abdelnabi", "Rebecca Weil", "Mario Fritz", "Rakibul Hasan"],
     venue: "Nineteenth Symposium on Usable Privacy and Security (SOUPS 2023)",
@@ -46,6 +50,7 @@ exports.peer_reviwed = [
 
   {
     type: "Conference Workshop Paper",
+    rank: "CORE A*",
     year: "2023",
     name: "From Bad to Worse: Using Private Data to Propagate Disinformation on Online Platforms with a Greater Efficiency",
     authors: ["Protik Bose Pranto", "Waqar Hassan Khan", "Sahar Abdelnabi", "Rebecca Weil", "Mario Fritz", "Rakibul Hasan"],
@@ -114,6 +119,15 @@ exports.datasets = [
     venue: "CAP LTER",
     venueLink: "https://globalfutures.asu.edu/caplter/data-portal/",
     datasetLink: "https://doi.org/10.6073/pasta/300ddb6879bab8a5e0208f6df3ed2cc0",
+  },
+  {
+    type: "Dataset",
+    year: "2026",
+    name: "Hourly Mean Radiant Temperature Distribution on a summer day (2024-06-06) Maricopa County, Arizona (USA)",
+    authors: ["Isaac Buo", "Waqar Hassan Khan", "Protik Bose Pranto", "Ariane Middel"],
+    venue: "CAP LTER",
+    venueLink: "https://globalfutures.asu.edu/caplter/data-portal/",
+    datasetLink: "https://doi.org/10.6073/pasta/b25c2e2fcafe68900c7f382a6f95399c",
   }
 ];
 

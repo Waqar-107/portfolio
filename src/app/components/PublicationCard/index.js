@@ -9,7 +9,10 @@ const PublicationCard = ({ data }) => {
   return (
     <div className={classes.publicationCard}>
       <div className={classes.pubTopRow}>
-        <span className={classes.pubType}>{data.type}</span>
+        <div>
+          <span className={classes.pubType}>{data.type}</span>
+          {data.rank && <span className={classes.pubType} style={{marginLeft: 5}}>{data.rank}</span>}
+        </div>
         {data.year && <span className={classes.pubYear}>{data.year}</span>}
       </div>
 
