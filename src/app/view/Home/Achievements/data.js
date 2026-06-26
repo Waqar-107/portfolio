@@ -65,5 +65,13 @@ exports.news_coverage = [
     url: "https://grist.org/cities/desperate-for-shade-on-your-walk-theres-almost-an-app-for-that/",
     date: "June 18, 2026",
     author: "Matt Simon"
+  },
+  {
+    title: "Cool Routes tool maps shadiest walking paths on ASU Tempe campus",
+    subtitle: "Cool Routes, an online tool developed by The SHaDE Lab at Arizona State, guides users to the coolest paths to walk. David Caltabiano explains how it works.",
+    newspaper_name: "ARIZONA'S FAMILY",
+    url: "https://www.azfamily.com/2026/06/25/cool-routes-tool-maps-shadiest-walking-paths-asu-tempe-campus/",
+    date: "June 25, 2026",
+    author: "David Caltabiano"
   }
 ]
