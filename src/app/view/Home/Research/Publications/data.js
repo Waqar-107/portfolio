@@ -124,6 +124,15 @@ exports.datasets = [
     {
         type: "Dataset",
         year: "2026",
+        name: "Hourly Mean Radiant Temperature and Shade Raster Dataset for Three PASS (Phoenix Area Social Survey) Neighborhoods, Arizona, USA (2025)",
+        authors: ["Waqar Hassan Khan", "Isaac Buo", "Ariane Middel"],
+        venue: "CAP LTER",
+        venueLink: "https://globalfutures.asu.edu/caplter/data-portal/",
+        datasetLink: "https://doi.org/10.6073/pasta/ea1c454578d79fb3bc385c873a252925",
+    },
+    {
+        type: "Dataset",
+        year: "2026",
         name: "Hourly Mean Radiant Temperature Distribution on a summer day (2023-07-19) Maricopa County, Arizona (USA)",
         authors: ["Isaac Buo", "Waqar Hassan Khan", "Protik Bose Pranto", "Ariane Middel"],
         venue: "CAP LTER",

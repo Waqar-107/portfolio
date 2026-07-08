@@ -73,5 +73,13 @@ exports.news_coverage = [
     url: "https://www.azfamily.com/2026/06/25/cool-routes-tool-maps-shadiest-walking-paths-asu-tempe-campus/",
     date: "June 25, 2026",
     author: "David Caltabiano"
+  },
+  {
+    title: "Cool Routes app plots shady walks in arid Arizona",
+    subtitle: "Alternate routes provided by the app reduced the heat experienced during the walk by an average of 4.5 degrees.",
+    newspaper_name: "Planetizen",
+    url: "https://www.planetizen.com/news/2026/06/137813-cool-routes-app-plots-shady-walks-arid-arizona",
+    date: "June 16, 2026",
+    author: "Diana Ionescu"
   }
 ]

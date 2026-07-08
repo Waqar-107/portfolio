@@ -1,9 +1,9 @@
 exports.projects = [
   {
-    name: "Exploring How Weather Affects Blind and Low Vision Pedestrians in Urban Environments",
+    name: "Pedestrian Perceptions of Heat and Shade in Route Planning",
     description:
-      "In this project, we conducted semi-structured interviews blind and low vision (BLV) individuals to understand how weather affects their outdoor mobility experiences.",
-    tags: ["Qualitative Analysis", "Accessibility"],
+      "In this project, we are exploring how pedestrians perceive heat and shade in their route planning decisions and how they utilize technology in routing decisions",
+    tags: [""],
   },
   {
     name: "Cool Routes: Real-Time Human Thermal Exposure Routing",
@@ -12,9 +12,9 @@ exports.projects = [
     tags: ["SOLWEIG", "Thermal Comfort", "HPC", "TypeScript", "Python"],
   },
   {
-    name: "Outdoor Heat Exposure Assessing Thermal Walkability in Three PASS Neighborhoods",
+    name: "Outdoor Heat Exposure Assessing Thermal Walkability in PASS Neighborhoods",
     description:
-      "This project aims to assess the thermal comfort of pedestrians in three neighborhoods in Phoenix, AZ, using the SOLWEIG model. This project is funded by the CAP LTER - a NSF funded project.",
+      "This project aims to assess the thermal comfort of pedestrians in twelve neighborhoods in Phoenix, AZ, using the SOLWEIG model. This project is funded by the CAP LTER - a NSF funded project.",
     tags: ["CAP LTER", "SOLWEIG", "Thermal Comfort", "HPC", "QGIS", "Python"],
   },
   {
@@ -22,11 +22,5 @@ exports.projects = [
     description:
       "A web-based tool to determine and visualize the tree/umbrella shade.",
     tags: ["React", "Python"],
-  },
-  {
-    name: "Urban Climate Informatics",
-    description:
-      "A literature review on the use of computer science techniques in urban climate studies.",
-    tags: ["Literature Review"],
   },
 ];
